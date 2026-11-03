@@ -1,0 +1,18 @@
+{
+  "network_dir": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/6 蛋白模拟/outputs/original_18p88_full_elementary",
+  "passed": true,
+  "species": 49143,
+  "reactions": 57368,
+  "shared_reactions": 1250,
+  "gene_specific_reactions": {
+    "Pgi": 13263,
+    "PfkA": 7996,
+    "TpiA": 6501,
+    "GAPDH": 8249,
+    "Pgk": 9537,
+    "Eno": 10572
+  },
+  "stoichiometric_matrix_nonzeros": 155144,
+  "reactant_matrix_nonzeros": 70581,
+  "issues": []
+}

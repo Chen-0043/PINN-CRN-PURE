@@ -1,0 +1,17 @@
+scale,deGFP_end_uM,perturbation_kind,free_AA_scaled,free_Met_scaled,n_scaled_species
+0.0,-5.485691566678642e-12,metrs_enzyme_pool_only,False,False,24
+0.01,6.0951501737513585,metrs_enzyme_pool_only,False,False,24
+0.03,5.724876888959445,metrs_enzyme_pool_only,False,False,24
+0.06,5.6484780555298135,metrs_enzyme_pool_only,False,False,24
+0.125,5.606921973585661,metrs_enzyme_pool_only,False,False,24
+0.18,5.59408388535311,metrs_enzyme_pool_only,False,False,24
+0.2,5.591047683386874,metrs_enzyme_pool_only,False,False,24
+0.22,5.588525759526669,metrs_enzyme_pool_only,False,False,24
+0.25,5.585450318202093,metrs_enzyme_pool_only,False,False,24
+0.375,5.577664532931851,metrs_enzyme_pool_only,False,False,24
+0.5,5.573569195566757,metrs_enzyme_pool_only,False,False,24
+0.75,5.569257457681016,metrs_enzyme_pool_only,False,False,24
+1.0,5.56539401626013,shared_baseline_1x,False,False,0
+1.5,5.564671274979252,metrs_enzyme_pool_only,False,False,24
+2.0,5.563499145698515,metrs_enzyme_pool_only,False,False,24
+4.0,5.561939075969318,metrs_enzyme_pool_only,False,False,24

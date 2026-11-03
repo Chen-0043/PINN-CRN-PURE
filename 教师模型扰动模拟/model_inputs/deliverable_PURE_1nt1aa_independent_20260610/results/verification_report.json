@@ -1,0 +1,52 @@
+{
+  "metric_checks": [
+    {
+      "metric": "batch_P2h_uM",
+      "actual": 5.34619787574427,
+      "reference": 5.34619787574427,
+      "absolute_error": 0.0,
+      "absolute_tolerance": 0.02,
+      "passed": true
+    },
+    {
+      "metric": "batch_P8h_uM",
+      "actual": 5.346567517015432,
+      "reference": 5.346567517015432,
+      "absolute_error": 0.0,
+      "absolute_tolerance": 0.02,
+      "passed": true
+    },
+    {
+      "metric": "batch_plateau_start_h",
+      "actual": 1.989983305509182,
+      "reference": 1.989983305509182,
+      "absolute_error": 0.0,
+      "absolute_tolerance": 0.05,
+      "passed": true
+    },
+    {
+      "metric": "continuous_P24h_uM",
+      "actual": 5.499719947087506,
+      "reference": 5.499719947087506,
+      "absolute_error": 0.0,
+      "absolute_tolerance": 0.02,
+      "passed": true
+    },
+    {
+      "metric": "continuous_P72h_uM",
+      "actual": 5.507118817802301,
+      "reference": 5.507118817802301,
+      "absolute_error": 0.0,
+      "absolute_tolerance": 0.02,
+      "passed": true
+    }
+  ],
+  "topology_check": {
+    "batch_species": 3399,
+    "batch_reactions": 3696,
+    "continuous_species": 3399,
+    "continuous_reactions": 3762,
+    "passed": true
+  },
+  "passed": true
+}

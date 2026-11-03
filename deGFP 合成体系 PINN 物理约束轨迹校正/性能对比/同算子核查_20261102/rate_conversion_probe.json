@@ -1,0 +1,12 @@
+{
+  "state_unit": "M",
+  "PINN_k0": 9.406062,
+  "ODE_k0_with_current_uM_flag": 9406062000000.0,
+  "different_rate_constants": 1807,
+  "initial_state_shape": [
+    5772
+  ],
+  "maximum_internal_rhs_difference_M_s": 2.0967266989637796,
+  "raw_rhs_maxabs": 2.822111786952542e-05,
+  "converted_rhs_maxabs": 2.0967287955749994
+}

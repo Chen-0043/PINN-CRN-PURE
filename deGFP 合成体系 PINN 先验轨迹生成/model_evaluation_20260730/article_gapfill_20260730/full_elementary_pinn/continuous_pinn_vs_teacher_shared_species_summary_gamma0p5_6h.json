@@ -1,0 +1,72 @@
+{
+  "scope": "6 h endpoint comparison between continuous full-CRN PINN output and reduced teacher shared species",
+  "important_caveat": "teacher is 3399-species reduced/constraint model; comparison covers shared species, not full-only latent expanded species",
+  "teacher_species": 3399,
+  "full_pinn_species": 5772,
+  "shared_species_compared": 3151,
+  "teacher_time_s": 21600.0,
+  "pinn_time_s": 21600.0,
+  "teacher_compile_s": 112.35703349999994,
+  "teacher_simulate_s": 32.38235737499963,
+  "rtol": 1e-05,
+  "atol": 1e-10,
+  "finite_teacher_fraction": 1.0,
+  "finite_pinn_shared_fraction": 1.0,
+  "negative_teacher_fraction_lt_minus_1e_18": 0.0,
+  "negative_pinn_shared_fraction_lt_minus_1e_18": 0.0,
+  "all_eps1pM": {
+    "n": 3151,
+    "mean_relative_error": 14033.121937361957,
+    "median_relative_error": 1.1301453365818104,
+    "p95_relative_error": 784.8393340337868,
+    "weighted_relative_error": 0.5971897818814188,
+    "median_abs_error_uM": 1.2564252201731e-06,
+    "p95_abs_error_uM": 0.0007978437057254277,
+    "max_abs_error_uM": 3115.201982242034
+  },
+  "target_gt_1e-09_uM": {
+    "n": 476,
+    "mean_relative_error": 7613.427292635357,
+    "median_relative_error": 62.31945067082986,
+    "p95_relative_error": 477.57203985003684,
+    "weighted_relative_error": 0.5956707536706903,
+    "median_abs_error_uM": 0.0004762485020880637,
+    "p95_abs_error_uM": 13.115523958423605,
+    "max_abs_error_uM": 3115.201982242034
+  },
+  "target_gt_1e-06_uM": {
+    "n": 207,
+    "mean_relative_error": 23.730360268417584,
+    "median_relative_error": 0.935688664673404,
+    "p95_relative_error": 77.63830747767187,
+    "weighted_relative_error": 0.5955353293426389,
+    "median_abs_error_uM": 0.29611622436851726,
+    "p95_abs_error_uM": 139.3078025512014,
+    "max_abs_error_uM": 3115.201982242034
+  },
+  "target_gt_0.001_uM": {
+    "n": 133,
+    "mean_relative_error": 13.870850133281463,
+    "median_relative_error": 0.9760689530518804,
+    "p95_relative_error": 41.33806240651891,
+    "weighted_relative_error": 0.5955343696590791,
+    "median_abs_error_uM": 2.8422308385377297,
+    "p95_abs_error_uM": 584.1341788214058,
+    "max_abs_error_uM": 3115.201982242034
+  },
+  "target_gt_1_uM": {
+    "n": 85,
+    "mean_relative_error": 11.315889030441376,
+    "median_relative_error": 0.9161144338585688,
+    "p95_relative_error": 1.5305901761994993,
+    "weighted_relative_error": 0.5945739486982564,
+    "median_abs_error_uM": 3.405457368964873,
+    "p95_abs_error_uM": 1345.1478157352453,
+    "max_abs_error_uM": 3115.201982242034
+  },
+  "outputs": {
+    "teacher_snapshot_npz": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/model_evaluation_20260730/article_gapfill_20260730/full_elementary_pinn/teacher_full_species_snapshot_gamma0p5_6h.npz",
+    "comparison_csv": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/model_evaluation_20260730/article_gapfill_20260730/full_elementary_pinn/continuous_pinn_vs_teacher_shared_species_gamma0p5_6h.csv",
+    "top_errors_csv": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/model_evaluation_20260730/article_gapfill_20260730/full_elementary_pinn/continuous_pinn_vs_teacher_shared_species_top_errors_gamma0p5_6h.csv"
+  }
+}

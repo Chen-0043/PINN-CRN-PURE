@@ -1,0 +1,63 @@
+{
+  "purpose": "Direct stiff-ODE comparison under exactly the same full-elementary physical operator used by the deGFP PINN",
+  "date": "2026-10-26",
+  "hardware": {
+    "model": "MacBook Pro Mac16,1",
+    "chip": "Apple M4",
+    "cpu_cores": "10 (4 performance, 6 efficiency)",
+    "memory": "24 GB",
+    "platform": "macOS 26.3.1 arm64",
+    "python": "3.11.0",
+    "scipy_solver": "solve_ivp"
+  },
+  "locked_conditions": {
+    "network": "deGFP full-elementary CRN",
+    "species_count": 5772,
+    "reaction_count": 7061,
+    "mass_action_rate_constants": "full_elementary_pinn/rate_constants_k.npy",
+    "rate_unit": "uM",
+    "state_unit": "M",
+    "initial_state": "full_elementary_pinn/initial_concentrations_x0_M.npy",
+    "initial_state_identity_check": "Exactly equal, element by element, to reviewer_benchmark_finetune_200_checkpoint.pt model_state_dict.x0",
+    "exchange_mode": "continuous",
+    "exchange_gamma_h_inv": 0.5,
+    "product_washout_gamma_h_inv": 0.5,
+    "time_span_s": [0.0, 21600.0],
+    "output_time_points": 25,
+    "rtol": 1e-6,
+    "atol_uM": 1e-6,
+    "jacobian": "analytic sparse Jacobian",
+    "reaction_family_scales": "all 1.0; no diagnostic rescaling",
+    "background_buffers": false
+  },
+  "operator_identity_check": {
+    "comparison": "PINN FullMassActionOperator plus continuous exchange versus NumPy/SciPy ODE RHS",
+    "allclose_rtol": 1e-12,
+    "allclose_atol": 1e-30,
+    "passed": true,
+    "maximum_absolute_rhs_difference_M_per_s": 6.938893903907228e-18,
+    "maximum_relative_rhs_difference": 1.8214924978882965e-16
+  },
+  "runs": [
+    {
+      "method": "BDF",
+      "wall_time_s": 656.74,
+      "user_time_s": 640.03,
+      "system_time_s": 16.20,
+      "status": "No output time point returned within the observation window; manually stopped",
+      "interruption_location": "scipy.sparse.linalg.splu during BDF sparse LU factorization",
+      "trajectory_available": false
+    },
+    {
+      "method": "Radau",
+      "wall_time_s": 634.28,
+      "user_time_s": 614.93,
+      "system_time_s": 19.07,
+      "status": "No output time point returned within the observation window; manually stopped",
+      "interruption_location": "scipy.sparse.linalg.splu during Radau sparse LU factorization",
+      "trajectory_available": false
+    }
+  ],
+  "interpretation": "Under the same full network, rates, initial state, continuous boundary, units, time span, grid and tolerances used by the PINN physical operator, neither conventional one-pass stiff solver produced a trajectory within approximately ten minutes. This is evidence of prohibitive full-network stiff-ODE computation under the tested hardware and settings; it is not evidence of convergence to a near-zero solution.",
+  "excluded_evidence": "Earlier direct-ODE runs with rate_unit=M or other initial states/scalings are not comparable and must not be used in the manuscript comparison."
+}

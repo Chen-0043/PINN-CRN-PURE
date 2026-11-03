@@ -1,0 +1,26 @@
+{
+  "teacher_same_condition_state_bg": {
+    "n_comparable_species": 8,
+    "end_mre_target_gt_1e-6uM": 2.44174610439777,
+    "end_median_re_target_gt_1e-6uM": 0.5905232269190268,
+    "end_weighted_re_target_gt_1e-6uM": 0.2929573427689762,
+    "traj_scaled_rmse_median": 0.39004871665236873,
+    "traj_scaled_rmse_mean": 1.4354745641608373
+  },
+  "teacher_gamma0p5_deliverable": {
+    "n_comparable_species": 9,
+    "end_mre_target_gt_1e-6uM": 28.40423087426977,
+    "end_median_re_target_gt_1e-6uM": 0.9999794219047298,
+    "end_weighted_re_target_gt_1e-6uM": 0.35260373308175336,
+    "traj_scaled_rmse_median": 0.7674991181122807,
+    "traj_scaled_rmse_mean": 3.6277868408465843
+  },
+  "full_crn_roadrunner_continuous_key": {
+    "n_comparable_species": 49,
+    "end_mre_target_gt_1e-6uM": 0.40090779061644727,
+    "end_median_re_target_gt_1e-6uM": 0.0015912300359721852,
+    "end_weighted_re_target_gt_1e-6uM": 0.007455291026632899,
+    "traj_scaled_rmse_median": 0.001095745357321507,
+    "traj_scaled_rmse_mean": 0.18274168671843147
+  }
+}

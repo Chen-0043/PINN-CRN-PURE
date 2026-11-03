@@ -1,0 +1,216 @@
+{
+  "scope": "SciPy sparse continuation of complete 5772/7061 elementary mass-action CRN",
+  "not_reduced_model": true,
+  "method": "LSODA",
+  "start_s": 600.0,
+  "end_s": 21600.0,
+  "end_h": 6.0,
+  "points_requested": 13,
+  "points_returned": 13,
+  "success": true,
+  "status": 0,
+  "message": "The solver successfully reached the end of the integration interval.",
+  "elapsed_s": 222.21290941700045,
+  "nfev": 1253133,
+  "njev": 217,
+  "nlu": 217,
+  "rtol": 1e-05,
+  "atol": 1e-13,
+  "finite_selected_state_fraction": 1.0,
+  "negative_state_fraction_lt_minus_1e_18_before_clip": 0.0,
+  "selected_states": [
+    {
+      "species_id": "deGFP_m",
+      "start_uM": 0.0,
+      "end_uM": 4.064107558736675e-289,
+      "max_uM": 4.064107558736675e-289,
+      "min_uM": 0.0
+    },
+    {
+      "species_id": "mRNA_t",
+      "start_uM": 0.06978890713269013,
+      "end_uM": 0.0697974221944927,
+      "max_uM": 0.0697974221944927,
+      "min_uM": 0.06978890713269013
+    },
+    {
+      "species_id": "ATP",
+      "start_uM": 3713.112129858901,
+      "end_uM": 3712.005860801708,
+      "max_uM": 3713.112129858901,
+      "min_uM": 3712.005860801708
+    },
+    {
+      "species_id": "GTP",
+      "start_uM": 2471.311116749882,
+      "end_uM": 2474.296572921542,
+      "max_uM": 2474.299682681535,
+      "min_uM": 2471.311116749882
+    },
+    {
+      "species_id": "GDP",
+      "start_uM": 9.262348447390163,
+      "end_uM": 9.915543543332303,
+      "max_uM": 9.915543543332303,
+      "min_uM": 9.262348447390163
+    },
+    {
+      "species_id": "PPi",
+      "start_uM": 0.023468288570610875,
+      "end_uM": 1.042150310756753,
+      "max_uM": 1.042150310756753,
+      "min_uM": 0.023468288570610875
+    },
+    {
+      "species_id": "PO4",
+      "start_uM": 166.7184267488433,
+      "end_uM": 166.73123817874517,
+      "max_uM": 166.73123817874517,
+      "min_uM": 166.7184267488433
+    },
+    {
+      "species_id": "EFTu",
+      "start_uM": 75.8533700313648,
+      "end_uM": 79.80062352672579,
+      "max_uM": 79.80062352672579,
+      "min_uM": 75.8533700313648
+    },
+    {
+      "species_id": "EFTu_GTP",
+      "start_uM": 3.1598936730745346,
+      "end_uM": 0.19745040931045163,
+      "max_uM": 3.1598936730745346,
+      "min_uM": 0.19745040931045163
+    },
+    {
+      "species_id": "EFTu_GDP",
+      "start_uM": 0.6510637930150569,
+      "end_uM": 0.0007912665566331527,
+      "max_uM": 0.6510637930150569,
+      "min_uM": 0.0007911341680241393
+    },
+    {
+      "species_id": "EFTu_EFTs",
+      "start_uM": 0.2892129375171427,
+      "end_uM": 0.001037324827685113,
+      "max_uM": 0.2892129375171427,
+      "min_uM": 0.0010373248261838705
+    },
+    {
+      "species_id": "EFTs",
+      "start_uM": 12.710744376959882,
+      "end_uM": 12.998956422160155,
+      "max_uM": 12.998956422160155,
+      "min_uM": 12.710744376959882
+    },
+    {
+      "species_id": "EFG",
+      "start_uM": 4.299523604412522,
+      "end_uM": 4.289344319293311,
+      "max_uM": 4.299523604412522,
+      "min_uM": 4.2893443130857785
+    },
+    {
+      "species_id": "EFG_GTP",
+      "start_uM": 0.00047405775000821445,
+      "end_uM": 0.010613099336300835,
+      "max_uM": 0.010613112659770633,
+      "min_uM": 0.00047405775000821445
+    },
+    {
+      "species_id": "IF2",
+      "start_uM": 4.098464543057006,
+      "end_uM": 4.0898399698528936,
+      "max_uM": 4.098464543057006,
+      "min_uM": 4.089839963934123
+    },
+    {
+      "species_id": "IF2_GTP",
+      "start_uM": 0.0015117285055021783,
+      "end_uM": 0.010119477021269762,
+      "max_uM": 0.010119489725056236,
+      "min_uM": 0.0015117285055021783
+    },
+    {
+      "species_id": "RS30S",
+      "start_uM": 2.96165123414313,
+      "end_uM": 2.99965816945641,
+      "max_uM": 2.9996581694798286,
+      "min_uM": 2.96165123414313
+    },
+    {
+      "species_id": "RS50S",
+      "start_uM": 2.991108811842147,
+      "end_uM": 2.9999842681928546,
+      "max_uM": 2.9999842681928546,
+      "min_uM": 2.991108811842147
+    },
+    {
+      "species_id": "RS70S",
+      "start_uM": 0.008859383718527923,
+      "end_uM": 8.998927318323056e-06,
+      "max_uM": 0.008859383718527923,
+      "min_uM": 8.998927318323056e-06
+    },
+    {
+      "species_id": "RS30S_IF1",
+      "start_uM": 0.00832533550061465,
+      "end_uM": 0.0002969652658501387,
+      "max_uM": 0.00832533550061465,
+      "min_uM": 0.0002969652658501387
+    },
+    {
+      "species_id": "RS30S_IF3",
+      "start_uM": 0.020996666453973495,
+      "end_uM": 1.4698280597316572e-05,
+      "max_uM": 0.020996666453973495,
+      "min_uM": 1.4698280597316572e-05
+    },
+    {
+      "species_id": "MetRS",
+      "start_uM": 0.43997835726231893,
+      "end_uM": 0.43823639242032286,
+      "max_uM": 0.43997835726231893,
+      "min_uM": 0.43823598164190947
+    },
+    {
+      "species_id": "MetRS_ATP",
+      "start_uM": 6.534753673147415e-06,
+      "end_uM": 0.0016266386210809516,
+      "max_uM": 0.0016270543148294721,
+      "min_uM": 6.534753673147415e-06
+    },
+    {
+      "species_id": "AlaRS",
+      "start_uM": 2.9998699044813155,
+      "end_uM": 2.9881197482300093,
+      "max_uM": 2.9998699044813155,
+      "min_uM": 2.988116913980877
+    },
+    {
+      "species_id": "AlaRS_ATP",
+      "start_uM": 1.251556565499041e-05,
+      "end_uM": 0.011091263768750994,
+      "max_uM": 0.011094097609759943,
+      "min_uM": 1.251556565499041e-05
+    },
+    {
+      "species_id": "CP",
+      "start_uM": 9999.9993094846,
+      "end_uM": 9999.985950207645,
+      "max_uM": 9999.9993094846,
+      "min_uM": 9999.985950207645
+    },
+    {
+      "species_id": "T7RNAP",
+      "start_uM": 0.9999797174453229,
+      "end_uM": 0.9999857972580444,
+      "max_uM": 0.9999857972580444,
+      "min_uM": 0.9999797174453229
+    }
+  ],
+  "outputs": {
+    "trajectory_csv": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/model_evaluation_20260730/article_gapfill_20260730/full_elementary_pinn/full_elementary_sparse_key_trajectory_600s_to_6h_13pts_LSODA_rtol1e5.csv",
+    "selected_summary_csv": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/model_evaluation_20260730/article_gapfill_20260730/full_elementary_pinn/full_elementary_sparse_key_summary_600s_to_6h_13pts_LSODA_rtol1e5.csv"
+  }
+}

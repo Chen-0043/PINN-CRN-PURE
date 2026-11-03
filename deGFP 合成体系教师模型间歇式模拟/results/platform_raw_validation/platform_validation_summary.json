@@ -1,0 +1,129 @@
+{
+  "method": {
+    "error_definition": "MARE = mean(|model - replicate mean| / replicate mean) * 100%",
+    "near_zero_points_excluded": true,
+    "transcription_platform_window_h": [
+      10.0,
+      15.0
+    ],
+    "translation_only_platform_window_h": [
+      8.0,
+      12.0
+    ],
+    "combined_expression_platform_window_h": [
+      4.0,
+      6.0
+    ]
+  },
+  "transcription": {
+    "counts": {
+      "species_total": 3394,
+      "reactions_total": 3684,
+      "background_species_count": 0,
+      "background_reservoir_species_count": 0,
+      "boundary_species_count": 0,
+      "dynamic_species_count": 3394
+    },
+    "param_apply": {
+      "applied": 22,
+      "missing": 5
+    },
+    "conditions": {
+      "construct": "MGapt-only, 90 nt",
+      "DNA_uM": 0.005,
+      "T7RNAP_uM": 0.1,
+      "ATP_uM": 3000.0,
+      "GTP_uM": 3000.0,
+      "CTP_uM": 1000.0,
+      "UTP_uM": 1000.0,
+      "translation_disabled": true
+    },
+    "metrics": {
+      "window_start_h": 10.0,
+      "window_end_h": 15.0,
+      "n_timepoints": 101,
+      "experimental_plateau_mean_uM": 2.7736342382450494,
+      "model_plateau_mean_uM": 0.2312386743924214,
+      "platform_mean_relative_error_percent": 91.66297159142613,
+      "mean_absolute_relative_error_percent": 91.65636185175738,
+      "median_absolute_relative_error_percent": 91.67468542653631,
+      "experimental_slope_uM_per_h": -0.00943563729475838,
+      "model_slope_uM_per_h": 0.018363540379203156,
+      "experimental_relative_slope_percent_per_h": 0.34019039585870386,
+      "model_relative_slope_percent_per_h": 7.941379368072092
+    },
+    "raw_data": "raw_literature_data/MGapt_deGFP_Exp_PURE_Data/2022.08.19_OnePot_PURE_mGapt_uM.csv"
+  },
+  "translation_only": {
+    "counts": {
+      "species_total": 3399,
+      "reactions_total": 3696,
+      "background_species_count": 6,
+      "background_reservoir_species_count": 4,
+      "boundary_species_count": 0,
+      "dynamic_species_count": 3399
+    },
+    "param_apply": {
+      "applied": 27,
+      "missing": 0
+    },
+    "conditions": {
+      "construct": "purified MGapt-UTR1-deGFP mRNA",
+      "initial_mRNA_uM": 0.548,
+      "DNA_uM": 0.0,
+      "T7RNAP_uM": 0.0,
+      "experiment_date": "2023-07-28",
+      "calibration": "negative-control subtraction, then RFU/5542.4; each replicate zeroed at t0"
+    },
+    "metrics": {
+      "window_start_h": 8.0,
+      "window_end_h": 12.0,
+      "n_timepoints": 80,
+      "experimental_plateau_mean_uM": 3.2859832082371057,
+      "model_plateau_mean_uM": 5.38974630795735,
+      "platform_mean_relative_error_percent": 64.02233262929211,
+      "mean_absolute_relative_error_percent": 64.02902625501258,
+      "median_absolute_relative_error_percent": 64.0604711003893,
+      "experimental_slope_uM_per_h": -0.014615058528920099,
+      "model_slope_uM_per_h": -3.9542950361371045e-17,
+      "experimental_relative_slope_percent_per_h": 0.44476972652458924,
+      "model_relative_slope_percent_per_h": 7.336699744659662e-16
+    },
+    "raw_data": "raw_literature_data/Calibration_MGapt/2023.07.28_PUREwmRNA_updated.xlsx"
+  },
+  "combined_expression": {
+    "counts": {
+      "species_total": 3399,
+      "reactions_total": 3696,
+      "background_species_count": 6,
+      "background_reservoir_species_count": 4,
+      "boundary_species_count": 0,
+      "dynamic_species_count": 3399
+    },
+    "param_apply": {
+      "applied": 27,
+      "missing": 0
+    },
+    "conditions": {
+      "construct": "MGapt-UTR1-deGFP",
+      "DNA_uM": 0.001,
+      "T7RNAP_uM": 1.0,
+      "experiment_date": "2022-11-14"
+    },
+    "metrics": {
+      "window_start_h": 4.0,
+      "window_end_h": 6.0,
+      "n_timepoints": 41,
+      "experimental_plateau_mean_uM": 5.417154471544715,
+      "model_plateau_mean_uM": 5.338964259191372,
+      "platform_mean_relative_error_percent": 1.4433816270896733,
+      "mean_absolute_relative_error_percent": 1.4718808945226993,
+      "median_absolute_relative_error_percent": 1.4344349196085477,
+      "experimental_slope_uM_per_h": -0.07156794425087094,
+      "model_slope_uM_per_h": 1.0258098199383999e-05,
+      "experimental_relative_slope_percent_per_h": 1.321135378856257,
+      "model_relative_slope_percent_per_h": 0.00019213648380814722
+    },
+    "raw_data": "raw_literature_data/MGapt_deGFP_Exp_PURE_Data/2022.11.14_OnePotPURE_deGFPuM.csv"
+  }
+}

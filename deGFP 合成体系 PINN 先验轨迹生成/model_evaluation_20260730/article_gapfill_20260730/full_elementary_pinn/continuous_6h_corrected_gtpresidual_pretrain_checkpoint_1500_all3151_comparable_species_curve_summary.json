@@ -1,0 +1,19 @@
+{
+  "prefix": "continuous_6h_corrected_gtpresidual_pretrain_checkpoint_1500",
+  "scope": "all 3151 comparable species curves; train trajectory 0-5h, validation endpoint 6h",
+  "n_species": 3151,
+  "time_points_total": 25,
+  "train_time_points_0to5h": 21,
+  "validation_time_points_6h": 1,
+  "train_species_time_points": 66171,
+  "validation_species_time_points": 3151,
+  "train0to5h_mean_relative_error": 12.964753604392442,
+  "train0to5h_median_relative_error": 0.0030096250696650876,
+  "train0to5h_p95_relative_error": 0.018407509657362216,
+  "validate6h_mean_relative_error": 0.062075376727562984,
+  "validate6h_median_relative_error": 0.02509984389032418,
+  "validate6h_p95_relative_error": 0.10771855008138845,
+  "validate6h_weighted_relative_error": 0.037003848648836525,
+  "validate6h_r2": 0.999372780567143,
+  "per_species_csv": "model_evaluation_20260730/article_gapfill_20260730/full_elementary_pinn/continuous_6h_corrected_gtpresidual_pretrain_checkpoint_1500_all3151_comparable_species_curve_metrics.csv"
+}

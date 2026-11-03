@@ -1,0 +1,37 @@
+{
+  "timestamp_end": "2026-09-02 21:57:13",
+  "article_scales": [
+    0.0,
+    0.01,
+    0.03,
+    0.06,
+    0.1,
+    0.22,
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    3.0,
+    4.0
+  ],
+  "components": [
+    "ATP",
+    "GTP",
+    "CTP",
+    "UTP",
+    "total_aars_pool"
+  ],
+  "baseline_1x_deGFP_6h_uM": 5.565393600981922,
+  "n_existing_records_scanned": 30,
+  "n_missing_to_run": 37,
+  "n_new_ok": 37,
+  "n_new_failed": 0,
+  "coverage_complete": true,
+  "outputs": {
+    "existing_sources_csv": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/扰动模拟-new/run_outputs/article_missing_scale_degfp_endpoints_20260902/existing_article_scale_degfp_sources.csv",
+    "missing_run_plan_csv": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/扰动模拟-new/run_outputs/article_missing_scale_degfp_endpoints_20260902/missing_run_plan.csv",
+    "new_missing_degfp_endpoints_csv": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/扰动模拟-new/run_outputs/article_missing_scale_degfp_endpoints_20260902/new_missing_degfp_endpoints.csv",
+    "complete_article_table_csv": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/扰动模拟-new/run_outputs/article_missing_scale_degfp_endpoints_20260902/article_5axis_scale_degfp_6h_complete.csv",
+    "coverage_summary_csv": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/扰动模拟-new/run_outputs/article_missing_scale_degfp_endpoints_20260902/coverage_summary.csv"
+  }
+}

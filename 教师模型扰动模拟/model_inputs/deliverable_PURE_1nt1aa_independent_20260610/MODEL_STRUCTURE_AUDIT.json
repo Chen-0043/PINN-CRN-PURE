@@ -1,0 +1,369 @@
+{
+  "package_root": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/deliverable_PURE_1nt1aa_independent_20260610",
+  "all_authoritative_inputs_inside_package": true,
+  "runtime_parameter_count": 27,
+  "transformation_stages": [
+    {
+      "stage": "base_sbml",
+      "species": 1049,
+      "reactions": 1720
+    },
+    {
+      "stage": "patch_initial_conditions",
+      "species": 1049,
+      "reactions": 1720
+    },
+    {
+      "stage": "swap_transcription_to_1nt_chain_micro3",
+      "species": 3286,
+      "reactions": 3871
+    },
+    {
+      "stage": "apply_dual_ntp_pools",
+      "species": 3290,
+      "reactions": 3879
+    },
+    {
+      "stage": "add_ntp_polymerization_trackers",
+      "species": 3294,
+      "reactions": 3879
+    },
+    {
+      "stage": "remove_legacy_rs_modules",
+      "species": 3294,
+      "reactions": 3518
+    },
+    {
+      "stage": "tx_triplet_collapse_disabled_micro3",
+      "species": 3294,
+      "reactions": 3518
+    },
+    {
+      "stage": "parameterize_explicit_ribosome_binding",
+      "species": 3294,
+      "reactions": 3518
+    },
+    {
+      "stage": "build_1aa_effective_translation_chain",
+      "species": 3521,
+      "reactions": 3745
+    },
+    {
+      "stage": "backgroundize_energy_regen_loops",
+      "species": 3521,
+      "reactions": 3684
+    },
+    {
+      "stage": "add_nucleotide_family_bookkeeping_trackers",
+      "species": 3529,
+      "reactions": 3684
+    },
+    {
+      "stage": "prune_unreferenced_legacy_species",
+      "species": 3394,
+      "reactions": 3684
+    }
+  ],
+  "transcription_triplet_collapse": {
+    "enabled": 0,
+    "collapsed_triplets": 0,
+    "reactions_removed": 0,
+    "reactions_added": 0
+  },
+  "legacy_removal": {
+    "mrna_rs": {
+      "legacy_mrna_rs_reactions_removed": 24
+    },
+    "rs_init": {
+      "legacy_rs_init_reactions_removed": 144
+    },
+    "rs_elong_term": {
+      "removed": 89,
+      "missing": 0,
+      "removed_ids_sample": [
+        "r735",
+        "r741",
+        "r787",
+        "r793",
+        "r839",
+        "r845",
+        "r891",
+        "r897",
+        "r943",
+        "r949",
+        "r995",
+        "r1001",
+        "r1047",
+        "r1053",
+        "r1099",
+        "r1105",
+        "r1151",
+        "r1157",
+        "r1203",
+        "r1209"
+      ],
+      "missing_ids_sample": [],
+      "categories": [
+        "翻译延长/转位微状态",
+        "翻译终止/核糖体回收微状态"
+      ]
+    },
+    "rs_energy_side": {
+      "removed": 4,
+      "missing": 0,
+      "removed_ids_sample": [
+        "r370",
+        "r371",
+        "r676",
+        "r677"
+      ],
+      "missing_ids_sample": [],
+      "categories": [
+        "能量/副产物耦合旧侧支"
+      ]
+    },
+    "rs_assembly": {
+      "removed": 100,
+      "missing": 0,
+      "removed_ids_sample": [
+        "r366",
+        "r367",
+        "r368",
+        "r369",
+        "r442",
+        "r443",
+        "r448",
+        "r449",
+        "r458",
+        "r459",
+        "r464",
+        "r465",
+        "r598",
+        "r599",
+        "r616",
+        "r617",
+        "r670",
+        "r671",
+        "r672",
+        "r673"
+      ],
+      "missing_ids_sample": [],
+      "categories": [
+        "核糖体亚基装配/构象旧模块"
+      ]
+    }
+  },
+  "ribosome_binding_qssa": {
+    "enabled": false,
+    "removed": false
+  },
+  "energy_backgroundization": {
+    "enabled": true,
+    "removed": 61,
+    "sample": [
+      "r374",
+      "r375",
+      "r376",
+      "r377",
+      "r378",
+      "r379",
+      "r380",
+      "r381",
+      "r382",
+      "r383",
+      "r384",
+      "r385",
+      "r386",
+      "r387",
+      "r388",
+      "r389",
+      "r390",
+      "r391",
+      "r392",
+      "r393"
+    ]
+  },
+  "fast_side_scaling": {
+    "enabled": false,
+    "scale": 1.0,
+    "min_k": 10.0,
+    "scaled_param_count": 0,
+    "scaled_params": []
+  },
+  "legacy_species_pruning": {
+    "enabled": true,
+    "removed": 135,
+    "sample": [
+      "mRNA",
+      "RS30S",
+      "RS30S_degraded",
+      "RS30S_IF1_IF3_IF2_GTP_mRNA",
+      "RS30S_IF1_IF3_mRNA",
+      "RS30S_IF1_mRNA",
+      "RS30S_IF1",
+      "RS30S_IF1_IF2_GTP",
+      "RS30S_IF1_IF2_GTP_mRNA",
+      "RS30S_IF1_IF3",
+      "RS30S_IF1_IF3_IF2_GTP",
+      "RS30S_IF3_IF2_GTP_mRNA",
+      "RS30S_IF2_GTP",
+      "RS30S_IF2_GTP_mRNA",
+      "RS30S_IF3",
+      "RS30S_IF3_mRNA",
+      "RS30S_IF3_IF2_GTP",
+      "RS30S_mRNA",
+      "RS50S",
+      "RS50S_degraded",
+      "RS50S_EFG_GDP",
+      "RS50S_EFG_GDP_PO4",
+      "RS50S_EFG_GTP",
+      "RS50S_RRF",
+      "RS50S_RRF_EFG_GDP",
+      "RS70S",
+      "RS70S_EFG_GDP",
+      "RS70S_EFG_GDP_PO4",
+      "RS70S_EFG_GTP",
+      "RS70S_IF1",
+      "RS70S_IF3",
+      "RS70S_IF1_IF3",
+      "RS30S_fMettRNAfMetCAU_mRNA",
+      "RS30S_IF1_fMettRNAfMetCAU_mRNA",
+      "RS30S_IF1_IF2_GTP_fMettRNAfMetCAU",
+      "RS30S_IF1_IF2_GTP_fMettRNAfMetCAU_mRNA",
+      "RS30S_IF1_IF3_fMettRNAfMetCAU_mRNA",
+      "RS30S_IF1_IF3_IF2_GTP_fMettRNAfMetCAU",
+      "RS30S_IF1_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA",
+      "RS30S_IF2_GTP_fMettRNAfMetCAU",
+      "RS30S_IF2_GTP_fMettRNAfMetCAU_mRNA",
+      "RS30S_IF3_fMettRNAfMetCAU_mRNA",
+      "RS30S_IF3_IF2_GTP_fMettRNAfMetCAU",
+      "RS30S_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA",
+      "RS70S_IF1_fMettRNAfMetCAU_mRNA",
+      "RS70S_IF1_IF2_GDP_fMettRNAfMetCAU_mRNA",
+      "RS70S_IF1_IF3_fMettRNAfMetCAU_mRNA",
+      "RS70S_IF1_IF3_IF2_GDP_fMettRNAfMetCAU_mRNA",
+      "RS70S_IF1_IF3_IF2_GDP_PO4_fMettRNAfMetCAU_mRNA",
+      "RS70S_IF1_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA"
+    ]
+  },
+  "final_batch_counts": {
+    "species_total": 3399,
+    "reactions_total": 3696,
+    "background_species_count": 6,
+    "background_reservoir_species_count": 4,
+    "boundary_species_count": 0,
+    "dynamic_species_count": 3399
+  },
+  "final_continuous_counts": {
+    "species_total": 3399,
+    "reactions_total": 3762,
+    "background_species_count": 6,
+    "background_reservoir_species_count": 4,
+    "boundary_species_count": 0,
+    "dynamic_species_count": 3399
+  },
+  "continuous_feed_species": [
+    "ATP",
+    "GTP",
+    "CTP",
+    "UTP",
+    "AA",
+    "CP",
+    "Ala",
+    "Arg",
+    "Asn",
+    "Asp",
+    "Cys",
+    "Gln",
+    "Glu",
+    "Gly",
+    "His",
+    "Ile",
+    "Leu",
+    "Lys",
+    "Met",
+    "Phe",
+    "Pro",
+    "Ser",
+    "Thr",
+    "Trp",
+    "Tyr",
+    "Val"
+  ],
+  "continuous_washout_species": [
+    "ADP",
+    "AMP",
+    "GDP",
+    "GMP",
+    "PO4",
+    "PPi"
+  ],
+  "continuous_product_outflow_species": [
+    "deGFP_m"
+  ],
+  "continuous_feed_uM": {
+    "ATP": 3750.0,
+    "GTP": 2500.0,
+    "CTP": 1250.0,
+    "UTP": 1250.0,
+    "AA": 6000.0,
+    "CP": 10000.0,
+    "Ala": 300.0,
+    "Arg": 300.0,
+    "Asn": 300.0,
+    "Asp": 300.0,
+    "Cys": 300.0,
+    "Gln": 300.0,
+    "Glu": 300.0,
+    "Gly": 300.0,
+    "His": 300.0,
+    "Ile": 300.0,
+    "Leu": 300.0,
+    "Lys": 300.0,
+    "Met": 300.0,
+    "Phe": 300.0,
+    "Pro": 300.0,
+    "Ser": 300.0,
+    "Thr": 300.0,
+    "Trp": 300.0,
+    "Tyr": 300.0,
+    "Val": 300.0
+  },
+  "batch_conservation_families": {
+    "ATP_family": [
+      "+ATP",
+      "+ADP",
+      "+AMP",
+      "+ATP_TX",
+      "+Moiety_ATP_poly",
+      "+Moiety_ATP_untracked_loss",
+      "-Moiety_ATP_untracked_gain"
+    ],
+    "GTP_family": [
+      "+GTP",
+      "+GDP",
+      "+GMP",
+      "+GTP_TX",
+      "+Moiety_GTP_poly",
+      "+Moiety_GTP_untracked_loss",
+      "-Moiety_GTP_untracked_gain"
+    ],
+    "CTP_family": [
+      "+CTP",
+      "+CTP_TX",
+      "+Moiety_CTP_poly",
+      "+bgRes_CTP",
+      "+Moiety_CTP_untracked_loss",
+      "-Moiety_CTP_untracked_gain"
+    ],
+    "UTP_family": [
+      "+UTP",
+      "+UTP_TX",
+      "+Moiety_UTP_poly",
+      "+bgRes_UTP",
+      "+Moiety_UTP_untracked_loss",
+      "-Moiety_UTP_untracked_gain"
+    ]
+  },
+  "passed": true
+}

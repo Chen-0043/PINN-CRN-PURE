@@ -1,0 +1,17 @@
+{
+  "dna_total_M": 2.8e-09,
+  "dna_allocation_rule": "single_each_2p8nM",
+  "genes": [
+    {
+      "name": "TpiA",
+      "aa_length": 255,
+      "tx_scale": 3000.0,
+      "tl_scale": 2800.0,
+      "dna_weight": 1.0,
+      "v3_round1_corr_from_tx2p3": 0.7252027860077711,
+      "v3_round2_actdecay2_corr": 3.452400225389581,
+      "tx_nt_steps": 768,
+      "dna_M": 2.8e-09
+    }
+  ]
+}

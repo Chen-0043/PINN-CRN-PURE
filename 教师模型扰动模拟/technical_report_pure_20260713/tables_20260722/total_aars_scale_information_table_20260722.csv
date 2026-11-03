@@ -1,0 +1,12 @@
+total_aaRS_scale,deGFP_6h_uM,deGFP_peak_uM,deGFP_peak_time_h,aa_tRNA_pool_6h_uM_charged_tRNA,Ribosome_mRNA_6h_uM,total_expression_GTP_pool_6h_uM,PPi_6h_uM,TLchain_mid_26_225_fraction_6h,stage,interpretation
+0.0,0.0,,,3.90576121414126e-12,0.0090147735711207,3500.3603513085327,155.1285234927232,8.61637817810036e-19,low-dose loading break,aaRS loading is insufficient; aa-tRNA pool is low and deGFP remains low.
+0.01,0.1264124164685609,,,2.6302690947593566,0.0061722725750621,3333.1370117729375,149.14174136615867,0.7881604326423401,low-dose loading break,aaRS loading is insufficient; aa-tRNA pool is low and deGFP remains low.
+0.03,0.6340296123793786,,,10.417534459861004,0.0066595612212442,2999.3220004604427,137.35416327453953,0.8615802333177014,low-dose loading break,aaRS loading is insufficient; aa-tRNA pool is low and deGFP remains low.
+0.06,1.4532662594678385,,,19.48897602306859,0.010470950131762,2502.2683836797783,120.14080179353422,0.8694950928233974,approaching matching window,aa-tRNA loading and ribosome-mRNA loading improve; deGFP rises rapidly.
+0.125,3.2321948631572575,,,31.42562225571398,0.0190619919991056,1432.861960901339,83.5087827822357,0.8690917474092565,approaching matching window,aa-tRNA loading and ribosome-mRNA loading improve; deGFP rises rapidly.
+0.18,4.7377686012376365,,,38.090745633195695,0.0279359914461017,535.962823913728,53.28550781437265,0.8482635244257192,approaching matching window,aa-tRNA loading and ribosome-mRNA loading improve; deGFP rises rapidly.
+0.2,5.285016363508448,,,40.00328705461959,0.0347468666359773,212.27095802319192,42.565063175309675,0.8215594811583421,approaching matching window,aa-tRNA loading and ribosome-mRNA loading improve; deGFP rises rapidly.
+0.22,5.590494558037162,,,41.7538605147904,0.0987841853780653,20.54870208620552,34.515027834246524,0.2131445939139939,optimal matching point,"balanced aa-tRNA loading, GTP support, ribosome loading and low PPi."
+0.25,5.578242478217065,,,44.58832516752928,0.0965127401841967,21.098588135144745,35.37428946268049,0.16453703683352885,adjacent over-optimum,"aa-tRNA remains higher, but GTP-supported TLchain spreading is not sustained."
+1.0,5.565392804189767,,,68.09715991551658,0.0882281682418498,23.44252469729729,76.85039480759973,0.1490207986946875,high-dose plateau/waste,deGFP does not increase; PPi/waste pressure rises with excess aaRS.
+4.0,5.561681588658657,,,73.92872447509501,0.0860136283374282,24.335347315496254,213.8041088735003,0.14876173696888995,high-dose plateau/waste,deGFP does not increase; PPi/waste pressure rises with excess aaRS.

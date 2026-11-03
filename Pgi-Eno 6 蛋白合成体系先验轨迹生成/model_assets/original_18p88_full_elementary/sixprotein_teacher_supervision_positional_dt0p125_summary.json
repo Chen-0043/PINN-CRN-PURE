@@ -1,0 +1,22 @@
+{
+  "teacher_csv": "outputs/original_18p88_teacher_continuous_6h_dt0p125/sixprotein_continuous_timeseries.csv",
+  "time_points": 25,
+  "time_end_h": 6.0,
+  "direct_constraints": 59,
+  "aggregate_constraints": 9132,
+  "aggregate_full_state_memberships": 45768,
+  "mapped_teacher_tx_positions": 6846,
+  "expected_teacher_tx_positions": 6846,
+  "mapped_teacher_tl_positions": 2280,
+  "expected_teacher_tl_positions": 2280,
+  "reference_prefix_nt": 99,
+  "duplicate_aggregate_memberships": 0,
+  "mapping_rules": {
+    "transcription": "Each CDS-only teacher tx_pos[i] supervises the sum of full-elementary T7RNAP microstates at construct position 99+i.",
+    "translation": "Teacher tl_pos[0..L-1] supervise consecutive full elongation stages 2..L+1; teacher tl_pos[L] supervises termination/recycling microstates.",
+    "initiation": "Teacher ribosome-mRNA occupancy supervises the sum of gene-specific RS30S/RS70S initiation-assembly microstates containing mRNA."
+  },
+  "teacher_hidden_microstates_fabricated": false,
+  "output": "outputs/original_18p88_full_elementary/sixprotein_teacher_supervision_positional_dt0p125.npz",
+  "mapping_audit": "outputs/original_18p88_full_elementary/sixprotein_teacher_supervision_positional_dt0p125_mapping.csv"
+}

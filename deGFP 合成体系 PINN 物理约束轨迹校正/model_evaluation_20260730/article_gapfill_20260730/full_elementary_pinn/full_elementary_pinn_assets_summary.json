@@ -1,0 +1,35 @@
+{
+  "scope": "fully expanded strict mass-action deGFP CRN",
+  "source_sbml": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/output_full_crn_background/CRN_PURE_MGaptTXwTL_paper_explicit_translation_hybrid.xml",
+  "species": 5772,
+  "reactions": 7061,
+  "all_reactions_strict_mass_action": true,
+  "molecularity_counts": {
+    "1.0": 5254,
+    "2.0": 1806,
+    "3.0": 1
+  },
+  "stoichiometric_matrix": {
+    "shape": [
+      5772,
+      7061
+    ],
+    "nonzeros": 19356,
+    "density": 0.00047492286551909836,
+    "structural_rank": 5593
+  },
+  "reactant_exponent_matrix": {
+    "shape": [
+      5772,
+      7061
+    ],
+    "nonzeros": 8869
+  },
+  "initially_nonzero_species": 87,
+  "initial_species_patched_from_formal_input_table": 87,
+  "formal_initial_input_csv": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/degfp 单蛋白模拟/PURE_CRN_models/Data_files/PURE_TXTL_initial_values_Final.csv",
+  "validation": {
+    "performed": false
+  },
+  "pinn_equation": "dx_theta/dt = S * (k * exp(A.T * log(x_theta))) + q_exchange"
+}

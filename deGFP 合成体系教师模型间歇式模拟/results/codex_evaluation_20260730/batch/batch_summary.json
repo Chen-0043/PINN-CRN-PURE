@@ -1,0 +1,39 @@
+{
+  "model": "PURE deGFP batch, 1nt TX + 1aa TL",
+  "node": {
+    "tx_pathway_mode": "1nt",
+    "tx_step_mode": "micro3",
+    "tl_pathway_mode": "step_chain",
+    "tl_qssa_mode": "factorized",
+    "tl_chain_group_aa": 1.0,
+    "energy_regen_mode": "background",
+    "legacy_species_pruned": true
+  },
+  "hours": 8.0,
+  "counts": {
+    "species_total": 3399,
+    "reactions_total": 3696,
+    "background_species_count": 6,
+    "background_reservoir_species_count": 4,
+    "boundary_species_count": 0,
+    "dynamic_species_count": 3399
+  },
+  "param_apply": {
+    "applied": 27,
+    "missing": 0
+  },
+  "runtime_s": 51.950517892837524,
+  "metrics": {
+    "protein_2h_uM": 5.34619787574427,
+    "protein_4h_uM": 5.34656751701599,
+    "protein_8h_uM": 5.346567517015432,
+    "protein_peak_uM": 5.346567517026243,
+    "plateau_level_uM": 5.346567517015431,
+    "plateau_start_h": 1.989983305509182,
+    "plateau_max_abs_drift_uM": 0.00041513210748167495,
+    "plateau_abs_slope_uM_per_h": 6.093490984485009e-06
+  },
+  "files": {
+    "timeseries_csv": "results/codex_evaluation_20260730/batch/batch_timeseries.csv"
+  }
+}

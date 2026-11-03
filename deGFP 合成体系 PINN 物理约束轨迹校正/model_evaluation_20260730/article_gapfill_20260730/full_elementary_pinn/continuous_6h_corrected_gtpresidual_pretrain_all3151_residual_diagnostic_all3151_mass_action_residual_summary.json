@@ -1,0 +1,13 @@
+{
+  "n_species": 3151,
+  "residual_rms_uM_per_h_mean": 4.322745342706187,
+  "residual_rms_uM_per_h_median": 0.0002769177698235,
+  "residual_rms_uM_per_h_p95": 1.6511863055663762,
+  "rhs_rms_uM_per_h_mean": 3.9876690923994746,
+  "rhs_rms_uM_per_h_median": 0.000276904795978,
+  "scaled_residual_rmse_mean": 90.8470782648288,
+  "scaled_residual_rmse_median": 0.0769197914444699,
+  "scaled_residual_rmse_p95": 10.558845115972536,
+  "summary_csv": "model_evaluation_20260730/article_gapfill_20260730/full_elementary_pinn/continuous_6h_corrected_gtpresidual_pretrain_all3151_residual_diagnostic_all3151_mass_action_residual_summary.csv",
+  "per_species_csv": "model_evaluation_20260730/article_gapfill_20260730/full_elementary_pinn/continuous_6h_corrected_gtpresidual_pretrain_all3151_residual_diagnostic_teacher_shared_fit.csv"
+}

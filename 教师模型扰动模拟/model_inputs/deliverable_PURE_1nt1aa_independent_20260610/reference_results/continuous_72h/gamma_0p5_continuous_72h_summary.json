@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-06-10 18:39:36",
+  "node": {
+    "tx_pathway_mode": "1nt",
+    "tx_step_mode": "micro3",
+    "tl_pathway_mode": "step_chain",
+    "tl_qssa_mode": "factorized",
+    "tl_chain_group_aa": 1.0,
+    "tl_chain_scale": 30.0,
+    "energy_regen_mode": "background",
+    "ribo_bind_mode": "explicit"
+  },
+  "continuous_setup": {
+    "gamma_h": 0.5,
+    "feed_multiplier": 1.0,
+    "product_outflow_h": null
+  },
+  "model_counts_continuous": {
+    "species_total": 3399,
+    "reactions_total": 3762,
+    "background_species_count": 6,
+    "background_reservoir_species_count": 4,
+    "boundary_species_count": 0,
+    "dynamic_species_count": 3399
+  },
+  "param_apply": {
+    "applied": 27,
+    "missing": 0
+  },
+  "runtime_s": 64.90128922462463,
+  "reactor_metrics_uM": {
+    "protein_2h_uM": 5.997342056065933,
+    "protein_4h_uM": 5.6863452275621995,
+    "protein_8h_uM": 5.521310502632366,
+    "protein_24h_uM": 5.499719947087506,
+    "protein_48h_uM": 5.504161516820236,
+    "protein_72h_uM": 5.507118817802301
+  },
+  "stability": {
+    "window_h": "48-72",
+    "mean_uM": 5.50573043122902,
+    "max_abs_drift_uM": 0.0015630086407751875,
+    "abs_slope_uM_per_h": 0.00012275173772963516,
+    "delta_72_minus_48_uM": 0.0029573009820644813
+  },
+  "files": {
+    "timeseries_csv": "output_full_crn_background/final_pure_new_chain_factorized_direct_72h_20260610/gamma_0p5_continuous_72h_timeseries.csv",
+    "final_table_csv": "output_full_crn_background/final_pure_new_chain_factorized_direct_72h_20260610/gamma_0p5_continuous_final_table.csv"
+  }
+}

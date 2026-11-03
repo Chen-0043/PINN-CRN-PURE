@@ -1,0 +1,13 @@
+{
+  "coarse_dt_s": 0.125,
+  "fine_dt_s": 0.0625,
+  "recorded_time_points": 25,
+  "product_final_mean_relative_difference_percent": 0.5335736488203761,
+  "product_trajectory_mean_NRMSD_percent": 0.3542501371641707,
+  "total_product_final_relative_difference_percent": 0.5669131067841254,
+  "total_product_trajectory_NRMSD_percent": 0.31808248264098954,
+  "coarse_resource_limited_steps": 0,
+  "fine_resource_limited_steps": 0,
+  "acceptance_rule": "Use the fine trajectory when the total-protein final relative difference and trajectory NRMSD against the next-coarser step are both below 1%, with zero resource-limited steps.",
+  "accepted": true
+}

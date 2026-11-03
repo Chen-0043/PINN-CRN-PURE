@@ -1,0 +1,9 @@
+.venv/
+.matplotlib-cache/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+smoke_*
+model_evaluation_20260730/article_gapfill_20260730/full_elementary_pinn/smoke_*
+model_evaluation_20260730/article_gapfill_20260730/full_elementary_pinn/reproduced_*

@@ -1,0 +1,180 @@
+{
+  "five_axis_optima": {
+    "source": "run_outputs/article_missing_scale_degfp_endpoints_20260902/article_5axis_scale_degfp_6h_complete.csv",
+    "axes": {
+      "ATP": {
+        "optimal_scale": 0.5,
+        "deGFP_6h_uM": 5.568895211625604,
+        "evaluated_scales": 12
+      },
+      "GTP": {
+        "optimal_scale": 3.0,
+        "deGFP_6h_uM": 16.75561566268917,
+        "evaluated_scales": 12
+      },
+      "CTP": {
+        "optimal_scale": 0.01,
+        "deGFP_6h_uM": 5.707339577418111,
+        "evaluated_scales": 12
+      },
+      "UTP": {
+        "optimal_scale": 0.01,
+        "deGFP_6h_uM": 5.569778867516005,
+        "evaluated_scales": 12
+      },
+      "total_aars_pool": {
+        "optimal_scale": 0.22,
+        "deGFP_6h_uM": 5.590488563588502,
+        "evaluated_scales": 12
+      }
+    }
+  },
+  "solver_tolerance_convergence": {
+    "source": "run_outputs/five_axis_uncertainty_20261027",
+    "max_relative_concentration_difference": 1.4758792861374825e-06,
+    "gain_spread_percentage_points": {
+      "ATP": 1.4007899307166838e-05,
+      "GTP": 4.1849465503673855e-05,
+      "CTP": 7.577442895367881e-05,
+      "UTP": 4.258763792730491e-05,
+      "total_aars_pool": 0.00017171425610307267
+    },
+    "reported_range_percentage_points": [
+      1.4007899307166838e-05,
+      0.00017171425610307267
+    ]
+  },
+  "parameter_uncertainty_local_optima": {
+    "source": "run_outputs/adjacent_local_optima_20261027/adjacent_local_optimum_summary.csv",
+    "axes": {
+      "ATP": {
+        "parameter_combinations": 8,
+        "optimal_scale_in_all_combinations": "0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5",
+        "center_minus_best_neighbor_uM": [
+          0.0031661950910555348,
+          0.004066237433834274
+        ],
+        "gain_vs_baseline_percent": [
+          0.05689486544142586,
+          0.07290734165146251
+        ]
+      },
+      "CTP": {
+        "parameter_combinations": 8,
+        "optimal_scale_in_all_combinations": "0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01",
+        "center_minus_best_neighbor_uM": [
+          0.09033656458711548,
+          0.22266142970448843
+        ],
+        "gain_vs_baseline_percent": [
+          1.7241468102394464,
+          4.241710744282456
+        ]
+      },
+      "GTP": {
+        "parameter_combinations": 8,
+        "optimal_scale_in_all_combinations": "3,3,3,3,3,3,3,3",
+        "center_minus_best_neighbor_uM": [
+          0.02270131247583862,
+          0.07549886710987153
+        ],
+        "gain_vs_baseline_percent": [
+          200.92945155002516,
+          201.13097269630714
+        ]
+      },
+      "UTP": {
+        "parameter_combinations": 8,
+        "optimal_scale_in_all_combinations": "0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01",
+        "center_minus_best_neighbor_uM": [
+          0.00235291063851939,
+          0.008343551652004955
+        ],
+        "gain_vs_baseline_percent": [
+          0.05288811946297933,
+          0.1674890219808267
+        ]
+      },
+      "total_aars_pool": {
+        "parameter_combinations": 8,
+        "optimal_scale_in_all_combinations": "0.22,0.22,0.22,0.22,0.22,0.22,0.22,0.22",
+        "center_minus_best_neighbor_uM": [
+          0.008126618114615347,
+          0.02044204634950475
+        ],
+        "gain_vs_baseline_percent": [
+          0.3589152287104991,
+          0.6305585672304215
+        ]
+      }
+    }
+  },
+  "topology_priority_equal_weight_score": {
+    "source": "topology_priority/teacher_topology_rank_real_perturbable_qssa_background_equal4_20260824.csv",
+    "ranked_objects": 3140,
+    "formula": "S=0.25*(N_rxn_norm+N_nbr_norm+N_mod_norm+N_qb_norm)",
+    "max_score_recalculation_error": 1.1102230246251565e-16,
+    "top_12": [
+      {
+        "rank": 1,
+        "object": "PPi",
+        "score": 0.6532751091703056
+      },
+      {
+        "rank": 2,
+        "object": "ATP",
+        "score": 0.6204823066841416
+      },
+      {
+        "rank": 3,
+        "object": "GTP",
+        "score": 0.6044066186107471
+      },
+      {
+        "rank": 4,
+        "object": "total_aminoacylation_module",
+        "score": 0.5924697721302374
+      },
+      {
+        "rank": 5,
+        "object": "CTP_TX",
+        "score": 0.25254718217562255
+      },
+      {
+        "rank": 6,
+        "object": "GTP_TX",
+        "score": 0.22922165792922675
+      },
+      {
+        "rank": 7,
+        "object": "ATP_TX",
+        "score": 0.22049213630406292
+      },
+      {
+        "rank": 8,
+        "object": "UTP_TX",
+        "score": 0.17698885976408912
+      },
+      {
+        "rank": 9,
+        "object": "EFTu_GTP",
+        "score": 0.17002359108781126
+      },
+      {
+        "rank": 10,
+        "object": "GDP",
+        "score": 0.15999775006152456
+      },
+      {
+        "rank": 11,
+        "object": "MettRNAfMetCAU",
+        "score": 0.15429062909567495
+      },
+      {
+        "rank": 12,
+        "object": "ProtRNAProAGG",
+        "score": 0.15257437745740499
+      }
+    ]
+  }
+}

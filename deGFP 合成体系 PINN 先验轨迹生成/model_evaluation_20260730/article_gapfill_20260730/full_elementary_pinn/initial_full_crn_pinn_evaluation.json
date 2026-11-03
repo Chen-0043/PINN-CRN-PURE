@@ -1,0 +1,139 @@
+{
+  "seed_trajectory_evaluation": {
+    "trajectory_window_s": [
+      0.0,
+      60.0
+    ],
+    "trajectory_points": 31,
+    "species": 5772,
+    "reactions": 7061,
+    "median_step_s": 2.0,
+    "finite_state_fraction": 1.0,
+    "negative_state_fraction_lt_minus_1e_18": 0.0,
+    "finite_flux_fraction": 1.0,
+    "negative_flux_fraction": 0.0,
+    "finite_difference_physics_residual": {
+      "note": "Finite-difference derivative on 2 s output grid; stiff fast states can inflate this diagnostic.",
+      "median_abs_scaled": 0.07468199402076788,
+      "p95_abs_scaled": 1.0000601457054776,
+      "p99_abs_scaled": 21.33583108124294,
+      "max_abs_scaled": 116938372.4523935
+    },
+    "rhs_scale_M_per_s": {
+      "median_p95": 9.923217893476222e-18,
+      "p95_of_p95": 7.421413916608327e-14,
+      "max_p95": 3.172324230318199e-05
+    }
+  },
+  "tiny_pinn_training": {
+    "scope": "tiny PINN fit to 0-60 s, 31-point full-state seed trajectory",
+    "note": "This evaluates differentiability and short-window trainability only; it is not final full-condition PINN performance.",
+    "steps": 500,
+    "network": {
+      "width": 24,
+      "depth": 2,
+      "dtype": "float64"
+    },
+    "initialization": "final layer initialized to formal initial condition in scaled softplus coordinates",
+    "loss": "state_loss + 0.2*initial_condition_loss + 1e-8*physics_loss",
+    "initial_state_scaled_rmse": 0.9406455856904434,
+    "final_state_scaled_rmse": 0.9636272100392717,
+    "state_scaled_rmse_reduction_fold": 0.976150918000861,
+    "initial_key_state_scaled_rmse": 13.63960063615691,
+    "final_key_state_scaled_rmse": 13.978352829063212,
+    "initial_physics_loss_scaled_mse": 0.021822655388482506,
+    "final_physics_loss_scaled_mse": 443.95203784941197,
+    "history": [
+      {
+        "step": 0.0,
+        "total_loss": 3.77143970812918,
+        "state_scaled_mse": 0.8848141178789173,
+        "state_scaled_rmse": 0.9406455856904434,
+        "key_state_scaled_rmse": 13.63960063615691,
+        "initial_condition_scaled_rmse": 3.799095675310136,
+        "physics_loss_scaled_mse": 0.021822655388482506,
+        "physics_max_abs_scaled_residual": 1.7151355051682924
+      },
+      {
+        "step": 1.0,
+        "total_loss": 90.83640787543958,
+        "state_scaled_mse": 0.8848975763703982,
+        "state_scaled_rmse": 0.9406899469912486,
+        "key_state_scaled_rmse": 13.640255163661275,
+        "initial_condition_scaled_rmse": 3.7990124168897297,
+        "physics_loss_scaled_mse": 8706501123.033272,
+        "physics_max_abs_scaled_residual": 7105617.481398178
+      },
+      {
+        "step": 2.0,
+        "total_loss": 8.484440032559377,
+        "state_scaled_mse": 0.8849808086105988,
+        "state_scaled_rmse": 0.9407341859476559,
+        "key_state_scaled_rmse": 13.640907855845763,
+        "initial_condition_scaled_rmse": 3.798929391808866,
+        "physics_loss_scaled_mse": 471308631.9158923,
+        "physics_max_abs_scaled_residual": 1653606.2799135079
+      },
+      {
+        "step": 5.0,
+        "total_loss": 33.678776572783214,
+        "state_scaled_mse": 0.885229486760523,
+        "state_scaled_rmse": 0.9408663490424786,
+        "key_state_scaled_rmse": 13.642856862964608,
+        "initial_condition_scaled_rmse": 3.7986815315191507,
+        "physics_loss_scaled_mse": 2990755081.0441756,
+        "physics_max_abs_scaled_residual": 4169962.268512963
+      },
+      {
+        "step": 10.0,
+        "total_loss": 13.81443648078907,
+        "state_scaled_mse": 0.885642137570878,
+        "state_scaled_rmse": 0.9410856164934612,
+        "key_state_scaled_rmse": 13.646089304808687,
+        "initial_condition_scaled_rmse": 3.798270571899211,
+        "physics_loss_scaled_mse": 1004342247.5747079,
+        "physics_max_abs_scaled_residual": 2415557.696519874
+      },
+      {
+        "step": 25.0,
+        "total_loss": 4.16965955695941,
+        "state_scaled_mse": 0.8869022760724354,
+        "state_scaled_rmse": 0.9417548917167542,
+        "key_state_scaled_rmse": 13.655955558657064,
+        "initial_condition_scaled_rmse": 3.7970180726645966,
+        "physics_loss_scaled_mse": 39928803.2058662,
+        "physics_max_abs_scaled_residual": 483489.9873342807
+      },
+      {
+        "step": 50.0,
+        "total_loss": 3.8542342559458835,
+        "state_scaled_mse": 0.8890282586874801,
+        "state_scaled_rmse": 0.9428829506823634,
+        "key_state_scaled_rmse": 13.672586113320428,
+        "initial_condition_scaled_rmse": 3.794911979072346,
+        "physics_loss_scaled_mse": 8493461.147704551,
+        "physics_max_abs_scaled_residual": 226261.80525179327
+      },
+      {
+        "step": 100.0,
+        "total_loss": 3.7675909728072075,
+        "state_scaled_mse": 0.8932772859163358,
+        "state_scaled_rmse": 0.9451334751855612,
+        "key_state_scaled_rmse": 13.705763772477,
+        "initial_condition_scaled_rmse": 3.7907282201527353,
+        "physics_loss_scaled_mse": 38959.90784064514,
+        "physics_max_abs_scaled_residual": 17771.41620079118
+      },
+      {
+        "step": 500.0,
+        "total_loss": 3.7519129836277263,
+        "state_scaled_mse": 0.9285773999280706,
+        "state_scaled_rmse": 0.9636272100392717,
+        "key_state_scaled_rmse": 13.978352829063212,
+        "initial_condition_scaled_rmse": 3.7572138242182045,
+        "physics_loss_scaled_mse": 443.95203784941197,
+        "physics_max_abs_scaled_residual": 2700.1673393065885
+      }
+    ]
+  }
+}

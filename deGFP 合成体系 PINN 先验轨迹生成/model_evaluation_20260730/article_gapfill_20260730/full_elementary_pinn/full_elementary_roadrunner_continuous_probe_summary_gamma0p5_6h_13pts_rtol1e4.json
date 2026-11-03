@@ -1,0 +1,402 @@
+{
+  "scope": "RoadRunner full elementary CRN with added continuous boundary exchange reactions",
+  "not_reduced_model": true,
+  "gamma_s_inv": 0.000138888888888889,
+  "gamma_h_inv": 0.5000000000000004,
+  "gamma_prod_h_inv": 0.5000000000000004,
+  "feed_species_added": [
+    "AA",
+    "ADP",
+    "AMP",
+    "ATP",
+    "Ala",
+    "Arg",
+    "Asn",
+    "Asp",
+    "CP",
+    "CTP",
+    "Cys",
+    "GDP",
+    "GMP",
+    "GTP",
+    "Gln",
+    "Glu",
+    "Gly",
+    "His",
+    "Ile",
+    "Leu",
+    "Lys",
+    "Met",
+    "PO4",
+    "PPi",
+    "Phe",
+    "Pro",
+    "Ser",
+    "Thr",
+    "Trp",
+    "Tyr",
+    "UTP",
+    "Val",
+    "deGFP_m_product_washout"
+  ],
+  "feed_species_missing": [],
+  "internal_species": 5772,
+  "internal_plus_exchange_reactions": 7126,
+  "sbml": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/model_evaluation_20260730/article_gapfill_20260730/full_elementary_pinn/full_elementary_continuous_gamma0p5_6h_13pts_rtol1e4.xml",
+  "time_end_s": 21600.0,
+  "time_end_h": 6.0,
+  "points": 13,
+  "roadrunner_compile_s": 328.63006700000005,
+  "roadrunner_simulate_s": 437.15821470799995,
+  "finite_selected_state_fraction": 1.0,
+  "negative_selected_state_fraction_lt_minus_1e_18": 0.0,
+  "selected_states": [
+    {
+      "species_id": "deGFP_m",
+      "initial_uM": 0.0,
+      "end_uM": 1.2372275434893867e-26,
+      "max_uM": 1.2372275434893867e-26,
+      "min_uM": -1.4048734873629976e-35
+    },
+    {
+      "species_id": "mRNA_t",
+      "initial_uM": 0.0,
+      "end_uM": 2.529267013854084,
+      "max_uM": 2.529267013854084,
+      "min_uM": 0.0
+    },
+    {
+      "species_id": "ATP",
+      "initial_uM": 3750.0,
+      "end_uM": 3749.9995768328686,
+      "max_uM": 3750.0,
+      "min_uM": 3749.999576143199
+    },
+    {
+      "species_id": "ADP",
+      "initial_uM": 0.0,
+      "end_uM": 1.1934726263514101e-11,
+      "max_uM": 6.873923960993527e-10,
+      "min_uM": 0.0
+    },
+    {
+      "species_id": "AMP",
+      "initial_uM": 0.0,
+      "end_uM": 1.3446010027485557e-06,
+      "max_uM": 8.317528547120974e-05,
+      "min_uM": 0.0
+    },
+    {
+      "species_id": "GTP",
+      "initial_uM": 2500.0,
+      "end_uM": 2499.999692209925,
+      "max_uM": 2500.0,
+      "min_uM": 2499.999682377883
+    },
+    {
+      "species_id": "GDP",
+      "initial_uM": 0.0,
+      "end_uM": 0.00011977497180311992,
+      "max_uM": 0.00012935454901547114,
+      "min_uM": 0.0
+    },
+    {
+      "species_id": "GMP",
+      "initial_uM": 0.0,
+      "end_uM": 0.0,
+      "max_uM": 0.0,
+      "min_uM": 0.0
+    },
+    {
+      "species_id": "CTP",
+      "initial_uM": 1250.0,
+      "end_uM": 1249.9997765796265,
+      "max_uM": 1250.0,
+      "min_uM": 1249.9997765796265
+    },
+    {
+      "species_id": "UTP",
+      "initial_uM": 1250.0,
+      "end_uM": 1249.9998878682654,
+      "max_uM": 1250.0,
+      "min_uM": 1249.9998878682654
+    },
+    {
+      "species_id": "PPi",
+      "initial_uM": 0.0,
+      "end_uM": 0.0009104418933247998,
+      "max_uM": 0.0009111048058396944,
+      "min_uM": 0.0
+    },
+    {
+      "species_id": "PO4",
+      "initial_uM": 0.0,
+      "end_uM": 0.00019235035791117117,
+      "max_uM": 0.00020198311613202956,
+      "min_uM": 0.0
+    },
+    {
+      "species_id": "CP",
+      "initial_uM": 10000.0,
+      "end_uM": 10000.0,
+      "max_uM": 10000.0,
+      "min_uM": 10000.0
+    },
+    {
+      "species_id": "Ala",
+      "initial_uM": 300.0,
+      "end_uM": 299.9999374175083,
+      "max_uM": 300.0,
+      "min_uM": 299.999937047344
+    },
+    {
+      "species_id": "Arg",
+      "initial_uM": 300.0,
+      "end_uM": 299.99999747206243,
+      "max_uM": 300.0,
+      "min_uM": 299.9999974717661
+    },
+    {
+      "species_id": "Asn",
+      "initial_uM": 300.0,
+      "end_uM": 299.9999644592596,
+      "max_uM": 300.0,
+      "min_uM": 299.9999643399964
+    },
+    {
+      "species_id": "Asp",
+      "initial_uM": 300.0,
+      "end_uM": 299.9999896690383,
+      "max_uM": 300.0,
+      "min_uM": 299.9999896595952
+    },
+    {
+      "species_id": "Cys",
+      "initial_uM": 300.0,
+      "end_uM": 299.99999789288387,
+      "max_uM": 300.0,
+      "min_uM": 299.9999978927246
+    },
+    {
+      "species_id": "Gln",
+      "initial_uM": 300.0,
+      "end_uM": 299.9999949428609,
+      "max_uM": 300.0,
+      "min_uM": 299.9999949409622
+    },
+    {
+      "species_id": "Glu",
+      "initial_uM": 300.0,
+      "end_uM": 299.99998109340316,
+      "max_uM": 300.0,
+      "min_uM": 299.9999810598942
+    },
+    {
+      "species_id": "Gly",
+      "initial_uM": 300.0,
+      "end_uM": 299.9999926167387,
+      "max_uM": 300.0,
+      "min_uM": 299.99999261221
+    },
+    {
+      "species_id": "His",
+      "initial_uM": 300.0,
+      "end_uM": 299.9999928394547,
+      "max_uM": 300.0,
+      "min_uM": 299.9999928352244
+    },
+    {
+      "species_id": "Ile",
+      "initial_uM": 300.0,
+      "end_uM": 299.9999685260567,
+      "max_uM": 300.0,
+      "min_uM": 299.99996843254036
+    },
+    {
+      "species_id": "Leu",
+      "initial_uM": 300.0,
+      "end_uM": 299.9999966291596,
+      "max_uM": 300.0,
+      "min_uM": 299.99999662847256
+    },
+    {
+      "species_id": "Lys",
+      "initial_uM": 300.0,
+      "end_uM": 299.99999030023395,
+      "max_uM": 300.0,
+      "min_uM": 299.9999902919909
+    },
+    {
+      "species_id": "Met",
+      "initial_uM": 300.0,
+      "end_uM": 299.99998955470414,
+      "max_uM": 300.0,
+      "min_uM": 299.9999895462194
+    },
+    {
+      "species_id": "Phe",
+      "initial_uM": 300.0,
+      "end_uM": 299.9999886871979,
+      "max_uM": 300.0,
+      "min_uM": 299.99998867573834
+    },
+    {
+      "species_id": "Pro",
+      "initial_uM": 300.0,
+      "end_uM": 299.99998589562665,
+      "max_uM": 300.0,
+      "min_uM": 299.9999858773525
+    },
+    {
+      "species_id": "Ser",
+      "initial_uM": 300.0,
+      "end_uM": 299.99999662915025,
+      "max_uM": 300.0,
+      "min_uM": 299.99999662846585
+    },
+    {
+      "species_id": "Thr",
+      "initial_uM": 300.0,
+      "end_uM": 299.9999928394471,
+      "max_uM": 300.0,
+      "min_uM": 299.99999283522095
+    },
+    {
+      "species_id": "Trp",
+      "initial_uM": 300.0,
+      "end_uM": 299.999997682216,
+      "max_uM": 300.0,
+      "min_uM": 299.9999976819932
+    },
+    {
+      "species_id": "Tyr",
+      "initial_uM": 300.0,
+      "end_uM": 299.9999993678581,
+      "max_uM": 300.0,
+      "min_uM": 299.9999993678524
+    },
+    {
+      "species_id": "Val",
+      "initial_uM": 300.0,
+      "end_uM": 299.9999985250249,
+      "max_uM": 300.0,
+      "min_uM": 299.9999985249844
+    },
+    {
+      "species_id": "EFTu",
+      "initial_uM": 80.0,
+      "end_uM": 76.24727066120039,
+      "max_uM": 80.0,
+      "min_uM": 76.24727066120039
+    },
+    {
+      "species_id": "EFTu_GTP",
+      "initial_uM": 0.0,
+      "end_uM": 3.2125210066710435,
+      "max_uM": 3.218097121264707,
+      "min_uM": 0.0
+    },
+    {
+      "species_id": "EFTu_GDP",
+      "initial_uM": 0.0,
+      "end_uM": 8.460980287003297e-06,
+      "max_uM": 9.763328829332927e-06,
+      "min_uM": 0.0
+    },
+    {
+      "species_id": "EFTu_EFTs",
+      "initial_uM": 0.0,
+      "end_uM": 0.2875438799801837,
+      "max_uM": 0.2880318474340146,
+      "min_uM": 0.0
+    },
+    {
+      "species_id": "EFG",
+      "initial_uM": 4.300000000000001,
+      "end_uM": 4.299599419160134,
+      "max_uM": 4.300000000000001,
+      "min_uM": 4.299547100761852
+    },
+    {
+      "species_id": "EFG_GTP",
+      "initial_uM": 0.0,
+      "end_uM": 0.0004795693747589465,
+      "max_uM": 0.0004795694049847693,
+      "min_uM": 0.0
+    },
+    {
+      "species_id": "IF2",
+      "initial_uM": 4.1,
+      "end_uM": 4.09847071170866,
+      "max_uM": 4.1,
+      "min_uM": 4.09847071170866
+    },
+    {
+      "species_id": "IF2_GTP",
+      "initial_uM": 0.0,
+      "end_uM": 0.0015292799280303047,
+      "max_uM": 0.0015292799299634811,
+      "min_uM": 0.0
+    },
+    {
+      "species_id": "RS30S",
+      "initial_uM": 0.0,
+      "end_uM": 2.961297470016276,
+      "max_uM": 2.9616494734893783,
+      "min_uM": 0.0
+    },
+    {
+      "species_id": "RS50S",
+      "initial_uM": 0.0,
+      "end_uM": 2.991116428199725,
+      "max_uM": 2.991116428199725,
+      "min_uM": 0.0
+    },
+    {
+      "species_id": "RS70S",
+      "initial_uM": 3.0,
+      "end_uM": 0.008858348036614224,
+      "max_uM": 3.0,
+      "min_uM": 0.008858348036614224
+    },
+    {
+      "species_id": "RS30S_IF1",
+      "initial_uM": 0.0,
+      "end_uM": 0.008324341052880746,
+      "max_uM": 0.008325330550688636,
+      "min_uM": 0.0
+    },
+    {
+      "species_id": "RS30S_IF3",
+      "initial_uM": 0.0,
+      "end_uM": 0.020994158173024257,
+      "max_uM": 0.020996653728984047,
+      "min_uM": 0.0
+    },
+    {
+      "species_id": "MetRS",
+      "initial_uM": 0.44,
+      "end_uM": 0.44045316768322673,
+      "max_uM": 0.44080775224417806,
+      "min_uM": 0.44
+    },
+    {
+      "species_id": "AlaRS",
+      "initial_uM": 3.0,
+      "end_uM": 2.969897991724296,
+      "max_uM": 3.0,
+      "min_uM": 2.969897991724296
+    },
+    {
+      "species_id": "T7RNAP",
+      "initial_uM": 1.0,
+      "end_uM": 0.9999797256440853,
+      "max_uM": 1.0,
+      "min_uM": 0.9999797256440837
+    }
+  ],
+  "outputs": {
+    "trajectory_csv": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/model_evaluation_20260730/article_gapfill_20260730/full_elementary_pinn/full_elementary_roadrunner_continuous_key_trajectory_gamma0p5_6h_13pts_rtol1e4.csv",
+    "selected_summary_csv": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/model_evaluation_20260730/article_gapfill_20260730/full_elementary_pinn/full_elementary_roadrunner_continuous_key_summary_gamma0p5_6h_13pts_rtol1e4.csv"
+  }
+}

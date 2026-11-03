@@ -1,0 +1,6 @@
+axis,n_complete,n_center_is_local_max,n_center_beats_baseline,n_local_best_beats_baseline,local_best_scales,min_center_minus_best_neighbor_uM,max_center_minus_best_neighbor_uM,min_center_gain_vs_baseline_percent,max_center_gain_vs_baseline_percent,all_center_is_local_max,all_center_beats_baseline,all_local_best_beats_baseline
+ATP,8,8,8,8,"0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5",0.0031661950910555348,0.004066237433834274,0.05689486544142586,0.07290734165146251,True,True,True
+CTP,8,8,8,8,"0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01",0.09033656458711548,0.22266142970448843,1.7241468102394464,4.241710744282456,True,True,True
+GTP,8,8,8,8,"3,3,3,3,3,3,3,3",0.02270131247583862,0.07549886710987153,200.92945155002516,201.13097269630714,True,True,True
+UTP,8,8,8,8,"0.01,0.01,0.01,0.01,0.01,0.01,0.01,0.01",0.00235291063851939,0.008343551652004955,0.05288811946297933,0.1674890219808267,True,True,True
+total_aars_pool,8,8,8,8,"0.22,0.22,0.22,0.22,0.22,0.22,0.22,0.22",0.008126618114615347,0.02044204634950475,0.3589152287104991,0.6305585672304215,True,True,True

@@ -1,0 +1,10 @@
+{
+  "full_mass_action_pinn.py": {
+    "same_sha256": true,
+    "archived_sha256": "65af000e9fb9b6a1b64205faa99e173a38bec869f4a9df7b1ae9f1cb9a0f9e6f"
+  },
+  "article_gapfill_20260730/full_elementary_pinn/rate_constants_k.npy": {
+    "same_sha256": true,
+    "archived_sha256": "570b7bcea64ff9ec34be81e07c5b68804ba7899ab8e1ed3471c78138fb870bf3"
+  }
+}

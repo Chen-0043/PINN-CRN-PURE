@@ -1,0 +1,10 @@
+{
+  "platform": "macOS-26.3.1-arm64-arm-64bit-Mach-O",
+  "python_executable_used_for_ODE": "pinn_torch_env/bin/python",
+  "settings": "raw k array; M state; same initial state and exchange as frozen PINN operator; no changes to network, rates or initial data",
+  "python_version": "3.11.0 | packaged by conda-forge | (main, Jan 14 2023, 12:26:40) [Clang 14.0.6 ]",
+  "numpy_version": "2.4.6",
+  "scipy_version": "1.17.1",
+  "torch_version": "2.13.0",
+  "current_hardware_query": "sysctl hardware fields unavailable within current sandbox; historical hardware declaration preserved separately"
+}

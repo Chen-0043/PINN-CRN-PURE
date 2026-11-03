@@ -1,0 +1,82 @@
+{
+  "scope": "continuous 6h all comparable teacher species validation against current full-elementary PINN",
+  "teacher_snapshot": "model_evaluation_20260730/article_gapfill_20260730/existing_teacher_constraints/continuous_existing_teacher_all_species_6h_snapshot.csv",
+  "pinn_prediction": "model_evaluation_20260730/article_gapfill_20260730/full_elementary_pinn/continuous_6h_existing_teacher_plus_ribosome_mrna_gtp3mech_pinn_3500_noAA_phys1e7_w0p1_prediction.npz",
+  "teacher_species_count": 3399,
+  "comparable_species_count": 3151,
+  "missing_in_full_pinn_count": 248,
+  "metrics_all_eps_1e-6uM": {
+    "n": 3151,
+    "mean_relative_error": 164726.58705298117,
+    "median_relative_error": 1.4174492933470095,
+    "p90_relative_error": 840.1921821979845,
+    "mean_abs_error_uM": 3.2633174870621295,
+    "rmse_uM": 39.718949564781184,
+    "r2": 0.9618674434948558
+  },
+  "metrics_by_teacher_abundance_threshold_eps_equals_threshold": {
+    "0": {
+      "n": 3151,
+      "mean_relative_error": 164726.58705298117,
+      "median_relative_error": 1.4174492933470095,
+      "p90_relative_error": 840.1921821979845,
+      "mean_abs_error_uM": 3.2633174870621295,
+      "rmse_uM": 39.718949564781184,
+      "r2": 0.9618674434948558
+    },
+    "1e-09": {
+      "n": 475,
+      "mean_relative_error": 76727.22644260926,
+      "median_relative_error": 0.9999992090874193,
+      "p90_relative_error": 0.9999999999861104,
+      "mean_abs_error_uM": 20.631790762924346,
+      "rmse_uM": 102.07214977823956,
+      "r2": 0.9616966164782971
+    },
+    "1e-06": {
+      "n": 205,
+      "mean_relative_error": 177754.36100669813,
+      "median_relative_error": 0.9998509265250899,
+      "p90_relative_error": 0.9999999999861121,
+      "mean_abs_error_uM": 47.805363755781464,
+      "rmse_uM": 155.37356692298857,
+      "r2": 0.961156431858046
+    },
+    "0.001": {
+      "n": 131,
+      "mean_relative_error": 19.223511422240453,
+      "median_relative_error": 0.9999010773486953,
+      "p90_relative_error": 1.2233559919215182,
+      "mean_abs_error_uM": 74.30016581847009,
+      "rmse_uM": 194.32135415508117,
+      "r2": 0.9606220544665174
+    },
+    "0.01": {
+      "n": 127,
+      "mean_relative_error": 19.802150834530526,
+      "median_relative_error": 0.9999020133278089,
+      "p90_relative_error": 1.2514256235295766,
+      "mean_abs_error_uM": 76.64019880229915,
+      "rmse_uM": 197.3578092166008,
+      "r2": 0.9605731584386485
+    },
+    "0.1": {
+      "n": 116,
+      "mean_relative_error": 2.211149135276371,
+      "median_relative_error": 0.9998938034270259,
+      "p90_relative_error": 0.9999999999861121,
+      "mean_abs_error_uM": 83.08858895176023,
+      "rmse_uM": 206.41138395174934,
+      "r2": 0.9604558612541453
+    },
+    "1.0": {
+      "n": 84,
+      "mean_relative_error": 1.4078637145836128,
+      "median_relative_error": 0.9998789570948292,
+      "p90_relative_error": 0.9999999999861056,
+      "mean_abs_error_uM": 113.89467982197277,
+      "rmse_uM": 242.53057561641725,
+      "r2": 0.9597841622876282
+    }
+  }
+}

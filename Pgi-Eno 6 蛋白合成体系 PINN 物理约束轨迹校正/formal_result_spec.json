@@ -1,0 +1,79 @@
+{
+  "version": "figure4_prior_to_figure5_20261102",
+  "elementary_reactions": 57368,
+  "base_states": 49143,
+  "actual_states": 49149,
+  "comparable_states": 9198,
+  "prior_training_window_h": [
+    0,
+    5.5
+  ],
+  "final_data_supervision_window_h": [
+    0,
+    5.5
+  ],
+  "physics_window_h": [
+    0,
+    6
+  ],
+  "energy_scale": 0.24,
+  "correction_steps": 8921,
+  "metrics": {
+    "operator_energy_scale": 0.24,
+    "concentration": {
+      "mapped_states": 9198,
+      "states_entering_MRE": 9198,
+      "MRE_percent": 0.9183903748840634,
+      "R2": 0.986312927437589,
+      "MRE_floor_M": 1e-12,
+      "MRE_excludes_small_targets": false
+    },
+    "historical_concentration_nonzero": {
+      "mapped_states": 9198,
+      "states_entering_MRE": 4147,
+      "MRE_percent": 8.221090289683172,
+      "R2": 0.986312927437589,
+      "MRE_floor_M": 1e-15,
+      "MRE_excludes_small_targets": true
+    },
+    "positive": {
+      "count": 9197,
+      "mean_NRMSR_percent": 4833759.111873069,
+      "equation19_RMS_percent": 189247941.5143183
+    },
+    "gt_1_uM": {
+      "count": 34,
+      "mean_NRMSR_percent": 23.094125669548657,
+      "equation19_RMS_percent": 46.05292328691545
+    },
+    "modules": {
+      "TPP": 0.6214371332872073,
+      "NAD": 1.2529865014967054,
+      "CTP": 32.96426550423978,
+      "CTP+UTP transcription substrate incorporation": 34.003979642513166,
+      "UTP": 35.19139281662927,
+      "ADP": 99.9537244679207,
+      "PPi": 99.9980035354104,
+      "GTP": 100.00239396034537,
+      "GDP": 100.0637678997762,
+      "ATP": 100.13031462209086,
+      "PO4": 1336.4896250356883,
+      "NADH": 317.12614457885564,
+      "EFG": 1230711590462.6814,
+      "IF2": 2908198009666.7837,
+      "EFTu": 12263569353734.713
+    },
+    "physical_detail_directory": "reproduced_results/physical_detail"
+  },
+  "four_reported_losses": {
+    "L_data": 0.011423593740873065,
+    "L_int": 0.05470841435882209,
+    "L_key": 0.2188060416700384,
+    "L_prox": 2.003624516982231e-06,
+    "L_total_four_term_posthoc": 0.5037441014578945
+  },
+  "checkpoint_sha256": "12881ce732ab20a9892b9e33f5047a12a8782722b552cfba23acebda2a183ad7",
+  "prior_prediction_sha256": "2f5ec4530a2522f0ffa88f7030a405c9dd3b0a6ac125adc5afdd7a3f3765ad62",
+  "final_prediction_sha256": "c1b3b2ed550133228ae84f5ec30872df4dfd85e3fbeeb4aae0913381872154de",
+  "optimization_note": "Existing auxiliary terms are retained; four reported losses are post-hoc, not the entire optimization objective."
+}

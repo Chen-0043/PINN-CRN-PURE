@@ -1,0 +1,405 @@
+{
+  "scope": "continuous simulation of complete 5772/7061 elementary mass-action CRN",
+  "not_reduced_model": true,
+  "method": "LSODA",
+  "success": true,
+  "message": "The solver successfully reached the end of the integration interval.",
+  "time_end_s": 21600.0,
+  "time_end_h": 6.0,
+  "points_requested": 25,
+  "points_returned": 25,
+  "elapsed_s": 118.92679575,
+  "nfev": 658423,
+  "rtol": 0.0001,
+  "atol": 1e-12,
+  "gamma_s_inv": 0.000138888888888889,
+  "gamma_h_inv": 0.5000000000000004,
+  "gamma_prod_h_inv": 0.5000000000000004,
+  "feed_species_present": [
+    "AA",
+    "ADP",
+    "AMP",
+    "ATP",
+    "Ala",
+    "Arg",
+    "Asn",
+    "Asp",
+    "CP",
+    "CTP",
+    "Cys",
+    "GDP",
+    "GMP",
+    "GTP",
+    "Gln",
+    "Glu",
+    "Gly",
+    "His",
+    "Ile",
+    "Leu",
+    "Lys",
+    "Met",
+    "PO4",
+    "PPi",
+    "Phe",
+    "Pro",
+    "Ser",
+    "Thr",
+    "Trp",
+    "Tyr",
+    "UTP",
+    "Val"
+  ],
+  "feed_species_missing": [],
+  "finite_selected_state_fraction": 1.0,
+  "negative_state_fraction_lt_minus_1e_18_before_clip": 0.009556479556479557,
+  "selected_states": [
+    {
+      "species_id": "deGFP_m",
+      "initial_uM": 0.0,
+      "end_uM": 1.2691500635345743e-289,
+      "max_uM": 1.2691500635345743e-289,
+      "min_uM": 0.0
+    },
+    {
+      "species_id": "mRNA_t",
+      "initial_uM": 0.0,
+      "end_uM": 5.898665564779067e-37,
+      "max_uM": 5.898665564779067e-37,
+      "min_uM": 0.0
+    },
+    {
+      "species_id": "ATP",
+      "initial_uM": 3750.0,
+      "end_uM": 3749.6587101064265,
+      "max_uM": 3750.0,
+      "min_uM": 3749.6587101064265
+    },
+    {
+      "species_id": "ADP",
+      "initial_uM": 0.0,
+      "end_uM": 7.568678402127733e-09,
+      "max_uM": 7.568678402127733e-09,
+      "min_uM": 0.0
+    },
+    {
+      "species_id": "AMP",
+      "initial_uM": 0.0,
+      "end_uM": 1.5184745493278846e-06,
+      "max_uM": 1.5184745493278846e-06,
+      "min_uM": 0.0
+    },
+    {
+      "species_id": "GTP",
+      "initial_uM": 2500.0,
+      "end_uM": 2499.9881874725356,
+      "max_uM": 2500.0,
+      "min_uM": 2499.803709806682
+    },
+    {
+      "species_id": "GDP",
+      "initial_uM": 0.0,
+      "end_uM": 0.0006909060123652253,
+      "max_uM": 0.0006909060123652253,
+      "min_uM": 0.0
+    },
+    {
+      "species_id": "GMP",
+      "initial_uM": 0.0,
+      "end_uM": 0.0,
+      "max_uM": 0.0,
+      "min_uM": 0.0
+    },
+    {
+      "species_id": "CTP",
+      "initial_uM": 1250.0,
+      "end_uM": 1249.9999400052586,
+      "max_uM": 1250.0,
+      "min_uM": 1249.9999400052586
+    },
+    {
+      "species_id": "UTP",
+      "initial_uM": 1250.0,
+      "end_uM": 1249.9999580040865,
+      "max_uM": 1250.0,
+      "min_uM": 1249.9999580040865
+    },
+    {
+      "species_id": "PPi",
+      "initial_uM": 0.0,
+      "end_uM": 0.3370080574669201,
+      "max_uM": 0.3370080574669201,
+      "min_uM": 0.0
+    },
+    {
+      "species_id": "PO4",
+      "initial_uM": 0.0,
+      "end_uM": 0.0027433252957081247,
+      "max_uM": 0.0027433252957081247,
+      "min_uM": 0.0
+    },
+    {
+      "species_id": "CP",
+      "initial_uM": 9999.999999999998,
+      "end_uM": 9999.999509183333,
+      "max_uM": 9999.999999999998,
+      "min_uM": 9999.991294636957
+    },
+    {
+      "species_id": "Ala",
+      "initial_uM": 300.0,
+      "end_uM": 299.9134920962841,
+      "max_uM": 300.0,
+      "min_uM": 299.9134920962841
+    },
+    {
+      "species_id": "Arg",
+      "initial_uM": 300.0,
+      "end_uM": 299.9965388313682,
+      "max_uM": 300.0,
+      "min_uM": 299.9965388313682
+    },
+    {
+      "species_id": "Asn",
+      "initial_uM": 299.99999999999994,
+      "end_uM": 299.9509734038952,
+      "max_uM": 299.99999999999994,
+      "min_uM": 299.9509734038952
+    },
+    {
+      "species_id": "Asp",
+      "initial_uM": 300.0,
+      "end_uM": 299.9858673420469,
+      "max_uM": 300.0,
+      "min_uM": 299.9858673420469
+    },
+    {
+      "species_id": "Cys",
+      "initial_uM": 300.0,
+      "end_uM": 299.9971156878721,
+      "max_uM": 300.0,
+      "min_uM": 299.9971156878721
+    },
+    {
+      "species_id": "Gln",
+      "initial_uM": 300.0,
+      "end_uM": 299.993077733786,
+      "max_uM": 300.0,
+      "min_uM": 299.993077733786
+    },
+    {
+      "species_id": "Glu",
+      "initial_uM": 300.0,
+      "end_uM": 299.9740429671397,
+      "max_uM": 300.0,
+      "min_uM": 299.9740429671397
+    },
+    {
+      "species_id": "Gly",
+      "initial_uM": 299.99999999999994,
+      "end_uM": 299.9899051234339,
+      "max_uM": 299.99999999999994,
+      "min_uM": 299.9899051234339
+    },
+    {
+      "species_id": "His",
+      "initial_uM": 300.0,
+      "end_uM": 299.99019354009056,
+      "max_uM": 300.0,
+      "min_uM": 299.99019354009056
+    },
+    {
+      "species_id": "Ile",
+      "initial_uM": 300.0,
+      "end_uM": 299.9567404987323,
+      "max_uM": 300.0,
+      "min_uM": 299.9567404987323
+    },
+    {
+      "species_id": "Leu",
+      "initial_uM": 300.0,
+      "end_uM": 299.9953851242808,
+      "max_uM": 300.0,
+      "min_uM": 299.9953851242808
+    },
+    {
+      "species_id": "Lys",
+      "initial_uM": 300.0,
+      "end_uM": 299.98673257277386,
+      "max_uM": 300.0,
+      "min_uM": 299.98673257277386
+    },
+    {
+      "species_id": "Met",
+      "initial_uM": 300.0,
+      "end_uM": 299.9873093640245,
+      "max_uM": 300.0,
+      "min_uM": 299.9873093640245
+    },
+    {
+      "species_id": "Phe",
+      "initial_uM": 300.0,
+      "end_uM": 299.98442530070275,
+      "max_uM": 300.0,
+      "min_uM": 299.98442530070275
+    },
+    {
+      "species_id": "Pro",
+      "initial_uM": 300.0,
+      "end_uM": 299.9806760509355,
+      "max_uM": 300.0,
+      "min_uM": 299.9806760509355
+    },
+    {
+      "species_id": "Ser",
+      "initial_uM": 300.0,
+      "end_uM": 299.9953851242808,
+      "max_uM": 300.0,
+      "min_uM": 299.9953851242808
+    },
+    {
+      "species_id": "Thr",
+      "initial_uM": 300.0,
+      "end_uM": 299.9901935400905,
+      "max_uM": 300.0,
+      "min_uM": 299.9901935400905
+    },
+    {
+      "species_id": "Trp",
+      "initial_uM": 300.0,
+      "end_uM": 299.99682725937345,
+      "max_uM": 300.0,
+      "min_uM": 299.99682725937345
+    },
+    {
+      "species_id": "Tyr",
+      "initial_uM": 300.0,
+      "end_uM": 299.999134701219,
+      "max_uM": 300.0,
+      "min_uM": 299.999134701219
+    },
+    {
+      "species_id": "Val",
+      "initial_uM": 299.99999999999994,
+      "end_uM": 299.9979809763295,
+      "max_uM": 299.99999999999994,
+      "min_uM": 299.9979809763295
+    },
+    {
+      "species_id": "EFTu",
+      "initial_uM": 80.0,
+      "end_uM": 79.7994623301664,
+      "max_uM": 80.0,
+      "min_uM": 79.7994623301664
+    },
+    {
+      "species_id": "EFTu_GTP",
+      "initial_uM": 0.0,
+      "end_uM": 0.19949771317914003,
+      "max_uM": 0.19949771317914003,
+      "min_uM": 0.0
+    },
+    {
+      "species_id": "EFTu_GDP",
+      "initial_uM": 0.0,
+      "end_uM": 5.5133885725498015e-08,
+      "max_uM": 5.5133885725498015e-08,
+      "min_uM": 0.0
+    },
+    {
+      "species_id": "EFTu_EFTs",
+      "initial_uM": 0.0,
+      "end_uM": 0.0010373100265687408,
+      "max_uM": 0.0010373102180588763,
+      "min_uM": 0.0
+    },
+    {
+      "species_id": "EFG",
+      "initial_uM": 4.3,
+      "end_uM": 4.289277715609808,
+      "max_uM": 4.3,
+      "min_uM": 4.289277605047541
+    },
+    {
+      "species_id": "EFG_GTP",
+      "initial_uM": 0.0,
+      "end_uM": 0.010723132898094496,
+      "max_uM": 0.010723132898094496,
+      "min_uM": 0.0
+    },
+    {
+      "species_id": "IF2",
+      "initial_uM": 4.1,
+      "end_uM": 4.089775606466259,
+      "max_uM": 4.1,
+      "min_uM": 4.089775606466259
+    },
+    {
+      "species_id": "IF2_GTP",
+      "initial_uM": 0.0,
+      "end_uM": 0.010224390704916037,
+      "max_uM": 0.010224390704916037,
+      "min_uM": 0.0
+    },
+    {
+      "species_id": "RS30S",
+      "initial_uM": 0.0,
+      "end_uM": 2.9996802376902725,
+      "max_uM": 2.9996802499982,
+      "min_uM": 0.0
+    },
+    {
+      "species_id": "RS50S",
+      "initial_uM": 0.0,
+      "end_uM": 2.999991862096272,
+      "max_uM": 2.9999918744078626,
+      "min_uM": 0.0
+    },
+    {
+      "species_id": "RS70S",
+      "initial_uM": 3.0000000000000004,
+      "end_uM": 8.999016393597132e-06,
+      "max_uM": 3.0000000000000004,
+      "min_uM": 8.99897522594821e-06
+    },
+    {
+      "species_id": "RS30S_IF1",
+      "initial_uM": 0.0,
+      "end_uM": 0.00029696745121041796,
+      "max_uM": 0.00029696745241564193,
+      "min_uM": 0.0
+    },
+    {
+      "species_id": "RS30S_IF3",
+      "initial_uM": 0.0,
+      "end_uM": 1.4698389006176945e-05,
+      "max_uM": 1.4698389053112779e-05,
+      "min_uM": 0.0
+    },
+    {
+      "species_id": "MetRS",
+      "initial_uM": 0.43999999999999995,
+      "end_uM": 0.4382216156550219,
+      "max_uM": 0.43999999999999995,
+      "min_uM": 0.43822158456976773
+    },
+    {
+      "species_id": "AlaRS",
+      "initial_uM": 3.0,
+      "end_uM": 2.98788481442526,
+      "max_uM": 3.0,
+      "min_uM": 2.98788481442526
+    },
+    {
+      "species_id": "T7RNAP",
+      "initial_uM": 1.0,
+      "end_uM": 0.9999974610833827,
+      "max_uM": 1.0,
+      "min_uM": 0.9999974610833827
+    }
+  ],
+  "outputs": {
+    "trajectory_csv": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/model_evaluation_20260730/article_gapfill_20260730/full_elementary_pinn/full_elementary_continuous_key_trajectory_gamma0p5_6h_25pts_LSODA_rtol1e4.csv",
+    "selected_summary_csv": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/model_evaluation_20260730/article_gapfill_20260730/full_elementary_pinn/full_elementary_continuous_key_summary_gamma0p5_6h_25pts_LSODA_rtol1e4.csv",
+    "exchange_summary_csv": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/model_evaluation_20260730/article_gapfill_20260730/full_elementary_pinn/full_elementary_continuous_exchange_summary_gamma0p5_6h_25pts_LSODA_rtol1e4.csv"
+  }
+}

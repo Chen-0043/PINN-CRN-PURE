@@ -1,0 +1,41 @@
+{
+  "created": "2026-10-27 02:50:27",
+  "mode": "parameters",
+  "workers": 2,
+  "samples": 8,
+  "relative_parameter_range": 0.1,
+  "seed": 20261027,
+  "interpretation": "parameter intervals are robustness intervals conditional on the declared range, not experimental confidence intervals",
+  "conditions": [
+    [
+      "baseline",
+      "__baseline__",
+      1.0
+    ],
+    [
+      "ATP",
+      "ATP",
+      0.5
+    ],
+    [
+      "GTP",
+      "GTP",
+      3.0
+    ],
+    [
+      "CTP",
+      "CTP",
+      0.01
+    ],
+    [
+      "UTP",
+      "UTP",
+      0.01
+    ],
+    [
+      "total_aars_pool",
+      "total_aars_pool",
+      0.22
+    ]
+  ]
+}

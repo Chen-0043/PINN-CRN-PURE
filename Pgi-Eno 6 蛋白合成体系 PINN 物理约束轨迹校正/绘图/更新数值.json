@@ -1,0 +1,18 @@
+{
+  "figure4_c_MRE_percent": 0.017595609876396415,
+  "sixprotein_NRMSR_evaluation_energy_scale": 0.24,
+  "figure4_d_positive_count": 9197,
+  "figure4_d_positive_mean_NRMSR_percent": 101.7148881746153,
+  "figure4_d_active_count": 47,
+  "figure4_d_active_mean_NRMSR_percent": 102.7720228087121,
+  "figure5_c_prior_mean_NRMSR_percent": 102.7720228087121,
+  "figure5_d_MRE_percent": 0.9183903748840634,
+  "figure5_a_filtered_NRMSR_percent": 30.043441711994017,
+  "display_precision": "two decimal places",
+  "unchanged": "all scatter images, concentration statistics, corrected-trajectory NRMSR, counts, axis/tick paths, panel font sizes and internal spacing",
+  "fonts": "Both figures use the confirmed PingFang HK font; mathematical glyphs retain DejaVu Sans. All text is outlined.",
+  "font_source": "Bundled original-font vector outlines; no system-font fallback",
+  "figure5_c_corrected_mean_NRMSR_percent": 23.094125669548657,
+  "figure5_c_corrected_count": 34,
+  "figure5_data_source": "current Figure4 prior followed by 8921 correction steps"
+}

@@ -1,0 +1,1944 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1210.608312pt" height="1025.083775pt" viewBox="0 0 1210.608312 1025.083775" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-11T22:19:49.660277</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 1025.083775 
+L 1210.608312 1025.083775 
+L 1210.608312 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 155.2752 589.886609 
+L 1140.3684 589.886609 
+L 1140.3684 116.064 
+L 155.2752 116.064 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g clip-path="url(#pb1736ae246)">
+    <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAABVkAAAKTCAYAAAADsAgWAAAXX0lEQVR4nO3aTajldR3Hce/DjNd8IiafoKBHSSijhZgZPRBSFm2ECNq3q1W0KGhV1DKiNm0iSBdFQoERPWJEEmFYBkGUhtroqIxONXPnzsy957QZonXvP/xOP16v/bl8+A7nzjnv+9/a399fX8H/vaNz+6MnsICt7W13hA2xfdXe6AnAZafOHLjFJG6+7vjoCSzg5JkL7jiBYzu+e8zgVcclHdgUfqsCAAAAAAQiKwAAAABAILICAAAAAAQiKwAAAABAILICAAAAAAQiKwAAAABAILICAAAAAAQiKwAAAABAILICAAAAAAQiKwAAAABAILICAAAAAAQiKwAAAABAILICAAAAAAQiKwAAAABAILICAAAAAAQiKwAAAABAILICAAAAAAQiKwAAAABAILICAAAAAAQiKwAAAABAILICAAAAAAQiKwAAAABAILICAAAAAAQiKwAAAABAILICAAAAAAQiKwAAAABAILICAAAAAAQiKwAAAABAILICAAAAAAQiKwAAAABAILICAAAAAAQiKwAAAABAILICAAAAAAQiKwAAAABAILICAAAAAAQiKwAAAABAILICAAAAAAQiKwAAAABAILICAAAAAAQiKwAAAABAILICAAAAAAQiKwAAAABAILICAAAAAAS7qwsXyuvZEOvVevQEFrBeHbkjbAh/hZyD/x7n8OgTL42ewEI+/Lab3HICz718fvQEFnDqzIE7TuCDt14/egJwme+QAAAAAACByAoAAAAAEIisAAAAAACByAoAAAAAEIisAAAAAACByAoAAAAAEIisAAAAAACByAoAAAAAEIisAAAAAACByAoAAAAAEIisAAAAAACByAoAAAAAEIisAAAAAACByAoAAAAAEIisAAAAAACByAoAAAAAEIisAAAAAACByAoAAAAAEIisAAAAAACByAoAAAAAEIisAAAAAACByAoAAAAAEIisAAAAAACByAoAAAAAEIisAAAAAACByAoAAAAAEIisAAAAAACByAoAAAAAEIisAAAAAACByAoAAAAAEIisAAAAAACByAoAAAAAEIisAAAAAACByAoAAAAAEIisAAAAAACByAoAAAAAEIisAAAAAACByAoAAAAAEIisAAAAAACByAoAAAAAEIisAAAAAACByAo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" id="image2182a1b1e8" transform="scale(1 -1) translate(0 -474.48)" x="155.2752" y="-115.406609" width="985.68" height="474.48"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 85.497765 116.064 
+L 103.557807 116.064 
+L 103.557807 147.652174 
+L 85.497765 147.652174 
+z
+" style="fill: #1b8a8f"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 85.497765 147.652174 
+L 103.557807 147.652174 
+L 103.557807 179.240348 
+L 85.497765 179.240348 
+z
+" style="fill: #1b8a8f"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 85.497765 179.240348 
+L 103.557807 179.240348 
+L 103.557807 210.828522 
+L 85.497765 210.828522 
+z
+" style="fill: #1b8a8f"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 85.497765 210.828522 
+L 103.557807 210.828522 
+L 103.557807 242.416696 
+L 85.497765 242.416696 
+z
+" style="fill: #56b4e9"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 85.497765 242.416696 
+L 103.557807 242.416696 
+L 103.557807 274.00487 
+L 85.497765 274.00487 
+z
+" style="fill: #56b4e9"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 85.497765 274.00487 
+L 103.557807 274.00487 
+L 103.557807 305.593043 
+L 85.497765 305.593043 
+z
+" style="fill: #56b4e9"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 85.497765 305.593043 
+L 103.557807 305.593043 
+L 103.557807 337.181217 
+L 85.497765 337.181217 
+z
+" style="fill: #009e73"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 85.497765 337.181217 
+L 103.557807 337.181217 
+L 103.557807 368.769391 
+L 85.497765 368.769391 
+z
+" style="fill: #009e73"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 85.497765 368.769391 
+L 103.557807 368.769391 
+L 103.557807 400.357565 
+L 85.497765 400.357565 
+z
+" style="fill: #009e73"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 85.497765 400.357565 
+L 103.557807 400.357565 
+L 103.557807 431.945739 
+L 85.497765 431.945739 
+z
+" style="fill: #2c7fb8"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 85.497765 431.945739 
+L 103.557807 431.945739 
+L 103.557807 463.533913 
+L 85.497765 463.533913 
+z
+" style="fill: #2c7fb8"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 85.497765 463.533913 
+L 103.557807 463.533913 
+L 103.557807 495.122087 
+L 85.497765 495.122087 
+z
+" style="fill: #2c7fb8"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 85.497765 495.122087 
+L 103.557807 495.122087 
+L 103.557807 526.710261 
+L 85.497765 526.710261 
+z
+" style="fill: #d95f0e"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 85.497765 526.710261 
+L 103.557807 526.710261 
+L 103.557807 558.298435 
+L 85.497765 558.298435 
+z
+" style="fill: #d95f0e"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 85.497765 558.298435 
+L 103.557807 558.298435 
+L 103.557807 589.886609 
+L 85.497765 589.886609 
+z
+" style="fill: #d95f0e"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m5770e8534e" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m5770e8534e" x="196.32075" y="589.886609" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 8.6px; font-family: 'Hiragino Sans GB'; text-anchor: middle" x="196.32075" y="603.973671" transform="rotate(-0 196.32075 603.973671)">deGFP</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m5770e8534e" x="278.41185" y="589.886609" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 8.6px; font-family: 'Hiragino Sans GB'; text-anchor: middle" x="278.41185" y="603.973671" transform="rotate(-0 278.41185 603.973671)">mRNA_t</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m5770e8534e" x="360.50295" y="589.886609" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 8.6px; font-family: 'Hiragino Sans GB'" transform="translate(337.825825 603.973671)">Ribosome-</text>
+      <text style="font-size: 8.6px; font-family: 'Hiragino Sans GB'" transform="translate(346.824919 613.633084)">mRNA</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m5770e8534e" x="442.59405" y="589.886609" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 8.6px; font-family: 'Hiragino Sans GB'; text-anchor: middle" x="442.59405" y="603.973671" transform="rotate(-0 442.59405 603.973671)">翻译位置链</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m5770e8534e" x="524.68515" y="589.886609" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 8.6px; font-family: 'Hiragino Sans GB'" transform="translate(506.84015 603.973671)">aa-tRNA</text>
+      <text style="font-size: 8.6px; font-family: 'Hiragino Sans GB'" transform="translate(515.530181 613.633084)">pool</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m5770e8534e" x="606.77625" y="589.886609" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 8.6px; font-family: 'Hiragino Sans GB'; text-anchor: middle" x="606.77625" y="603.973671" transform="rotate(-0 606.77625 603.973671)">ATP</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m5770e8534e" x="688.86735" y="589.886609" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 8.6px; font-family: 'Hiragino Sans GB'; text-anchor: middle" x="688.86735" y="603.973671" transform="rotate(-0 688.86735 603.973671)">总GTP池</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m5770e8534e" x="770.95845" y="589.886609" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 8.6px; font-family: 'Hiragino Sans GB'; text-anchor: middle" x="770.95845" y="603.973671" transform="rotate(-0 770.95845 603.973671)">PPi</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m5770e8534e" x="853.04955" y="589.886609" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 8.6px; font-family: 'Hiragino Sans GB'" transform="translate(835.569378 603.973671)">转录GTP</text>
+      <text style="font-size: 8.6px; font-family: 'Hiragino Sans GB'" transform="translate(844.44955 613.633084)">消耗</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m5770e8534e" x="935.14065" y="589.886609" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 8.6px; font-family: 'Hiragino Sans GB'" transform="translate(917.94065 603.973671)">翻译辅助</text>
+      <text style="font-size: 8.6px; font-family: 'Hiragino Sans GB'" transform="translate(917.660478 613.633084)">GTP消耗</text>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m5770e8534e" x="1017.23175" y="589.886609" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 8.6px; font-family: 'Hiragino Sans GB'" transform="translate(1000.03175 603.973671)">翻译主链</text>
+      <text style="font-size: 8.6px; font-family: 'Hiragino Sans GB'" transform="translate(999.751578 613.633084)">GTP消耗</text>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m5770e8534e" x="1099.32285" y="589.886609" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 8.6px; font-family: 'Hiragino Sans GB'; text-anchor: middle" x="1099.32285" y="603.973671" transform="rotate(-0 1099.32285 603.973671)">终止释放</text>
+     </g>
+    </g>
+    <g id="text_13">
+     <text style="font-size: 10.5px; font-family: 'Hiragino Sans GB'; text-anchor: middle" x="647.8218" y="627.430365" transform="rotate(-0 647.8218 627.430365)">机制变量与模块通量（相对于最优相邻条件的比值）</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_13"/>
+     <g id="text_14">
+      <text style="font-size: 8.4px; font-family: 'Hiragino Sans GB'" transform="translate(95.234012 131.001024)">GTP  早期建立</text>
+      <text style="font-size: 8.4px; font-family: 'Hiragino Sans GB'" transform="translate(111.30295 140.435799)">0–1.25 h</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_14"/>
+     <g id="text_15">
+      <text style="font-size: 8.4px; font-family: 'Hiragino Sans GB'" transform="translate(95.234012 162.589198)">GTP  瓶颈转移</text>
+      <text style="font-size: 8.4px; font-family: 'Hiragino Sans GB'" transform="translate(103.767887 172.023973)">1.25–1.5 h</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_15"/>
+     <g id="text_16">
+      <text style="font-size: 8.4px; font-family: 'Hiragino Sans GB'" transform="translate(103.634012 194.177372)">GTP  新平衡</text>
+      <text style="font-size: 8.4px; font-family: 'Hiragino Sans GB'" transform="translate(116.822012 203.612147)">1.5–6 h</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_16"/>
+     <g id="text_17">
+      <text style="font-size: 8.4px; font-family: 'Hiragino Sans GB'" transform="translate(95.268137 225.765546)">ATP  早期建立</text>
+      <text style="font-size: 8.4px; font-family: 'Hiragino Sans GB'" transform="translate(111.30295 235.200321)">0–0.25 h</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_17"/>
+     <g id="text_18">
+      <text style="font-size: 8.4px; font-family: 'Hiragino Sans GB'" transform="translate(95.268137 257.35372)">ATP  瓶颈转移</text>
+      <text style="font-size: 8.4px; font-family: 'Hiragino Sans GB'" transform="translate(111.30295 266.788495)">0.25–2 h</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_18"/>
+     <g id="text_19">
+      <text style="font-size: 8.4px; font-family: 'Hiragino Sans GB'" transform="translate(103.668137 288.941894)">ATP  新平衡</text>
+      <text style="font-size: 8.4px; font-family: 'Hiragino Sans GB'" transform="translate(124.357075 298.376669)">2–6 h</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_19"/>
+     <g id="text_20">
+      <text style="font-size: 8.4px; font-family: 'Hiragino Sans GB'" transform="translate(62.181325 320.530068)">总氨酰化模块  早期建立</text>
+      <text style="font-size: 8.4px; font-family: 'Hiragino Sans GB'" transform="translate(111.30295 329.964843)">0–1.75 h</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_20"/>
+     <g id="text_21">
+      <text style="font-size: 8.4px; font-family: 'Hiragino Sans GB'" transform="translate(62.181325 352.118242)">总氨酰化模块  瓶颈转移</text>
+      <text style="font-size: 8.4px; font-family: 'Hiragino Sans GB'" transform="translate(111.30295 361.553017)">1.75–2 h</text>
+     </g>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_21"/>
+     <g id="text_22">
+      <text style="font-size: 8.4px; font-family: 'Hiragino Sans GB'" transform="translate(70.581325 383.706416)">总氨酰化模块  新平衡</text>
+      <text style="font-size: 8.4px; font-family: 'Hiragino Sans GB'" transform="translate(124.357075 393.141191)">2–6 h</text>
+     </g>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_22"/>
+     <g id="text_23">
+      <text style="font-size: 8.4px; font-family: 'Hiragino Sans GB'" transform="translate(95.218262 415.29459)">CTP  早期建立</text>
+      <text style="font-size: 8.4px; font-family: 'Hiragino Sans GB'" transform="translate(116.822012 424.729365)">0–1.5 h</text>
+     </g>
+    </g>
+    <g id="ytick_11">
+     <g id="line2d_23"/>
+     <g id="text_24">
+      <text style="font-size: 8.4px; font-family: 'Hiragino Sans GB'" transform="translate(95.218262 446.882764)">CTP  瓶颈转移</text>
+      <text style="font-size: 8.4px; font-family: 'Hiragino Sans GB'" transform="translate(103.767887 456.317539)">1.5–2.25 h</text>
+     </g>
+    </g>
+    <g id="ytick_12">
+     <g id="line2d_24"/>
+     <g id="text_25">
+      <text style="font-size: 8.4px; font-family: 'Hiragino Sans GB'" transform="translate(103.618262 478.470937)">CTP  新平衡</text>
+      <text style="font-size: 8.4px; font-family: 'Hiragino Sans GB'" transform="translate(111.30295 487.905712)">2.25–6 h</text>
+     </g>
+    </g>
+    <g id="ytick_13">
+     <g id="line2d_25"/>
+     <g id="text_26">
+      <text style="font-size: 8.4px; font-family: 'Hiragino Sans GB'" transform="translate(95.0752 510.059111)">UTP  早期建立</text>
+      <text style="font-size: 8.4px; font-family: 'Hiragino Sans GB'" transform="translate(116.822012 519.493886)">0–1.5 h</text>
+     </g>
+    </g>
+    <g id="ytick_14">
+     <g id="line2d_26"/>
+     <g id="text_27">
+      <text style="font-size: 8.4px; font-family: 'Hiragino Sans GB'" transform="translate(95.0752 541.647285)">UTP  瓶颈转移</text>
+      <text style="font-size: 8.4px; font-family: 'Hiragino Sans GB'" transform="translate(116.822012 551.08206)">1.5–2 h</text>
+     </g>
+    </g>
+    <g id="ytick_15">
+     <g id="line2d_27"/>
+     <g id="text_28">
+      <text style="font-size: 8.4px; font-family: 'Hiragino Sans GB'" transform="translate(103.4752 573.235459)">UTP  新平衡</text>
+      <text style="font-size: 8.4px; font-family: 'Hiragino Sans GB'" transform="translate(124.357075 582.670234)">2–6 h</text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_28">
+    <path d="M 155.2752 210.828522 
+L 1140.3684 210.828522 
+" clip-path="url(#pb1736ae246)" style="fill: none; stroke: #ffffff; stroke-width: 3; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_29">
+    <path d="M 155.2752 305.593043 
+L 1140.3684 305.593043 
+" clip-path="url(#pb1736ae246)" style="fill: none; stroke: #ffffff; stroke-width: 3; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_30">
+    <path d="M 155.2752 400.357565 
+L 1140.3684 400.357565 
+" clip-path="url(#pb1736ae246)" style="fill: none; stroke: #ffffff; stroke-width: 3; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_31">
+    <path d="M 155.2752 495.122087 
+L 1140.3684 495.122087 
+" clip-path="url(#pb1736ae246)" style="fill: none; stroke: #ffffff; stroke-width: 3; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_32">
+    <path d="M 483.6396 589.886609 
+L 483.6396 116.064 
+" clip-path="url(#pb1736ae246)" style="fill: none; stroke: #ffffff; stroke-width: 2.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_33">
+    <path d="M 812.004 589.886609 
+L 812.004 116.064 
+" clip-path="url(#pb1736ae246)" style="fill: none; stroke: #ffffff; stroke-width: 2.2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_34">
+    <path d="M 1058.2773 589.886609 
+L 1058.2773 116.064 
+" clip-path="url(#pb1736ae246)" style="fill: none; stroke: #ffffff; stroke-width: 2.2; stroke-linecap: square"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 155.2752 589.886609 
+L 155.2752 116.064 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 1140.3684 589.886609 
+L 1140.3684 116.064 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 155.2752 589.886609 
+L 1140.3684 589.886609 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 155.2752 116.064 
+L 1140.3684 116.064 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="196.32075" y="133.768462" transform="rotate(-0 196.32075 133.768462)">1.3</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="278.41185" y="133.768462" transform="rotate(-0 278.41185 133.768462)">1.3</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="360.50295" y="133.768462" transform="rotate(-0 360.50295 133.768462)">1.3</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="442.59405" y="133.768462" transform="rotate(-0 442.59405 133.768462)">1.3</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="524.68515" y="133.768462" transform="rotate(-0 524.68515 133.768462)">0.99</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="606.77625" y="133.768462" transform="rotate(-0 606.77625 133.768462)">0.90</text>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="688.86735" y="133.768462" transform="rotate(-0 688.86735 133.768462)">1.3</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="770.95845" y="133.768462" transform="rotate(-0 770.95845 133.768462)">1.3</text>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="853.04955" y="133.768462" transform="rotate(-0 853.04955 133.768462)">1.3</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="935.14065" y="133.768462" transform="rotate(-0 935.14065 133.768462)">1.3</text>
+   </g>
+   <g id="text_39">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1017.23175" y="133.768462" transform="rotate(-0 1017.23175 133.768462)">1.3</text>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1099.32285" y="133.768462" transform="rotate(-0 1099.32285 133.768462)">1.3</text>
+   </g>
+   <g id="text_41">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="196.32075" y="165.356636" transform="rotate(-0 196.32075 165.356636)">1.3</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="278.41185" y="165.356636" transform="rotate(-0 278.41185 165.356636)">1</text>
+   </g>
+   <g id="text_43">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="360.50295" y="165.356636" transform="rotate(-0 360.50295 165.356636)">0.98</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="442.59405" y="165.356636" transform="rotate(-0 442.59405 165.356636)">2.3</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="524.68515" y="165.356636" transform="rotate(-0 524.68515 165.356636)">0.95</text>
+   </g>
+   <g id="text_46">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="606.77625" y="165.356636" transform="rotate(-0 606.77625 165.356636)">0.24</text>
+   </g>
+   <g id="text_47">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="688.86735" y="165.356636" transform="rotate(-0 688.86735 165.356636)">1.5</text>
+   </g>
+   <g id="text_48">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="770.95845" y="165.356636" transform="rotate(-0 770.95845 165.356636)">1.3</text>
+   </g>
+   <g id="text_49">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="853.04955" y="165.356636" transform="rotate(-0 853.04955 165.356636)">1.4</text>
+   </g>
+   <g id="text_50">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="935.14065" y="165.356636" transform="rotate(-0 935.14065 165.356636)">1.5</text>
+   </g>
+   <g id="text_51">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1017.23175" y="165.356636" transform="rotate(-0 1017.23175 165.356636)">8.5</text>
+   </g>
+   <g id="text_52">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1099.32285" y="165.356636" transform="rotate(-0 1099.32285 165.356636)">0.95</text>
+   </g>
+   <g id="text_53">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="196.32075" y="196.94481" transform="rotate(-0 196.32075 196.94481)">1</text>
+   </g>
+   <g id="text_54">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="278.41185" y="196.94481" transform="rotate(-0 278.41185 196.94481)">0.48</text>
+   </g>
+   <g id="text_55">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="360.50295" y="196.94481" transform="rotate(-0 360.50295 196.94481)">0.40</text>
+   </g>
+   <g id="text_56">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="442.59405" y="196.94481" transform="rotate(-0 442.59405 196.94481)">4</text>
+   </g>
+   <g id="text_57">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="524.68515" y="196.94481" transform="rotate(-0 524.68515 196.94481)">0.89</text>
+   </g>
+   <g id="text_58">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="606.77625" y="196.94481" transform="rotate(-0 606.77625 196.94481)">1.4e-02</text>
+   </g>
+   <g id="text_59">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="688.86735" y="196.94481" transform="rotate(-0 688.86735 196.94481)">88</text>
+   </g>
+   <g id="text_60">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="770.95845" y="196.94481" transform="rotate(-0 770.95845 196.94481)">1.4</text>
+   </g>
+   <g id="text_61">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="853.04955" y="196.94481" transform="rotate(-0 853.04955 196.94481)">13</text>
+   </g>
+   <g id="text_62">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="935.14065" y="196.94481" transform="rotate(-0 935.14065 196.94481)">87</text>
+   </g>
+   <g id="text_63">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1017.23175" y="196.94481" transform="rotate(-0 1017.23175 196.94481)">13</text>
+   </g>
+   <g id="text_64">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1099.32285" y="196.94481" transform="rotate(-0 1099.32285 196.94481)">0.39</text>
+   </g>
+   <g id="text_65">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="196.32075" y="228.532984" transform="rotate(-0 196.32075 228.532984)">1.2</text>
+   </g>
+   <g id="text_66">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="278.41185" y="228.532984" transform="rotate(-0 278.41185 228.532984)">0.97</text>
+   </g>
+   <g id="text_67">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="360.50295" y="228.532984" transform="rotate(-0 360.50295 228.532984)">0.96</text>
+   </g>
+   <g id="text_68">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="442.59405" y="228.532984" transform="rotate(-0 442.59405 228.532984)">1.3</text>
+   </g>
+   <g id="text_69">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="524.68515" y="228.532984" transform="rotate(-0 524.68515 228.532984)">3.1</text>
+   </g>
+   <g id="text_70">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="606.77625" y="228.532984" transform="rotate(-0 606.77625 228.532984)">4</text>
+   </g>
+   <g id="text_71">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="688.86735" y="228.532984" transform="rotate(-0 688.86735 228.532984)">1.00</text>
+   </g>
+   <g id="text_72">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="770.95845" y="228.532984" transform="rotate(-0 770.95845 228.532984)">2.2</text>
+   </g>
+   <g id="text_73">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="853.04955" y="228.532984" transform="rotate(-0 853.04955 228.532984)">1.00</text>
+   </g>
+   <g id="text_74">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="935.14065" y="228.532984" transform="rotate(-0 935.14065 228.532984)">1.00</text>
+   </g>
+   <g id="text_75">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1017.23175" y="228.532984" transform="rotate(-0 1017.23175 228.532984)">1.2</text>
+   </g>
+   <g id="text_76">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1099.32285" y="228.532984" transform="rotate(-0 1099.32285 228.532984)">1.3</text>
+   </g>
+   <g id="text_77">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="196.32075" y="260.121158" transform="rotate(-0 196.32075 260.121158)">1.1</text>
+   </g>
+   <g id="text_78">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="278.41185" y="260.121158" transform="rotate(-0 278.41185 260.121158)">0.97</text>
+   </g>
+   <g id="text_79">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="360.50295" y="260.121158" transform="rotate(-0 360.50295 260.121158)">0.97</text>
+   </g>
+   <g id="text_80">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="442.59405" y="260.121158" transform="rotate(-0 442.59405 260.121158)">1</text>
+   </g>
+   <g id="text_81">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="524.68515" y="260.121158" transform="rotate(-0 524.68515 260.121158)">1.7</text>
+   </g>
+   <g id="text_82">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="606.77625" y="260.121158" transform="rotate(-0 606.77625 260.121158)">4.7</text>
+   </g>
+   <g id="text_83">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="688.86735" y="260.121158" transform="rotate(-0 688.86735 260.121158)">0.95</text>
+   </g>
+   <g id="text_84">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="770.95845" y="260.121158" transform="rotate(-0 770.95845 260.121158)">2.3</text>
+   </g>
+   <g id="text_85">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="853.04955" y="260.121158" transform="rotate(-0 853.04955 260.121158)">0.95</text>
+   </g>
+   <g id="text_86">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="935.14065" y="260.121158" transform="rotate(-0 935.14065 260.121158)">0.95</text>
+   </g>
+   <g id="text_87">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1017.23175" y="260.121158" transform="rotate(-0 1017.23175 260.121158)">1</text>
+   </g>
+   <g id="text_88">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1099.32285" y="260.121158" transform="rotate(-0 1099.32285 260.121158)">1</text>
+   </g>
+   <g id="text_89">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="196.32075" y="291.709332" transform="rotate(-0 196.32075 291.709332)">1.00</text>
+   </g>
+   <g id="text_90">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="278.41185" y="291.709332" transform="rotate(-0 278.41185 291.709332)">0.98</text>
+   </g>
+   <g id="text_91">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="360.50295" y="291.709332" transform="rotate(-0 360.50295 291.709332)">0.98</text>
+   </g>
+   <g id="text_92">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="442.59405" y="291.709332" transform="rotate(-0 442.59405 291.709332)">0.98</text>
+   </g>
+   <g id="text_93">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="524.68515" y="291.709332" transform="rotate(-0 524.68515 291.709332)">1.2</text>
+   </g>
+   <g id="text_94">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="606.77625" y="291.709332" transform="rotate(-0 606.77625 291.709332)">5.5</text>
+   </g>
+   <g id="text_95">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="688.86735" y="291.709332" transform="rotate(-0 688.86735 291.709332)">1</text>
+   </g>
+   <g id="text_96">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="770.95845" y="291.709332" transform="rotate(-0 770.95845 291.709332)">3.2</text>
+   </g>
+   <g id="text_97">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="853.04955" y="291.709332" transform="rotate(-0 853.04955 291.709332)">1</text>
+   </g>
+   <g id="text_98">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="935.14065" y="291.709332" transform="rotate(-0 935.14065 291.709332)">1</text>
+   </g>
+   <g id="text_99">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1017.23175" y="291.709332" transform="rotate(-0 1017.23175 291.709332)">0.96</text>
+   </g>
+   <g id="text_100">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1099.32285" y="291.709332" transform="rotate(-0 1099.32285 291.709332)">0.98</text>
+   </g>
+   <g id="text_101">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="196.32075" y="323.297505" transform="rotate(-0 196.32075 323.297505)">1</text>
+   </g>
+   <g id="text_102">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="278.41185" y="323.297505" transform="rotate(-0 278.41185 323.297505)">0.99</text>
+   </g>
+   <g id="text_103">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="360.50295" y="323.297505" transform="rotate(-0 360.50295 323.297505)">0.99</text>
+   </g>
+   <g id="text_104">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="442.59405" y="323.297505" transform="rotate(-0 442.59405 323.297505)">1</text>
+   </g>
+   <g id="text_105">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="524.68515" y="323.297505" transform="rotate(-0 524.68515 323.297505)">1.2</text>
+   </g>
+   <g id="text_106">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="606.77625" y="323.297505" transform="rotate(-0 606.77625 323.297505)">1.00</text>
+   </g>
+   <g id="text_107">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="688.86735" y="323.297505" transform="rotate(-0 688.86735 323.297505)">0.98</text>
+   </g>
+   <g id="text_108">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="770.95845" y="323.297505" transform="rotate(-0 770.95845 323.297505)">1</text>
+   </g>
+   <g id="text_109">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="853.04955" y="323.297505" transform="rotate(-0 853.04955 323.297505)">0.98</text>
+   </g>
+   <g id="text_110">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="935.14065" y="323.297505" transform="rotate(-0 935.14065 323.297505)">0.98</text>
+   </g>
+   <g id="text_111">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1017.23175" y="323.297505" transform="rotate(-0 1017.23175 323.297505)">1</text>
+   </g>
+   <g id="text_112">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1099.32285" y="323.297505" transform="rotate(-0 1099.32285 323.297505)">1</text>
+   </g>
+   <g id="text_113">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="196.32075" y="354.885679" transform="rotate(-0 196.32075 354.885679)">1</text>
+   </g>
+   <g id="text_114">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="278.41185" y="354.885679" transform="rotate(-0 278.41185 354.885679)">1.5</text>
+   </g>
+   <g id="text_115">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="360.50295" y="354.885679" transform="rotate(-0 360.50295 354.885679)">1.6</text>
+   </g>
+   <g id="text_116">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="442.59405" y="354.885679" transform="rotate(-0 442.59405 354.885679)">0.68</text>
+   </g>
+   <g id="text_117">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="524.68515" y="354.885679" transform="rotate(-0 524.68515 354.885679)">1.1</text>
+   </g>
+   <g id="text_118">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="606.77625" y="354.885679" transform="rotate(-0 606.77625 354.885679)">0.99</text>
+   </g>
+   <g id="text_119">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="688.86735" y="354.885679" transform="rotate(-0 688.86735 354.885679)">0.60</text>
+   </g>
+   <g id="text_120">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="770.95845" y="354.885679" transform="rotate(-0 770.95845 354.885679)">1</text>
+   </g>
+   <g id="text_121">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="853.04955" y="354.885679" transform="rotate(-0 853.04955 354.885679)">0.68</text>
+   </g>
+   <g id="text_122">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="935.14065" y="354.885679" transform="rotate(-0 935.14065 354.885679)">0.54</text>
+   </g>
+   <g id="text_123">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1017.23175" y="354.885679" transform="rotate(-0 1017.23175 354.885679)">0.47</text>
+   </g>
+   <g id="text_124">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1099.32285" y="354.885679" transform="rotate(-0 1099.32285 354.885679)">1.6</text>
+   </g>
+   <g id="text_125">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="196.32075" y="386.473853" transform="rotate(-0 196.32075 386.473853)">1</text>
+   </g>
+   <g id="text_126">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="278.41185" y="386.473853" transform="rotate(-0 278.41185 386.473853)">1.5</text>
+   </g>
+   <g id="text_127">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="360.50295" y="386.473853" transform="rotate(-0 360.50295 386.473853)">1.6</text>
+   </g>
+   <g id="text_128">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="442.59405" y="386.473853" transform="rotate(-0 442.59405 386.473853)">0.59</text>
+   </g>
+   <g id="text_129">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="524.68515" y="386.473853" transform="rotate(-0 524.68515 386.473853)">1.1</text>
+   </g>
+   <g id="text_130">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="606.77625" y="386.473853" transform="rotate(-0 606.77625 386.473853)">0.99</text>
+   </g>
+   <g id="text_131">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="688.86735" y="386.473853" transform="rotate(-0 688.86735 386.473853)">0.56</text>
+   </g>
+   <g id="text_132">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="770.95845" y="386.473853" transform="rotate(-0 770.95845 386.473853)">1.00</text>
+   </g>
+   <g id="text_133">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="853.04955" y="386.473853" transform="rotate(-0 853.04955 386.473853)">0.57</text>
+   </g>
+   <g id="text_134">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="935.14065" y="386.473853" transform="rotate(-0 935.14065 386.473853)">0.55</text>
+   </g>
+   <g id="text_135">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1017.23175" y="386.473853" transform="rotate(-0 1017.23175 386.473853)">0.29</text>
+   </g>
+   <g id="text_136">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1099.32285" y="386.473853" transform="rotate(-0 1099.32285 386.473853)">1.6</text>
+   </g>
+   <g id="text_137">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="196.32075" y="418.062027" transform="rotate(-0 196.32075 418.062027)">1.9</text>
+   </g>
+   <g id="text_138">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="278.41185" y="418.062027" transform="rotate(-0 278.41185 418.062027)">1.8</text>
+   </g>
+   <g id="text_139">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="360.50295" y="418.062027" transform="rotate(-0 360.50295 418.062027)">1.8</text>
+   </g>
+   <g id="text_140">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="442.59405" y="418.062027" transform="rotate(-0 442.59405 418.062027)">1.8</text>
+   </g>
+   <g id="text_141">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="524.68515" y="418.062027" transform="rotate(-0 524.68515 418.062027)">1.00</text>
+   </g>
+   <g id="text_142">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="606.77625" y="418.062027" transform="rotate(-0 606.77625 418.062027)">0.97</text>
+   </g>
+   <g id="text_143">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="688.86735" y="418.062027" transform="rotate(-0 688.86735 418.062027)">0.88</text>
+   </g>
+   <g id="text_144">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="770.95845" y="418.062027" transform="rotate(-0 770.95845 418.062027)">1.3</text>
+   </g>
+   <g id="text_145">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="853.04955" y="418.062027" transform="rotate(-0 853.04955 418.062027)">2.1</text>
+   </g>
+   <g id="text_146">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="935.14065" y="418.062027" transform="rotate(-0 935.14065 418.062027)">0.88</text>
+   </g>
+   <g id="text_147">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1017.23175" y="418.062027" transform="rotate(-0 1017.23175 418.062027)">1.8</text>
+   </g>
+   <g id="text_148">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1099.32285" y="418.062027" transform="rotate(-0 1099.32285 418.062027)">1.8</text>
+   </g>
+   <g id="text_149">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="196.32075" y="449.650201" transform="rotate(-0 196.32075 449.650201)">2.1</text>
+   </g>
+   <g id="text_150">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="278.41185" y="449.650201" transform="rotate(-0 278.41185 449.650201)">2.3</text>
+   </g>
+   <g id="text_151">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="360.50295" y="449.650201" transform="rotate(-0 360.50295 449.650201)">2.3</text>
+   </g>
+   <g id="text_152">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="442.59405" y="449.650201" transform="rotate(-0 442.59405 449.650201)">2.3</text>
+   </g>
+   <g id="text_153">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="524.68515" y="449.650201" transform="rotate(-0 524.68515 449.650201)">0.98</text>
+   </g>
+   <g id="text_154">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="606.77625" y="449.650201" transform="rotate(-0 606.77625 449.650201)">0.83</text>
+   </g>
+   <g id="text_155">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="688.86735" y="449.650201" transform="rotate(-0 688.86735 449.650201)">0.20</text>
+   </g>
+   <g id="text_156">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="770.95845" y="449.650201" transform="rotate(-0 770.95845 449.650201)">1.2</text>
+   </g>
+   <g id="text_157">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="853.04955" y="449.650201" transform="rotate(-0 853.04955 449.650201)">1</text>
+   </g>
+   <g id="text_158">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="935.14065" y="449.650201" transform="rotate(-0 935.14065 449.650201)">0.18</text>
+   </g>
+   <g id="text_159">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1017.23175" y="449.650201" transform="rotate(-0 1017.23175 449.650201)">2.3</text>
+   </g>
+   <g id="text_160">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1099.32285" y="449.650201" transform="rotate(-0 1099.32285 449.650201)">2.3</text>
+   </g>
+   <g id="text_161">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="196.32075" y="481.238375" transform="rotate(-0 196.32075 481.238375)">1.3</text>
+   </g>
+   <g id="text_162">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="278.41185" y="481.238375" transform="rotate(-0 278.41185 481.238375)">1.7</text>
+   </g>
+   <g id="text_163">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="360.50295" y="481.238375" transform="rotate(-0 360.50295 481.238375)">1.7</text>
+   </g>
+   <g id="text_164">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="442.59405" y="481.238375" transform="rotate(-0 442.59405 481.238375)">1.7</text>
+   </g>
+   <g id="text_165">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="524.68515" y="481.238375" transform="rotate(-0 524.68515 481.238375)">0.98</text>
+   </g>
+   <g id="text_166">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="606.77625" y="481.238375" transform="rotate(-0 606.77625 481.238375)">0.91</text>
+   </g>
+   <g id="text_167">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="688.86735" y="481.238375" transform="rotate(-0 688.86735 481.238375)">0.21</text>
+   </g>
+   <g id="text_168">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="770.95845" y="481.238375" transform="rotate(-0 770.95845 481.238375)">1</text>
+   </g>
+   <g id="text_169">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="853.04955" y="481.238375" transform="rotate(-0 853.04955 481.238375)">0.24</text>
+   </g>
+   <g id="text_170">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="935.14065" y="481.238375" transform="rotate(-0 935.14065 481.238375)">0.21</text>
+   </g>
+   <g id="text_171">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1017.23175" y="481.238375" transform="rotate(-0 1017.23175 481.238375)">1.7</text>
+   </g>
+   <g id="text_172">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1099.32285" y="481.238375" transform="rotate(-0 1099.32285 481.238375)">1.7</text>
+   </g>
+   <g id="text_173">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="196.32075" y="512.826549" transform="rotate(-0 196.32075 512.826549)">1.1</text>
+   </g>
+   <g id="text_174">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="278.41185" y="512.826549" transform="rotate(-0 278.41185 512.826549)">1.1</text>
+   </g>
+   <g id="text_175">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="360.50295" y="512.826549" transform="rotate(-0 360.50295 512.826549)">1.1</text>
+   </g>
+   <g id="text_176">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="442.59405" y="512.826549" transform="rotate(-0 442.59405 512.826549)">1.1</text>
+   </g>
+   <g id="text_177">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="524.68515" y="512.826549" transform="rotate(-0 524.68515 512.826549)">1.00</text>
+   </g>
+   <g id="text_178">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="606.77625" y="512.826549" transform="rotate(-0 606.77625 512.826549)">0.99</text>
+   </g>
+   <g id="text_179">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="688.86735" y="512.826549" transform="rotate(-0 688.86735 512.826549)">0.96</text>
+   </g>
+   <g id="text_180">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="770.95845" y="512.826549" transform="rotate(-0 770.95845 512.826549)">1</text>
+   </g>
+   <g id="text_181">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="853.04955" y="512.826549" transform="rotate(-0 853.04955 512.826549)">1.1</text>
+   </g>
+   <g id="text_182">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="935.14065" y="512.826549" transform="rotate(-0 935.14065 512.826549)">0.96</text>
+   </g>
+   <g id="text_183">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1017.23175" y="512.826549" transform="rotate(-0 1017.23175 512.826549)">1.1</text>
+   </g>
+   <g id="text_184">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1099.32285" y="512.826549" transform="rotate(-0 1099.32285 512.826549)">1.1</text>
+   </g>
+   <g id="text_185">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="196.32075" y="544.414723" transform="rotate(-0 196.32075 544.414723)">1.1</text>
+   </g>
+   <g id="text_186">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="278.41185" y="544.414723" transform="rotate(-0 278.41185 544.414723)">1.1</text>
+   </g>
+   <g id="text_187">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="360.50295" y="544.414723" transform="rotate(-0 360.50295 544.414723)">1.1</text>
+   </g>
+   <g id="text_188">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="442.59405" y="544.414723" transform="rotate(-0 442.59405 544.414723)">1.1</text>
+   </g>
+   <g id="text_189">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="524.68515" y="544.414723" transform="rotate(-0 524.68515 544.414723)">1.00</text>
+   </g>
+   <g id="text_190">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="606.77625" y="544.414723" transform="rotate(-0 606.77625 544.414723)">0.98</text>
+   </g>
+   <g id="text_191">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="688.86735" y="544.414723" transform="rotate(-0 688.86735 544.414723)">0.54</text>
+   </g>
+   <g id="text_192">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="770.95845" y="544.414723" transform="rotate(-0 770.95845 544.414723)">1</text>
+   </g>
+   <g id="text_193">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="853.04955" y="544.414723" transform="rotate(-0 853.04955 544.414723)">0.65</text>
+   </g>
+   <g id="text_194">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="935.14065" y="544.414723" transform="rotate(-0 935.14065 544.414723)">0.54</text>
+   </g>
+   <g id="text_195">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1017.23175" y="544.414723" transform="rotate(-0 1017.23175 544.414723)">1.1</text>
+   </g>
+   <g id="text_196">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1099.32285" y="544.414723" transform="rotate(-0 1099.32285 544.414723)">1.1</text>
+   </g>
+   <g id="text_197">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="196.32075" y="576.002897" transform="rotate(-0 196.32075 576.002897)">1.00</text>
+   </g>
+   <g id="text_198">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="278.41185" y="576.002897" transform="rotate(-0 278.41185 576.002897)">1.1</text>
+   </g>
+   <g id="text_199">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="360.50295" y="576.002897" transform="rotate(-0 360.50295 576.002897)">1.1</text>
+   </g>
+   <g id="text_200">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="442.59405" y="576.002897" transform="rotate(-0 442.59405 576.002897)">1.1</text>
+   </g>
+   <g id="text_201">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="524.68515" y="576.002897" transform="rotate(-0 524.68515 576.002897)">1.00</text>
+   </g>
+   <g id="text_202">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="606.77625" y="576.002897" transform="rotate(-0 606.77625 576.002897)">1.00</text>
+   </g>
+   <g id="text_203">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="688.86735" y="576.002897" transform="rotate(-0 688.86735 576.002897)">0.82</text>
+   </g>
+   <g id="text_204">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="770.95845" y="576.002897" transform="rotate(-0 770.95845 576.002897)">1</text>
+   </g>
+   <g id="text_205">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="853.04955" y="576.002897" transform="rotate(-0 853.04955 576.002897)">0.80</text>
+   </g>
+   <g id="text_206">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="935.14065" y="576.002897" transform="rotate(-0 935.14065 576.002897)">0.84</text>
+   </g>
+   <g id="text_207">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1017.23175" y="576.002897" transform="rotate(-0 1017.23175 576.002897)">1.1</text>
+   </g>
+   <g id="text_208">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1099.32285" y="576.002897" transform="rotate(-0 1099.32285 576.002897)">1.1</text>
+   </g>
+   <g id="text_209">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Hiragino Sans GB'; text-anchor: start" x="155.2752" y="110.064" transform="rotate(-0 155.2752 110.064)">A  过最优相邻扰动的时序响应：不同扰动采用各自阶段划分</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_22">
+    <path d="M 155.2752 914.4 
+L 622.773586 914.4 
+L 622.773586 694.017391 
+L 155.2752 694.017391 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g clip-path="url(#p1dd804979c)">
+    <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAooAAAEzCAYAAAC2WSKsAAAGn0lEQVR4nO3YwaqUdRzH4fOOL4ejQQiGRCQIeQ1uvAC3LgKvoKvoEsSrcBm0FMKFCIqbaCMYpEQgaaQdVHQ4cJoZb+Cze/1TR55nOX8Yhu9mPvymd/8c7vaAIbb/biwLA63mU/aFgVYjvxwAgJNLKAIAkIQiAABJKAIAkIQiAABJKAIAkIQiAABJKAIAkIQiAABJKAIAkIQiAABJKAIAkIQiAABJKAIAkIQiAABJKAIAkIQiAABJKAIAkIQiAABJKAIAkObN/n6/AIv99PgvK8JAly+dsy8M5KIIAEASigAAJKEIAEASigAAJKEIAEASigAAJKEIAEASigAAJKEIAEASigAAJKEIAEASigAAJKEIAEASigAAJKEIAEASigAAJKEIAEASigAAJKEIAECaV0dH/QIs9uXZAyvCQMebrX1hIBdFAACSUAQAIAlFAACSUAQAIAlFAACSUAQAIAlFAACSUAQAIAlFAACSUAQAIAlFAACSUAQAIAlFAACSUAQAIAlFAACSUAQAIAlFAACSUAQAIAlFAADS/Orug34BFvvi2Z9WhIH2v7loXxjIRREAgCQUAQBIQhEAgCQUAQBIQhEAgCQUAQBIQhEAgCQUAQBIQhEAgCQUAQBIQhEAgCQUAQBIQhEAgCQUAQBIQhEAgCQUAQBIQhEAgCQUAQBIQhEAgCQUAQBI04tXb3b9BCx15fs7RoSBzn9+YF8YyEURAIAkFAEASEIRAIAkFAEASEIRAIAkFAEASEIRAIAkFAEASEIRAIAkFAEASEIRAIAkFAEASEIRAIAkFAEASEIRAIAkFAEASEIRAIAkFAEASEIRAIA0v/3hx34BFnt041srwkDXbj6wLwzkoggAQBKKAAAkoQgAQBKKAAAkoQgAQBKKAAAkoQgAQBKKAAAkoQgAQBKKAAAkoQgAQBKKAAAkoQgAQBKKAAAkoQgAQBKKAAAkoQgAQBKKAAAkoQgAQBKKAACkab1e7/oJWOrWvT+MCAPd//WlfWEgF0UAAJJQBAAgCUUAAJJQBAAgCUUAAJJQBAAgCUUAAJJQBAAgCUUAAJJQBAAgCUUAAJJQBAAgCUUAAJJQBAAgCUUAAJJQBAAgCUUAAJJQBAAgCUUAANL07v1610/AUrd/eW5EGGg1mRdGclEEACAJRQAAklAEACAJRQAAklAEACAJRQAAklAEACAJRQAAklAEACAJRQAAklAEACAJRQAAklAEACAJRQAAklAEACAJRQAAklAEACAJRQAAklAEACAJRQAA0twfAx/DhXNnDAkD/f3myL4wkIsiAABJKAIAkIQiAABJKAIAkIQiAABJKAIAkIQiAABJKAIAkIQiAABJKAIAkIQiAABJKAIAkIQiAABJKAIAkIQiAABJKAIAkIQiAABJKAIAkIQiAABpOvzt6a6fgKUOvv7KiDDQ8WZrXxjIRREAgCQUAQBIQhEAgCQUAQBIQhEAgCQUAQBIQhEAgCQUAQBIQhEAgCQUAQBIQhEAgCQUAQBIQhEAgCQUAQBIQhEAgCQUAQBIQhEAgCQUAQBIQhEAgCQUAQBI03q93vUTsNTxZmtEGGje+QuDkVwUAQBIQhEAgCQUAQBIQhEAgCQUAQBIQhEAgCQUAQBIQhEAgCQUAQBIQhEAgCQUAQBIQhEAgCQUAQBIQhEAgCQUAQBIQhEAgCQUAQBIQhEAgCQUAQBIc38MAP9/02r6r38CfNJcFAEASEIRAIAkFAEASEIRAIAkFAEASEIRAIAkFAEASEIRAIAkFAEASEIRAIAkFAEASEIRAIAkFAEASEIRAIAkFAEASEIRAIAkFAEASEIRAIAkFAEASEIRAIA0v3/ye78Aiz28et2KAJxYLooAACShCABAEooAACShCABAEooAACShCABAEooAACShCABAEooAACShCABAEooAACShCABAEooAACShCABAEooAACShCABAEooAACShCABAEooAAKTp5aPHu34Cljo+fG1EGOjn69/ZFwZyUQQAIAlFAACSUAQAIAlFAACSUAQAIAlFAACSUAQAIAlFAACSUAQAIAlFAACSUAQAIAlFAACSUAQAIAlFAACSUAQAIAlFAACSUAQAIAlFAACSUAQAIAlFAADSvLfd9guw2KnPTlsRgBPLRREAgCQUAQBIQhEAgCQUAQBIQhEAgCQUAQBIQhEAgCQUAQBIQhEAgCQUAQBIQhEAgCQUAQBIQhEAgCQUAQBIQhEAgCQUAQBIQhEAgCQUAQBIQhEAgL3yARUpUajT9++RAAAAAElFTkSuQmCC" id="imagec501bc1680" transform="scale(1 -1) translate(0 -221.04)" x="155.2752" y="-693.36" width="468" height="221.04"/>
+   </g>
+   <g id="patch_23">
+    <path d="M 127.225297 694.017391 
+L 142.808576 694.017391 
+L 142.808576 738.093913 
+L 127.225297 738.093913 
+z
+" style="fill: #1b8a8f"/>
+   </g>
+   <g id="patch_24">
+    <path d="M 127.225297 738.093913 
+L 142.808576 738.093913 
+L 142.808576 782.170435 
+L 127.225297 782.170435 
+z
+" style="fill: #56b4e9"/>
+   </g>
+   <g id="patch_25">
+    <path d="M 127.225297 782.170435 
+L 142.808576 782.170435 
+L 142.808576 826.246957 
+L 127.225297 826.246957 
+z
+" style="fill: #009e73"/>
+   </g>
+   <g id="patch_26">
+    <path d="M 127.225297 826.246957 
+L 142.808576 826.246957 
+L 142.808576 870.323478 
+L 127.225297 870.323478 
+z
+" style="fill: #2c7fb8"/>
+   </g>
+   <g id="patch_27">
+    <path d="M 127.225297 870.323478 
+L 142.808576 870.323478 
+L 142.808576 914.4 
+L 127.225297 914.4 
+z
+" style="fill: #d95f0e"/>
+   </g>
+   <g id="matplotlib.axis_3">
+    <g id="xtick_13">
+     <g id="line2d_35">
+      <g>
+       <use xlink:href="#m5770e8534e" x="233.191598" y="914.4" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_210">
+      <text style="font-size: 9.5px; font-family: 'Hiragino Sans GB'; text-anchor: middle" x="233.191598" y="928.676406" transform="rotate(-0 233.191598 928.676406)">早期建立</text>
+     </g>
+    </g>
+    <g id="xtick_14">
+     <g id="line2d_36">
+      <g>
+       <use xlink:href="#m5770e8534e" x="389.024393" y="914.4" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_211">
+      <text style="font-size: 9.5px; font-family: 'Hiragino Sans GB'; text-anchor: middle" x="389.024393" y="928.676406" transform="rotate(-0 389.024393 928.676406)">瓶颈转移</text>
+     </g>
+    </g>
+    <g id="xtick_15">
+     <g id="line2d_37">
+      <g>
+       <use xlink:href="#m5770e8534e" x="544.857189" y="914.4" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_212">
+      <text style="font-size: 9.5px; font-family: 'Hiragino Sans GB'; text-anchor: middle" x="544.857189" y="928.676406" transform="rotate(-0 544.857189 928.676406)">新平衡</text>
+     </g>
+    </g>
+    <g id="text_213">
+     <text style="font-size: 10px; font-family: 'Hiragino Sans GB'; text-anchor: middle" x="389.024393" y="942.274375" transform="rotate(-0 389.024393 942.274375)">阶段窗口</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_16">
+     <g id="line2d_38"/>
+     <g id="text_214">
+      <text style="font-size: 7.8px; font-family: 'Hiragino Sans GB'; text-anchor: end" x="151.7752" y="704.350635" transform="rotate(-0 151.7752 704.350635)">GTP  转录GTP消耗</text>
+     </g>
+    </g>
+    <g id="ytick_17">
+     <g id="line2d_39"/>
+     <g id="text_215">
+      <text style="font-size: 7.8px; font-family: 'Hiragino Sans GB'; text-anchor: end" x="151.7752" y="719.042808" transform="rotate(-0 151.7752 719.042808)">GTP  翻译辅助GTP消耗</text>
+     </g>
+    </g>
+    <g id="ytick_18">
+     <g id="line2d_40"/>
+     <g id="text_216">
+      <text style="font-size: 7.8px; font-family: 'Hiragino Sans GB'; text-anchor: end" x="151.7752" y="733.734982" transform="rotate(-0 151.7752 733.734982)">GTP  翻译主链GTP消耗</text>
+     </g>
+    </g>
+    <g id="ytick_19">
+     <g id="line2d_41"/>
+     <g id="text_217">
+      <text style="font-size: 7.8px; font-family: 'Hiragino Sans GB'; text-anchor: end" x="151.7752" y="748.427156" transform="rotate(-0 151.7752 748.427156)">ATP  转录GTP消耗</text>
+     </g>
+    </g>
+    <g id="ytick_20">
+     <g id="line2d_42"/>
+     <g id="text_218">
+      <text style="font-size: 7.8px; font-family: 'Hiragino Sans GB'; text-anchor: end" x="151.7752" y="763.11933" transform="rotate(-0 151.7752 763.11933)">ATP  翻译辅助GTP消耗</text>
+     </g>
+    </g>
+    <g id="ytick_21">
+     <g id="line2d_43"/>
+     <g id="text_219">
+      <text style="font-size: 7.8px; font-family: 'Hiragino Sans GB'; text-anchor: end" x="151.7752" y="777.811504" transform="rotate(-0 151.7752 777.811504)">ATP  翻译主链GTP消耗</text>
+     </g>
+    </g>
+    <g id="ytick_22">
+     <g id="line2d_44"/>
+     <g id="text_220">
+      <text style="font-size: 7.8px; font-family: 'Hiragino Sans GB'; text-anchor: end" x="151.7752" y="792.503678" transform="rotate(-0 151.7752 792.503678)">总氨酰化模块  转录GTP消耗</text>
+     </g>
+    </g>
+    <g id="ytick_23">
+     <g id="line2d_45"/>
+     <g id="text_221">
+      <text style="font-size: 7.8px; font-family: 'Hiragino Sans GB'; text-anchor: end" x="151.7752" y="807.195852" transform="rotate(-0 151.7752 807.195852)">总氨酰化模块  翻译辅助GTP消耗</text>
+     </g>
+    </g>
+    <g id="ytick_24">
+     <g id="line2d_46"/>
+     <g id="text_222">
+      <text style="font-size: 7.8px; font-family: 'Hiragino Sans GB'; text-anchor: end" x="151.7752" y="821.888026" transform="rotate(-0 151.7752 821.888026)">总氨酰化模块  翻译主链GTP消耗</text>
+     </g>
+    </g>
+    <g id="ytick_25">
+     <g id="line2d_47"/>
+     <g id="text_223">
+      <text style="font-size: 7.8px; font-family: 'Hiragino Sans GB'; text-anchor: end" x="151.7752" y="836.5802" transform="rotate(-0 151.7752 836.5802)">CTP  转录GTP消耗</text>
+     </g>
+    </g>
+    <g id="ytick_26">
+     <g id="line2d_48"/>
+     <g id="text_224">
+      <text style="font-size: 7.8px; font-family: 'Hiragino Sans GB'; text-anchor: end" x="151.7752" y="851.272374" transform="rotate(-0 151.7752 851.272374)">CTP  翻译辅助GTP消耗</text>
+     </g>
+    </g>
+    <g id="ytick_27">
+     <g id="line2d_49"/>
+     <g id="text_225">
+      <text style="font-size: 7.8px; font-family: 'Hiragino Sans GB'; text-anchor: end" x="151.7752" y="865.964548" transform="rotate(-0 151.7752 865.964548)">CTP  翻译主链GTP消耗</text>
+     </g>
+    </g>
+    <g id="ytick_28">
+     <g id="line2d_50"/>
+     <g id="text_226">
+      <text style="font-size: 7.8px; font-family: 'Hiragino Sans GB'; text-anchor: end" x="151.7752" y="880.656721" transform="rotate(-0 151.7752 880.656721)">UTP  转录GTP消耗</text>
+     </g>
+    </g>
+    <g id="ytick_29">
+     <g id="line2d_51"/>
+     <g id="text_227">
+      <text style="font-size: 7.8px; font-family: 'Hiragino Sans GB'; text-anchor: end" x="151.7752" y="895.348895" transform="rotate(-0 151.7752 895.348895)">UTP  翻译辅助GTP消耗</text>
+     </g>
+    </g>
+    <g id="ytick_30">
+     <g id="line2d_52"/>
+     <g id="text_228">
+      <text style="font-size: 7.8px; font-family: 'Hiragino Sans GB'; text-anchor: end" x="151.7752" y="910.041069" transform="rotate(-0 151.7752 910.041069)">UTP  翻译主链GTP消耗</text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_53">
+    <path d="M 155.2752 738.093913 
+L 622.773586 738.093913 
+" clip-path="url(#p1dd804979c)" style="fill: none; stroke: #ffffff; stroke-width: 2.6; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_54">
+    <path d="M 155.2752 782.170435 
+L 622.773586 782.170435 
+" clip-path="url(#p1dd804979c)" style="fill: none; stroke: #ffffff; stroke-width: 2.6; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_55">
+    <path d="M 155.2752 826.246957 
+L 622.773586 826.246957 
+" clip-path="url(#p1dd804979c)" style="fill: none; stroke: #ffffff; stroke-width: 2.6; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_56">
+    <path d="M 155.2752 870.323478 
+L 622.773586 870.323478 
+" clip-path="url(#p1dd804979c)" style="fill: none; stroke: #ffffff; stroke-width: 2.6; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_57">
+    <path d="M 311.107995 914.4 
+L 311.107995 694.017391 
+" clip-path="url(#p1dd804979c)" style="fill: none; stroke: #ffffff; stroke-width: 1.7; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_58">
+    <path d="M 466.940791 914.4 
+L 466.940791 694.017391 
+" clip-path="url(#p1dd804979c)" style="fill: none; stroke: #ffffff; stroke-width: 1.7; stroke-linecap: square"/>
+   </g>
+   <g id="patch_28">
+    <path d="M 155.2752 914.4 
+L 155.2752 694.017391 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_29">
+    <path d="M 155.2752 914.4 
+L 622.773586 914.4 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_229">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="233.191598" y="703.273853" transform="rotate(-0 233.191598 703.273853)">1.3</text>
+   </g>
+   <g id="text_230">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="389.024393" y="703.273853" transform="rotate(-0 389.024393 703.273853)">1.4</text>
+   </g>
+   <g id="text_231">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="544.857189" y="703.273853" transform="rotate(-0 544.857189 703.273853)">13</text>
+   </g>
+   <g id="text_232">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="233.191598" y="717.966027" transform="rotate(-0 233.191598 717.966027)">1.3</text>
+   </g>
+   <g id="text_233">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="389.024393" y="717.966027" transform="rotate(-0 389.024393 717.966027)">1.5</text>
+   </g>
+   <g id="text_234">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="544.857189" y="717.966027" transform="rotate(-0 544.857189 717.966027)">87</text>
+   </g>
+   <g id="text_235">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="233.191598" y="732.658201" transform="rotate(-0 233.191598 732.658201)">1.3</text>
+   </g>
+   <g id="text_236">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="389.024393" y="732.658201" transform="rotate(-0 389.024393 732.658201)">8.5</text>
+   </g>
+   <g id="text_237">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="544.857189" y="732.658201" transform="rotate(-0 544.857189 732.658201)">13</text>
+   </g>
+   <g id="text_238">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="233.191598" y="747.350375" transform="rotate(-0 233.191598 747.350375)">1.00</text>
+   </g>
+   <g id="text_239">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="389.024393" y="747.350375" transform="rotate(-0 389.024393 747.350375)">0.95</text>
+   </g>
+   <g id="text_240">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="544.857189" y="747.350375" transform="rotate(-0 544.857189 747.350375)">1</text>
+   </g>
+   <g id="text_241">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="233.191598" y="762.042549" transform="rotate(-0 233.191598 762.042549)">1.00</text>
+   </g>
+   <g id="text_242">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="389.024393" y="762.042549" transform="rotate(-0 389.024393 762.042549)">0.95</text>
+   </g>
+   <g id="text_243">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="544.857189" y="762.042549" transform="rotate(-0 544.857189 762.042549)">1</text>
+   </g>
+   <g id="text_244">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="233.191598" y="776.734723" transform="rotate(-0 233.191598 776.734723)">1.2</text>
+   </g>
+   <g id="text_245">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="389.024393" y="776.734723" transform="rotate(-0 389.024393 776.734723)">1</text>
+   </g>
+   <g id="text_246">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="544.857189" y="776.734723" transform="rotate(-0 544.857189 776.734723)">0.96</text>
+   </g>
+   <g id="text_247">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="233.191598" y="791.426897" transform="rotate(-0 233.191598 791.426897)">0.98</text>
+   </g>
+   <g id="text_248">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="389.024393" y="791.426897" transform="rotate(-0 389.024393 791.426897)">0.68</text>
+   </g>
+   <g id="text_249">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="544.857189" y="791.426897" transform="rotate(-0 544.857189 791.426897)">0.57</text>
+   </g>
+   <g id="text_250">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="233.191598" y="806.119071" transform="rotate(-0 233.191598 806.119071)">0.98</text>
+   </g>
+   <g id="text_251">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="389.024393" y="806.119071" transform="rotate(-0 389.024393 806.119071)">0.54</text>
+   </g>
+   <g id="text_252">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="544.857189" y="806.119071" transform="rotate(-0 544.857189 806.119071)">0.55</text>
+   </g>
+   <g id="text_253">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="233.191598" y="820.811245" transform="rotate(-0 233.191598 820.811245)">1</text>
+   </g>
+   <g id="text_254">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="389.024393" y="820.811245" transform="rotate(-0 389.024393 820.811245)">0.47</text>
+   </g>
+   <g id="text_255">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="544.857189" y="820.811245" transform="rotate(-0 544.857189 820.811245)">0.29</text>
+   </g>
+   <g id="text_256">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="233.191598" y="835.503418" transform="rotate(-0 233.191598 835.503418)">2.1</text>
+   </g>
+   <g id="text_257">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="389.024393" y="835.503418" transform="rotate(-0 389.024393 835.503418)">1</text>
+   </g>
+   <g id="text_258">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="544.857189" y="835.503418" transform="rotate(-0 544.857189 835.503418)">0.24</text>
+   </g>
+   <g id="text_259">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="233.191598" y="850.195592" transform="rotate(-0 233.191598 850.195592)">0.88</text>
+   </g>
+   <g id="text_260">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="389.024393" y="850.195592" transform="rotate(-0 389.024393 850.195592)">0.18</text>
+   </g>
+   <g id="text_261">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="544.857189" y="850.195592" transform="rotate(-0 544.857189 850.195592)">0.21</text>
+   </g>
+   <g id="text_262">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="233.191598" y="864.887766" transform="rotate(-0 233.191598 864.887766)">1.8</text>
+   </g>
+   <g id="text_263">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="389.024393" y="864.887766" transform="rotate(-0 389.024393 864.887766)">2.3</text>
+   </g>
+   <g id="text_264">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="544.857189" y="864.887766" transform="rotate(-0 544.857189 864.887766)">1.7</text>
+   </g>
+   <g id="text_265">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="233.191598" y="879.57994" transform="rotate(-0 233.191598 879.57994)">1.1</text>
+   </g>
+   <g id="text_266">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="389.024393" y="879.57994" transform="rotate(-0 389.024393 879.57994)">0.65</text>
+   </g>
+   <g id="text_267">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="544.857189" y="879.57994" transform="rotate(-0 544.857189 879.57994)">0.80</text>
+   </g>
+   <g id="text_268">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="233.191598" y="894.272114" transform="rotate(-0 233.191598 894.272114)">0.96</text>
+   </g>
+   <g id="text_269">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="389.024393" y="894.272114" transform="rotate(-0 389.024393 894.272114)">0.54</text>
+   </g>
+   <g id="text_270">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="544.857189" y="894.272114" transform="rotate(-0 544.857189 894.272114)">0.84</text>
+   </g>
+   <g id="text_271">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="233.191598" y="908.964288" transform="rotate(-0 233.191598 908.964288)">1.1</text>
+   </g>
+   <g id="text_272">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="389.024393" y="908.964288" transform="rotate(-0 389.024393 908.964288)">1.1</text>
+   </g>
+   <g id="text_273">
+    <text style="font-size: 6.8px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="544.857189" y="908.964288" transform="rotate(-0 544.857189 908.964288)">1.1</text>
+   </g>
+   <g id="text_274">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Hiragino Sans GB'; text-anchor: start" x="155.2752" y="688.017391" transform="rotate(-0 155.2752 688.017391)">B  过最优后 GTP 通量分配的阶段性偏移</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_30">
+    <path d="M 751.147623 914.4 
+L 1149.850821 914.4 
+L 1149.850821 694.017391 
+L 751.147623 694.017391 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g clip-path="url(#p90926ec673)">
+    <image xlink:href="data:image/png;base64,
+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" id="imaged3413193f2" transform="scale(1 -1) translate(0 -221.04)" x="751.147623" y="-693.36" width="398.88" height="221.04"/>
+   </g>
+   <g id="matplotlib.axis_5">
+    <g id="xtick_16">
+     <g id="line2d_59">
+      <g>
+       <use xlink:href="#m5770e8534e" x="784.372889" y="914.4" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_275">
+      <text style="font-size: 9px; font-family: 'Hiragino Sans GB'; text-anchor: middle" x="784.372889" y="928.293437" transform="rotate(-0 784.372889 928.293437)">deGFP</text>
+     </g>
+    </g>
+    <g id="xtick_17">
+     <g id="line2d_60">
+      <g>
+       <use xlink:href="#m5770e8534e" x="850.823422" y="914.4" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_276">
+      <text style="font-size: 9px; font-family: 'Hiragino Sans GB'; text-anchor: middle" x="850.823422" y="928.293437" transform="rotate(-0 850.823422 928.293437)">mRNA_t</text>
+     </g>
+    </g>
+    <g id="xtick_18">
+     <g id="line2d_61">
+      <g>
+       <use xlink:href="#m5770e8534e" x="917.273955" y="914.4" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_277">
+      <text style="font-size: 9px; font-family: 'Hiragino Sans GB'" transform="translate(893.54208 928.293437)">Ribosome-</text>
+      <text style="font-size: 9px; font-family: 'Hiragino Sans GB'" transform="translate(902.959737 938.402125)">mRNA</text>
+     </g>
+    </g>
+    <g id="xtick_19">
+     <g id="line2d_62">
+      <g>
+       <use xlink:href="#m5770e8534e" x="983.724488" y="914.4" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_278">
+      <text style="font-size: 9px; font-family: 'Hiragino Sans GB'; text-anchor: middle" x="983.724488" y="928.293437" transform="rotate(-0 983.724488 928.293437)">GTP</text>
+     </g>
+    </g>
+    <g id="xtick_20">
+     <g id="line2d_63">
+      <g>
+       <use xlink:href="#m5770e8534e" x="1050.175021" y="914.4" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_279">
+      <text style="font-size: 9px; font-family: 'Hiragino Sans GB'; text-anchor: middle" x="1050.175021" y="928.293437" transform="rotate(-0 1050.175021 928.293437)">ATP</text>
+     </g>
+    </g>
+    <g id="xtick_21">
+     <g id="line2d_64">
+      <g>
+       <use xlink:href="#m5770e8534e" x="1116.625555" y="914.4" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_280">
+      <text style="font-size: 9px; font-family: 'Hiragino Sans GB'; text-anchor: middle" x="1116.625555" y="928.293437" transform="rotate(-0 1116.625555 928.293437)">PPi</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_6">
+    <g id="ytick_31">
+     <g id="line2d_65"/>
+     <g id="text_281">
+      <text style="font-size: 9.5px; font-family: 'Hiragino Sans GB'; text-anchor: end" x="747.647623" y="719.693855" transform="rotate(-0 747.647623 719.693855)">GTP</text>
+     </g>
+    </g>
+    <g id="ytick_32">
+     <g id="line2d_66"/>
+     <g id="text_282">
+      <text style="font-size: 9.5px; font-family: 'Hiragino Sans GB'; text-anchor: end" x="747.647623" y="763.770377" transform="rotate(-0 747.647623 763.770377)">ATP</text>
+     </g>
+    </g>
+    <g id="ytick_33">
+     <g id="line2d_67"/>
+     <g id="text_283">
+      <text style="font-size: 9.5px; font-family: 'Hiragino Sans GB'; text-anchor: end" x="747.647623" y="807.846899" transform="rotate(-0 747.647623 807.846899)">总氨酰化模块</text>
+     </g>
+    </g>
+    <g id="ytick_34">
+     <g id="line2d_68"/>
+     <g id="text_284">
+      <text style="font-size: 9.5px; font-family: 'Hiragino Sans GB'; text-anchor: end" x="747.647623" y="851.923421" transform="rotate(-0 747.647623 851.923421)">CTP</text>
+     </g>
+    </g>
+    <g id="ytick_35">
+     <g id="line2d_69"/>
+     <g id="text_285">
+      <text style="font-size: 9.5px; font-family: 'Hiragino Sans GB'; text-anchor: end" x="747.647623" y="895.999942" transform="rotate(-0 747.647623 895.999942)">UTP</text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_70">
+    <path d="M 751.147623 738.093913 
+L 1149.850821 738.093913 
+" clip-path="url(#p90926ec673)" style="fill: none; stroke: #ffffff; stroke-width: 1.6; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_71">
+    <path d="M 751.147623 782.170435 
+L 1149.850821 782.170435 
+" clip-path="url(#p90926ec673)" style="fill: none; stroke: #ffffff; stroke-width: 1.6; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_72">
+    <path d="M 751.147623 826.246957 
+L 1149.850821 826.246957 
+" clip-path="url(#p90926ec673)" style="fill: none; stroke: #ffffff; stroke-width: 1.6; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_73">
+    <path d="M 751.147623 870.323478 
+L 1149.850821 870.323478 
+" clip-path="url(#p90926ec673)" style="fill: none; stroke: #ffffff; stroke-width: 1.6; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_74">
+    <path d="M 751.147623 914.4 
+L 1149.850821 914.4 
+" clip-path="url(#p90926ec673)" style="fill: none; stroke: #ffffff; stroke-width: 1.6; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_75">
+    <path d="M 817.598156 914.4 
+L 817.598156 694.017391 
+" clip-path="url(#p90926ec673)" style="fill: none; stroke: #ffffff; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_76">
+    <path d="M 884.048689 914.4 
+L 884.048689 694.017391 
+" clip-path="url(#p90926ec673)" style="fill: none; stroke: #ffffff; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_77">
+    <path d="M 950.499222 914.4 
+L 950.499222 694.017391 
+" clip-path="url(#p90926ec673)" style="fill: none; stroke: #ffffff; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_78">
+    <path d="M 1016.949755 914.4 
+L 1016.949755 694.017391 
+" clip-path="url(#p90926ec673)" style="fill: none; stroke: #ffffff; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_79">
+    <path d="M 1083.400288 914.4 
+L 1083.400288 694.017391 
+" clip-path="url(#p90926ec673)" style="fill: none; stroke: #ffffff; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_80">
+    <path d="M 1149.850821 914.4 
+L 1149.850821 694.017391 
+" clip-path="url(#p90926ec673)" style="fill: none; stroke: #ffffff; stroke-width: 1.4; stroke-linecap: square"/>
+   </g>
+   <g id="patch_31">
+    <path d="M 751.147623 914.4 
+L 751.147623 694.017391 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_32">
+    <path d="M 1149.850821 914.4 
+L 1149.850821 694.017391 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_33">
+    <path d="M 751.147623 914.4 
+L 1149.850821 914.4 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_34">
+    <path d="M 751.147623 694.017391 
+L 1149.850821 694.017391 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_286">
+    <text style="font-size: 7.2px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="784.372889" y="718.078402" transform="rotate(-0 784.372889 718.078402)">8.2e-02</text>
+   </g>
+   <g id="text_287">
+    <text style="font-size: 7.2px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="850.823422" y="718.078402" transform="rotate(-0 850.823422 718.078402)">9.4e-02</text>
+   </g>
+   <g id="text_288">
+    <text style="font-size: 7.2px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="917.273955" y="718.078402" transform="rotate(-0 917.273955 718.078402)">0.11</text>
+   </g>
+   <g id="text_289">
+    <text style="font-size: 7.2px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="983.724488" y="718.078402" transform="rotate(-0 983.724488 718.078402)">0.65</text>
+   </g>
+   <g id="text_290">
+    <text style="font-size: 7.2px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1050.175021" y="718.078402" transform="rotate(-0 1050.175021 718.078402)">92</text>
+   </g>
+   <g id="text_291">
+    <text style="font-size: 7.2px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1116.625555" y="718.078402" transform="rotate(-0 1116.625555 718.078402)">1.3</text>
+   </g>
+   <g id="text_292">
+    <text style="font-size: 7.2px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="784.372889" y="762.154924" transform="rotate(-0 784.372889 762.154924)">1</text>
+   </g>
+   <g id="text_293">
+    <text style="font-size: 7.2px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="850.823422" y="762.154924" transform="rotate(-0 850.823422 762.154924)">1</text>
+   </g>
+   <g id="text_294">
+    <text style="font-size: 7.2px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="917.273955" y="762.154924" transform="rotate(-0 917.273955 762.154924)">1</text>
+   </g>
+   <g id="text_295">
+    <text style="font-size: 7.2px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="983.724488" y="762.154924" transform="rotate(-0 983.724488 762.154924)">0.97</text>
+   </g>
+   <g id="text_296">
+    <text style="font-size: 7.2px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1050.175021" y="762.154924" transform="rotate(-0 1050.175021 762.154924)">0.25</text>
+   </g>
+   <g id="text_297">
+    <text style="font-size: 7.2px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1116.625555" y="762.154924" transform="rotate(-0 1116.625555 762.154924)">0.47</text>
+   </g>
+   <g id="text_298">
+    <text style="font-size: 7.2px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="784.372889" y="806.231446" transform="rotate(-0 784.372889 806.231446)">1</text>
+   </g>
+   <g id="text_299">
+    <text style="font-size: 7.2px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="850.823422" y="806.231446" transform="rotate(-0 850.823422 806.231446)">1</text>
+   </g>
+   <g id="text_300">
+    <text style="font-size: 7.2px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="917.273955" y="806.231446" transform="rotate(-0 917.273955 806.231446)">1</text>
+   </g>
+   <g id="text_301">
+    <text style="font-size: 7.2px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="983.724488" y="806.231446" transform="rotate(-0 983.724488 806.231446)">0.97</text>
+   </g>
+   <g id="text_302">
+    <text style="font-size: 7.2px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1050.175021" y="806.231446" transform="rotate(-0 1050.175021 806.231446)">1</text>
+   </g>
+   <g id="text_303">
+    <text style="font-size: 7.2px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1116.625555" y="806.231446" transform="rotate(-0 1116.625555 806.231446)">0.98</text>
+   </g>
+   <g id="text_304">
+    <text style="font-size: 7.2px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="784.372889" y="850.307967" transform="rotate(-0 784.372889 850.307967)">0.0e+00</text>
+   </g>
+   <g id="text_305">
+    <text style="font-size: 7.2px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="850.823422" y="850.307967" transform="rotate(-0 850.823422 850.307967)">0.0e+00</text>
+   </g>
+   <g id="text_306">
+    <text style="font-size: 7.2px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="917.273955" y="850.307967" transform="rotate(-0 917.273955 850.307967)">0.0e+00</text>
+   </g>
+   <g id="text_307">
+    <text style="font-size: 7.2px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="983.724488" y="850.307967" transform="rotate(-0 983.724488 850.307967)">76</text>
+   </g>
+   <g id="text_308">
+    <text style="font-size: 7.2px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1050.175021" y="850.307967" transform="rotate(-0 1050.175021 850.307967)">1.5</text>
+   </g>
+   <g id="text_309">
+    <text style="font-size: 7.2px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1116.625555" y="850.307967" transform="rotate(-0 1116.625555 850.307967)">1.1</text>
+   </g>
+   <g id="text_310">
+    <text style="font-size: 7.2px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="784.372889" y="894.384489" transform="rotate(-0 784.372889 894.384489)">1.2e-17</text>
+   </g>
+   <g id="text_311">
+    <text style="font-size: 7.2px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="850.823422" y="894.384489" transform="rotate(-0 850.823422 894.384489)">4.9e-18</text>
+   </g>
+   <g id="text_312">
+    <text style="font-size: 7.2px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="917.273955" y="894.384489" transform="rotate(-0 917.273955 894.384489)">4.9e-18</text>
+   </g>
+   <g id="text_313">
+    <text style="font-size: 7.2px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="983.724488" y="894.384489" transform="rotate(-0 983.724488 894.384489)">137</text>
+   </g>
+   <g id="text_314">
+    <text style="font-size: 7.2px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1050.175021" y="894.384489" transform="rotate(-0 1050.175021 894.384489)">1.5</text>
+   </g>
+   <g id="text_315">
+    <text style="font-size: 7.2px; font-family: 'Hiragino Sans GB'; text-anchor: middle; fill: #111111" x="1116.625555" y="894.384489" transform="rotate(-0 1116.625555 894.384489)">1.1</text>
+   </g>
+   <g id="text_316">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'Hiragino Sans GB'; text-anchor: start" x="751.147623" y="688.017391" transform="rotate(-0 751.147623 688.017391)">C  底物不足导致的断链型错配：终点相对于最优条件的浓度</text>
+   </g>
+  </g>
+  <g id="axes_4">
+   <g id="patch_35">
+    <path d="M 1152.55512 535.776104 
+L 1170.8352 535.776104 
+L 1170.8352 170.174504 
+L 1152.55512 170.174504 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAABkAAAH7CAYAAAA5EjReAAACzklEQVR4nO2a0ZFjWQxCEeVEJrmJbmO8mhTMB64txEmAUiMk3eeeP3//W5ghfsCHM8ioZPyFoJ5IfPiDPxh/1F3jF2FMGBkTxqknAh2QEp+JGZAMysnYRWhXQE8ikW7GuzmZlO6iX4R+CWR1F+zQL4EkTxhTybS7BDqFz27G8YvQL4Gs2TV2EdoV0O76f3YX/SL0SyAp8YypZLpPBDqF727GsYvQroCobyuT48n4ReiXQFROxi9CvwSycjJ2EdoV0Cks0sRfzcnEVMKYfcIYTybmFmaMJ4ypZJp4gU7hs5uRfhH6JZA1u8YuQrsCeneJdGlJdKxI9OCW6ICU6PqVaHed7S76ReiXQJInjPlYMEGejF2EdgW0u0T62eNqTiamEsbsE8Z4MvVEoN0l0ateolNYoptRorPrbHfRL0K/BJLuLsbcXRPkydhFaFdAu0ukU/hqTiamEsbsE8Z4MvVEoFP47uwauwjtCoiawlNPBJqTs91Fvwj9EkiawhMzhRnjCWMqmXaXwGewIcbvS6kE+2I8eSmevJTu2hhPdlM8QY4nL6US5CR+68n3NCdnZ9emJB45nrx68j3dJxLtLokmXqLveIle9WdfWpuy4zfHk5dSycZckNt3vEATfzbxm5J45Hjy6sn3dJ+c/Vb/UhKPHE82xZNtdwnUE4m+4yV6QZ69IDdnn6xdhHYFhL20nl2EdgV0n4g08WcTvymV4Af75BM0IF/K+t2gFn52EdoV0ONOpD9t3J3Czy5CuwKyEr/15Huak7Oza1MSvzmevHryPd0nV3f8NvECfcdL9KqX6AUp0X9RlOg+OXtBbspVvzGeIObu2phK0He8QN/xd3Py7CK0K6D7RKSe3M3Js4vQroAmXqS/x0v0qpfoBXn1HY+Yd/zGbEbEVLJ9xws08WcTvymVbMw+wQ+66xP059qcFn52EdoV0ONOpD9tSOTk5B8VSkv3XvuAtAAAAABJRU5ErkJggg==" id="image58dac68381" transform="scale(1 -1) translate(0 -365.04)" x="1152.72" y="-169.92" width="18" height="365.04"/>
+   <g id="matplotlib.axis_7"/>
+   <g id="matplotlib.axis_8">
+    <g id="ytick_36">
+     <g id="line2d_81">
+      <defs>
+       <path id="mf9e8e8c70a" d="M 0 0 
+L 3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#mf9e8e8c70a" x="1170.8352" y="499.215944" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_317">
+      <text style="font-size: 8px; font-family: 'Hiragino Sans GB'; text-anchor: start" x="1177.8352" y="502.279694" transform="rotate(-0 1177.8352 502.279694)">-2</text>
+     </g>
+    </g>
+    <g id="ytick_37">
+     <g id="line2d_82">
+      <g>
+       <use xlink:href="#mf9e8e8c70a" x="1170.8352" y="426.095624" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_318">
+      <text style="font-size: 8px; font-family: 'Hiragino Sans GB'; text-anchor: start" x="1177.8352" y="429.159374" transform="rotate(-0 1177.8352 429.159374)">-1</text>
+     </g>
+    </g>
+    <g id="ytick_38">
+     <g id="line2d_83">
+      <g>
+       <use xlink:href="#mf9e8e8c70a" x="1170.8352" y="352.975304" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_319">
+      <text style="font-size: 8px; font-family: 'Hiragino Sans GB'; text-anchor: start" x="1177.8352" y="356.039054" transform="rotate(-0 1177.8352 356.039054)">0</text>
+     </g>
+    </g>
+    <g id="ytick_39">
+     <g id="line2d_84">
+      <g>
+       <use xlink:href="#mf9e8e8c70a" x="1170.8352" y="279.854984" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_320">
+      <text style="font-size: 8px; font-family: 'Hiragino Sans GB'; text-anchor: start" x="1177.8352" y="282.918734" transform="rotate(-0 1177.8352 282.918734)">1</text>
+     </g>
+    </g>
+    <g id="ytick_40">
+     <g id="line2d_85">
+      <g>
+       <use xlink:href="#mf9e8e8c70a" x="1170.8352" y="206.734664" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_321">
+      <text style="font-size: 8px; font-family: 'Hiragino Sans GB'; text-anchor: start" x="1177.8352" y="209.798414" transform="rotate(-0 1177.8352 209.798414)">2</text>
+     </g>
+    </g>
+    <g id="text_322">
+     <text style="font-size: 9.5px; font-family: 'Hiragino Sans GB'; text-anchor: middle" x="1197.915903" y="352.975304" transform="rotate(-90 1197.915903 352.975304)">log2(过最优/最优)</text>
+    </g>
+   </g>
+   <g id="LineCollection_1"/>
+   <g id="patch_36">
+    <path d="M 1152.55512 535.776104 
+L 1161.69516 535.776104 
+L 1170.8352 535.776104 
+L 1170.8352 170.174504 
+L 1161.69516 170.174504 
+L 1152.55512 170.174504 
+L 1152.55512 535.776104 
+z
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+  </g>
+  <g id="axes_5">
+   <g id="patch_37">
+    <path d="M 631.68775 914.4 
+L 642.706881 914.4 
+L 642.706881 694.017391 
+L 631.68775 694.017391 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAABAAAAEyCAYAAADz4FDoAAABv0lEQVR4nO1a0a0kMQzCiEZec1fd1Rif7rXASMSR55/ECcbY2a2fP38bxidWOXjIxMOOgN7+/yMwl1C5l0h/AcSPgDSN5aYy0xEwrUZ68CtS+YNLLDMCjmeh4iwwfQR68E/u4AJnwnR7r/F3oLgz0dv/Bjlf4Ew1nwVuReIHLGD8wMEHtIDxjWZNdyZ68Ccazbwz0YPfMDM9oEZ68FdSeSsS4yzUakHxoUvxPpHe/k/cQd6Z6O1/g5wfcCZ6+99gbQ+okd7+l6Ty9IqkfKtb8UaTaS3oid+Zyo0A7gLlLVBxLTCdSJqvRnrwV1J5K1LFWeBWJBWs/7VBfcwF0MeN4IQrEtw7aPMI6nZZOMtCu5mIeB4groW+IBM7HUGHj0ALfQkLHa5IcuVMC/3NEXp6RVJeC72+ILes02YB6URS3heQ18KJ90i9vtDrC8r7AtJtnuJTm9wGgxb6m9n5xFno9QXEfQHjE4n56b3Hzwtyyzot9BWJpLgvaF91cUGD0fGKhPUFPeALyFekE24waKHXF96pSGe8LyDOQqfbPM0fPGmh1xd+P+30ji+eQHp4f0ALvb7w0Kvumd9gtLVAXgv/AJW9SmUuHmtyAAAAAElFTkSuQmCC" id="imagee42744cf56" transform="scale(1 -1) translate(0 -220.32)" x="631.44" y="-693.36" width="11.52" height="220.32"/>
+   <g id="matplotlib.axis_9"/>
+   <g id="matplotlib.axis_10">
+    <g id="ytick_41">
+     <g id="line2d_86">
+      <g>
+       <use xlink:href="#mf9e8e8c70a" x="642.706881" y="892.361739" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_323">
+      <text style="font-size: 8px; font-family: 'Hiragino Sans GB'; text-anchor: start" x="649.706881" y="895.425489" transform="rotate(-0 649.706881 895.425489)">-2</text>
+     </g>
+    </g>
+    <g id="ytick_42">
+     <g id="line2d_87">
+      <g>
+       <use xlink:href="#mf9e8e8c70a" x="642.706881" y="848.285217" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_324">
+      <text style="font-size: 8px; font-family: 'Hiragino Sans GB'; text-anchor: start" x="649.706881" y="851.348967" transform="rotate(-0 649.706881 851.348967)">-1</text>
+     </g>
+    </g>
+    <g id="ytick_43">
+     <g id="line2d_88">
+      <g>
+       <use xlink:href="#mf9e8e8c70a" x="642.706881" y="804.208696" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_325">
+      <text style="font-size: 8px; font-family: 'Hiragino Sans GB'; text-anchor: start" x="649.706881" y="807.272446" transform="rotate(-0 649.706881 807.272446)">0</text>
+     </g>
+    </g>
+    <g id="ytick_44">
+     <g id="line2d_89">
+      <g>
+       <use xlink:href="#mf9e8e8c70a" x="642.706881" y="760.132174" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_326">
+      <text style="font-size: 8px; font-family: 'Hiragino Sans GB'; text-anchor: start" x="649.706881" y="763.195924" transform="rotate(-0 649.706881 763.195924)">1</text>
+     </g>
+    </g>
+    <g id="ytick_45">
+     <g id="line2d_90">
+      <g>
+       <use xlink:href="#mf9e8e8c70a" x="642.706881" y="716.055652" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_327">
+      <text style="font-size: 8px; font-family: 'Hiragino Sans GB'; text-anchor: start" x="649.706881" y="719.119402" transform="rotate(-0 649.706881 719.119402)">2</text>
+     </g>
+    </g>
+    <g id="text_328">
+     <text style="font-size: 9.5px; font-family: 'Hiragino Sans GB'; text-anchor: middle" x="669.787584" y="804.208696" transform="rotate(-90 669.787584 804.208696)">log2(过最优/最优)</text>
+    </g>
+   </g>
+   <g id="LineCollection_2"/>
+   <g id="patch_38">
+    <path d="M 631.68775 914.4 
+L 637.197316 914.4 
+L 642.706881 914.4 
+L 642.706881 694.017391 
+L 637.197316 694.017391 
+L 631.68775 694.017391 
+L 631.68775 914.4 
+z
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+  </g>
+  <g id="axes_6">
+   <g id="patch_39">
+    <path d="M 1156.146135 914.4 
+L 1167.165265 914.4 
+L 1167.165265 694.017391 
+L 1156.146135 694.017391 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAA8AAAEyCAYAAAAlRYqNAAABaUlEQVR4nO1YMXIAQQhShiLPyb/y/3bNG04Lh8HtGV1OOdj8+f2raB4C2cUGkRMw+mC0kRHB3GqbyH7ndPxUWLtzOrKdo7YxAacd27koQylYGW1kjNsG3GQIbWQIjyf82M7zJJ8ODceT6ehJUvFToY2M1fFMSbZ5Zv3boacMpVtliJr1PLYdxpOLsR/3gGih21B0Q2gj48y6VOyHovRS1ZPk2uM4ToYMPAlFFyPvhebToeF4cjH2Q1P009E+ppsbQhsZ45WMQeWo1wfXBBzvLbEdW21zRliVH9s1YfttVQ5NtmttMUJySNBGxnzCaqlyGS5GqP4x3hbbT3GfGapsl+CEcW1I0EaG7IRRle1SvDPXRB9tZGxmDJ4nsbAVdHSAtShDtVMZlqJfjkH0LVWukyGHmIA2Mi6IKrFdkp6EskG0JuDnx3Yp3pmyQfQNwO88iUjsrxN9kyD6dirDUvRr4vTfif6XQ8Mg+g9VmSKSUxVhNQAAAABJRU5ErkJggg==" id="image57b2f06049" transform="scale(1 -1) translate(0 -220.32)" x="1156.32" y="-693.36" width="10.8" height="220.32"/>
+   <g id="matplotlib.axis_11"/>
+   <g id="matplotlib.axis_12">
+    <g id="ytick_46">
+     <g id="line2d_91">
+      <g>
+       <use xlink:href="#mf9e8e8c70a" x="1167.165265" y="914.4" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_329">
+      <text style="font-size: 8px; font-family: 'Hiragino Sans GB'; text-anchor: start" x="1174.165265" y="917.46375" transform="rotate(-0 1174.165265 917.46375)">-3.0</text>
+     </g>
+    </g>
+    <g id="ytick_47">
+     <g id="line2d_92">
+      <g>
+       <use xlink:href="#mf9e8e8c70a" x="1167.165265" y="886.852174" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_330">
+      <text style="font-size: 8px; font-family: 'Hiragino Sans GB'; text-anchor: start" x="1174.165265" y="889.915924" transform="rotate(-0 1174.165265 889.915924)">-2.5</text>
+     </g>
+    </g>
+    <g id="ytick_48">
+     <g id="line2d_93">
+      <g>
+       <use xlink:href="#mf9e8e8c70a" x="1167.165265" y="859.304348" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_331">
+      <text style="font-size: 8px; font-family: 'Hiragino Sans GB'; text-anchor: start" x="1174.165265" y="862.368098" transform="rotate(-0 1174.165265 862.368098)">-2.0</text>
+     </g>
+    </g>
+    <g id="ytick_49">
+     <g id="line2d_94">
+      <g>
+       <use xlink:href="#mf9e8e8c70a" x="1167.165265" y="831.756522" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_332">
+      <text style="font-size: 8px; font-family: 'Hiragino Sans GB'; text-anchor: start" x="1174.165265" y="834.820272" transform="rotate(-0 1174.165265 834.820272)">-1.5</text>
+     </g>
+    </g>
+    <g id="ytick_50">
+     <g id="line2d_95">
+      <g>
+       <use xlink:href="#mf9e8e8c70a" x="1167.165265" y="804.208696" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_333">
+      <text style="font-size: 8px; font-family: 'Hiragino Sans GB'; text-anchor: start" x="1174.165265" y="807.272446" transform="rotate(-0 1174.165265 807.272446)">-1.0</text>
+     </g>
+    </g>
+    <g id="ytick_51">
+     <g id="line2d_96">
+      <g>
+       <use xlink:href="#mf9e8e8c70a" x="1167.165265" y="776.66087" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_334">
+      <text style="font-size: 8px; font-family: 'Hiragino Sans GB'; text-anchor: start" x="1174.165265" y="779.72462" transform="rotate(-0 1174.165265 779.72462)">-0.5</text>
+     </g>
+    </g>
+    <g id="ytick_52">
+     <g id="line2d_97">
+      <g>
+       <use xlink:href="#mf9e8e8c70a" x="1167.165265" y="749.113043" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_335">
+      <text style="font-size: 8px; font-family: 'Hiragino Sans GB'; text-anchor: start" x="1174.165265" y="752.176793" transform="rotate(-0 1174.165265 752.176793)">0.0</text>
+     </g>
+    </g>
+    <g id="ytick_53">
+     <g id="line2d_98">
+      <g>
+       <use xlink:href="#mf9e8e8c70a" x="1167.165265" y="721.565217" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_336">
+      <text style="font-size: 8px; font-family: 'Hiragino Sans GB'; text-anchor: start" x="1174.165265" y="724.628967" transform="rotate(-0 1174.165265 724.628967)">0.5</text>
+     </g>
+    </g>
+    <g id="ytick_54">
+     <g id="line2d_99">
+      <g>
+       <use xlink:href="#mf9e8e8c70a" x="1167.165265" y="694.017391" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_337">
+      <text style="font-size: 8px; font-family: 'Hiragino Sans GB'; text-anchor: start" x="1174.165265" y="697.081141" transform="rotate(-0 1174.165265 697.081141)">1.0</text>
+     </g>
+    </g>
+    <g id="text_338">
+     <text style="font-size: 9.5px; font-family: 'Hiragino Sans GB'; text-anchor: middle" x="1201.422218" y="804.208696" transform="rotate(-90 1201.422218 804.208696)">log10(不足/最优)</text>
+    </g>
+   </g>
+   <g id="LineCollection_3"/>
+   <g id="patch_40">
+    <path d="M 1156.146135 914.4 
+L 1161.6557 914.4 
+L 1167.165265 914.4 
+L 1167.165265 694.017391 
+L 1161.6557 694.017391 
+L 1156.146135 694.017391 
+L 1156.146135 914.4 
+z
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+  </g>
+  <g id="text_339">
+   <text style="font-weight: 700; font-size: 17.5px; font-family: 'Hiragino Sans GB'; text-anchor: middle" x="646.6752" y="20.603906" transform="rotate(-0 646.6752 20.603906)">连续 PURE 体系扰动响应：资源适配、瓶颈转移与断链型错配</text>
+  </g>
+  <g id="text_340">
+   <text style="font-size: 9.2px; font-family: 'Hiragino Sans GB'; text-anchor: start; fill: #333333" x="7.2" y="1016.0064" transform="rotate(-0 7.2 1016.0064)">注：A、B 为相邻过最优条件相对于最优相邻条件的比值；C 为不足条件相对于最优条件的终点浓度比值。CTP/UTP 不足采用最新 0× 统一时间点补跑结果；总氨酰化模块为 total_aaRS 扰动。</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pb1736ae246">
+   <rect x="155.2752" y="116.064" width="985.0932" height="473.822609"/>
+  </clipPath>
+  <clipPath id="p1dd804979c">
+   <rect x="155.2752" y="694.017391" width="467.498386" height="220.382609"/>
+  </clipPath>
+  <clipPath id="p90926ec673">
+   <rect x="751.147623" y="694.017391" width="398.703199" height="220.382609"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,83 @@
+[
+  {
+    "prefix": "continuous_6h_fullspecies_log_corrected_gtpresidual_train0to5_validate6h_1500",
+    "all": {
+      "n": 3151,
+      "mean_rel": 0.062075376727562186,
+      "median_rel": 0.02509984389032418,
+      "weighted_rel": 0.03700384864880995,
+      "r2": 0.9993727805671431
+    },
+    "nonkey": {
+      "n": 3141,
+      "mean_rel": 0.053920264204711965,
+      "median_rel": 0.025101391064903604,
+      "weighted_rel": 0.0712951031161968,
+      "r2": 0.9968359039854359
+    },
+    "key_nonzero_mean_rel": 0.00015086571156366137,
+    "key_r2": 0.9999999617080376,
+    "gtp_overall": 0.11558197824033105,
+    "tx_gtp_entry": 0.1826645661873965,
+    "tl_gtp_entry": 0.0761626873883849,
+    "tl_gtp_progression": 0.0301742007548574,
+    "teacher_log_rmse": 0.1196385483093918,
+    "physics_rmse": 2394.5572194167257,
+    "colloc_physics_rmse": null,
+    "teacher_rhs_rmse": null
+  },
+  {
+    "prefix": "continuous_6h_corrected_gtpresidual_physopt_rhs1e4_colloc60_1800",
+    "all": {
+      "n": 3151,
+      "mean_rel": 2.997182910280177,
+      "median_rel": 0.015392245672435852,
+      "weighted_rel": 0.11022524165834019,
+      "r2": 0.985495172918376
+    },
+    "nonkey": {
+      "n": 3141,
+      "mean_rel": 2.9934254305789003,
+      "median_rel": 0.015392101966512877,
+      "weighted_rel": 0.2085298874580897,
+      "r2": 0.9269425782624405
+    },
+    "key_nonzero_mean_rel": 0.018304900465415316,
+    "key_r2": 0.9999661805614685,
+    "gtp_overall": 0.36906202337820654,
+    "tx_gtp_entry": 0.4707956813277623,
+    "tl_gtp_entry": 0.1464943005006906,
+    "tl_gtp_progression": 0.4068306498581306,
+    "teacher_log_rmse": 0.23936209851761667,
+    "physics_rmse": 2406.1640687785266,
+    "colloc_physics_rmse": 2341.412491745877,
+    "teacher_rhs_rmse": 5.702670969985093
+  },
+  {
+    "prefix": "continuous_6h_corrected_gtpresidual_physopt_colloc40_light_1800",
+    "all": {
+      "n": 3151,
+      "mean_rel": 0.05946123727839943,
+      "median_rel": 0.02307202291998019,
+      "weighted_rel": 0.04481972322775163,
+      "r2": 0.9991251332993086
+    },
+    "nonkey": {
+      "n": 3141,
+      "mean_rel": 0.05212078453690193,
+      "median_rel": 0.023072708604972892,
+      "weighted_rel": 0.0854244197995355,
+      "r2": 0.9955905682660651
+    },
+    "key_nonzero_mean_rel": 0.003131161623157549,
+    "key_r2": 0.9999988058149876,
+    "gtp_overall": 0.11781390100960043,
+    "tx_gtp_entry": 0.1858581329913278,
+    "tl_gtp_entry": 0.0812779445773898,
+    "tl_gtp_progression": 0.0221584281832546,
+    "teacher_log_rmse": 0.12329204366370435,
+    "physics_rmse": 2388.8971932585255,
+    "colloc_physics_rmse": 2314.8625016705055,
+    "teacher_rhs_rmse": 0.0
+  }
+]

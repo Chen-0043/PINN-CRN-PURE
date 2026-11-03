@@ -1,0 +1,8 @@
+{
+  "initial_asset_equals_formal_checkpoint": true,
+  "same_raw_k_numpy_vs_actual_pinn_allclose": true,
+  "same_raw_k_max_rhs_difference_M_s": 1.6543612251060553e-24,
+  "old_uM_flag_max_rhs_difference_M_s": 2.0967266989637796,
+  "different_rate_constants_under_old_flag": 1807,
+  "old_declared_operator_identity_is_reproduced": false
+}

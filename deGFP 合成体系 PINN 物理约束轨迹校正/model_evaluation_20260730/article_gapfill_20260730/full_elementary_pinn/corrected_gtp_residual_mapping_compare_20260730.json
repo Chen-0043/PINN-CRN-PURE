@@ -1,0 +1,58 @@
+[
+  {
+    "prefix": "continuous_6h_existing_fullspecies_log_train0to5_validate6h_1500",
+    "mapping": {
+      "tx_gtp_entry": "gtp_tx_consumption",
+      "tl_gtp_entry": "gtp_eftu_delivery",
+      "tl_gtp_progression": "translation_progression"
+    },
+    "teacher_log_rmse_train": 0.23161634685096583,
+    "gtp_overall_shape_rmse": 0.369004953823007,
+    "physics_rmse": 2391.7239337743445,
+    "all_n": 3151,
+    "all_mean_rel": 0.07348657920175736,
+    "all_median_rel": 0.02384040131123524,
+    "all_weighted_rel": 0.0716990829019388,
+    "all_r2": 0.9952419747996089,
+    "ge0p001_mean_rel": 0.4435186459280789,
+    "ge0p001_median_rel": 0.16685789654598918,
+    "ge0p1_mean_rel": 0.40705905240742857,
+    "ge0p1_median_rel": 0.13642229814671186,
+    "ge1_mean_rel": 0.35250307734429015,
+    "ge1_median_rel": 0.10489184069109223,
+    "key_nonzero_mean_rel": 0.004231153937504954,
+    "key_all_median_rel": 0.003196442077949638,
+    "key_r2": 0.9999863264487517,
+    "tx_gtp_entry_rmse": 0.1924953060670793,
+    "tl_gtp_entry_rmse": 0.609070485562426,
+    "tl_gtp_progression_rmse": 0.0217409428648014
+  },
+  {
+    "prefix": "continuous_6h_fullspecies_log_corrected_gtpresidual_train0to5_validate6h_1500",
+    "mapping": {
+      "tx_gtp_entry": "gtp_tx_consumption",
+      "tl_gtp_entry": "gtp_non_tx_non_progression",
+      "tl_gtp_progression": "translation_progression"
+    },
+    "teacher_log_rmse_train": 0.1196385483093918,
+    "gtp_overall_shape_rmse": 0.11558197824033105,
+    "physics_rmse": 2394.5572194167257,
+    "all_n": 3151,
+    "all_mean_rel": 0.062075376727562186,
+    "all_median_rel": 0.02509984389032418,
+    "all_weighted_rel": 0.03700384864880995,
+    "all_r2": 0.9993727805671431,
+    "ge0p001_mean_rel": 0.37447710020560204,
+    "ge0p001_median_rel": 0.05812846555657753,
+    "ge0p1_mean_rel": 0.3437234789435394,
+    "ge0p1_median_rel": 0.04715229275783403,
+    "ge1_mean_rel": 0.27532393822633905,
+    "ge1_median_rel": 0.03742188159131804,
+    "key_nonzero_mean_rel": 0.00015086571156366137,
+    "key_all_median_rel": 0.00014729690096317233,
+    "key_r2": 0.9999999617080376,
+    "tx_gtp_entry_rmse": 0.1826645661873965,
+    "tl_gtp_entry_rmse": 0.0761626873883849,
+    "tl_gtp_progression_rmse": 0.0301742007548574
+  }
+]

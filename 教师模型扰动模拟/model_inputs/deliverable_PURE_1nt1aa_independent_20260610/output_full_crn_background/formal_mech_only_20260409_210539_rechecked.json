@@ -1,0 +1,78 @@
+{
+  "source_live_best": "output_full_crn_background/formal_mech_only_20260409_210539_live_best.json",
+  "batch_best_metrics": {
+    "protein_2h_uM": 5.303150020187055,
+    "protein_4h_uM": 5.345897749677599,
+    "protein_8h_uM": 5.3465877220644895,
+    "protein_peak_uM": 5.3465877220644895,
+    "plateau_level_uM": 5.346101118024249,
+    "plateau_start_h": 2.164328657314629,
+    "plateau_max_abs_drift_uM": 0.008072405838977836,
+    "plateau_abs_slope_uM_per_h": 0.0003561685833075878
+  },
+  "batch_best_conservation": {
+    "cons_rel_ATP_family": {
+      "max_abs_rel": 3.937263200655868e-08,
+      "p95_abs_rel": 3.8159972404194775e-08,
+      "mean_abs_rel": 2.9504665575534146e-08
+    },
+    "cons_rel_GTP_family": {
+      "max_abs_rel": 2.3987013243742528e-08,
+      "p95_abs_rel": 2.3623215363033356e-08,
+      "mean_abs_rel": 1.9518178114366624e-08
+    },
+    "cons_rel_CTP_family": {
+      "max_abs_rel": 2.8102520310824275e-14,
+      "p95_abs_rel": 1.9949319973733282e-14,
+      "mean_abs_rel": 1.4080403509808548e-14
+    },
+    "cons_rel_UTP_family": {
+      "max_abs_rel": 1.4032178197176393e-12,
+      "p95_abs_rel": 1.4030443473700416e-12,
+      "mean_abs_rel": 1.3856631120301444e-12
+    }
+  },
+  "batch_best_score_terms": {
+    "batch": 0.0014571022020593476,
+    "hf": 1.223500126674451,
+    "prior": 0.05223992446592923,
+    "edge": 0.34913868336811393,
+    "cons": 5.035599499865233e-16,
+    "cons_hard": 0.0,
+    "w_hf": 6.0,
+    "w_prior": 1.2,
+    "w_edge": 0.3,
+    "w_cons": 2.0,
+    "cons_hard_weight": 120.0,
+    "cons_tol_rel": 0.03
+  },
+  "batch_best_params": {
+    "bg_ATP_inf_scale": 2.5523627303971073,
+    "bg_keff_scale": 2.5618189937440126,
+    "bg_k_scale": 0.014662588138992514,
+    "bg_keff_KGTP_scale": 0.2704658290218791,
+    "bg_keff_inf_scale": 0.2714869071604607,
+    "bg_GTP_inf_scale": 0.08417520513849992,
+    "bg_load_mem_gain": 0.450654284611276,
+    "bg_load_mem_out": 4.198293275387853e-05,
+    "bg_keff_KATP_scale": 5.098242917704966,
+    "bg_keff_KIPO4_scale": 0.13744048401865558,
+    "bg_load_mem_in": 0.00011652884233361375,
+    "k_tl_init": 0.026998731015091766,
+    "k_tl_elong": 0.009476441238810956,
+    "k_tl_term": 0.055568416391920346,
+    "K_tl_AA": 3.2535684250485034e-05,
+    "K_tl_ATP": 6.11033863918126e-05,
+    "K_tl_GTP": 3.113087089656521e-05,
+    "k_ntp_xfer_ATP_f": 0.002630123073687403,
+    "k_ntp_xfer_ATP_r": 0.002828313267213163,
+    "k_ntp_xfer_GTP_f": 0.0020828111851067567,
+    "k_ntp_xfer_GTP_r": 0.0035690874503672846,
+    "k_ntp_xfer_CTP_f": 0.0014666926309643258,
+    "k_ntp_xfer_CTP_r": 0.004579159829433761,
+    "k_ntp_xfer_UTP_f": 0.007449035926999959,
+    "k_ntp_xfer_UTP_r": 0.0023104553612529077,
+    "k_ribo_bind_f": 195464.87719773027,
+    "k_ribo_bind_r": 0.34584637957254144
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "图4_PINN先验模拟结果_统一0p24.svg": {
+    "only_changed": [
+      "patch_20",
+      "patch_21",
+      "text_72",
+      "text_73"
+    ],
+    "all_other_elements_byte_identical": true,
+    "scatter_images_unchanged": true,
+    "all_text_outlined": true
+  },
+  "图5_PINN物理校正结果_统一0p24.svg": {
+    "only_changed": [
+      "patch_15",
+      "text_49"
+    ],
+    "all_other_elements_byte_identical": true,
+    "scatter_images_unchanged": true,
+    "all_text_outlined": true
+  },
+  "superseded_generated_files_removed": [
+    "图4_PINN先验模拟结果.svg",
+    "图4_PINN先验模拟结果.png",
+    "图5_PINN物理校正结果_字体修正.svg",
+    "图5_PINN物理校正结果_字体修正.png"
+  ]
+}

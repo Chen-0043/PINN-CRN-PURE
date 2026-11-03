@@ -1,0 +1,69 @@
+{
+  "date": "2026-06-10",
+  "model_scope": "true_large_pure_new_chain_with_legacy_species_pruned_and_energy_fast_loops_backgrounded",
+  "environment": {
+    "PURE_TX_PATHWAY_MODE": "1nt",
+    "PURE_TX_STEP_MODE": "micro3",
+    "PURE_ENERGY_REGEN_MODE": "background",
+    "PURE_TL_PATHWAY_MODE": "step_chain",
+    "PURE_TL_CHAIN_GROUP_AA": "1.0",
+    "PURE_TL_CHAIN_SCALE": "30.0",
+    "PURE_RIBO_BIND_MODE": "explicit",
+    "PURE_RIBO_BIND_SCALE": "1.0",
+    "PURE_BG_FAMILY_EXCHANGE_BOOKKEEP": "1",
+    "PURE_TL_QSSA_MODE": "factorized",
+    "PURE_REMOVE_LEGACY_MRNA_RS": "1",
+    "PURE_REMOVE_LEGACY_RS_INIT": "1",
+    "PURE_REMOVE_LEGACY_RS_ELONG_TERM": "1",
+    "PURE_REMOVE_LEGACY_RS_ENERGY_SIDE": "1",
+    "PURE_REMOVE_LEGACY_RS_ASSEMBLY": "1",
+    "PURE_PRUNE_LEGACY_SPECIES": "1"
+  },
+  "batch_validation": {
+    "status": "validated",
+    "counts": {
+      "species_total": 3399,
+      "reactions_total": 3696,
+      "background_species_count": 6,
+      "background_reservoir_species_count": 4,
+      "boundary_species_count": 0,
+      "dynamic_species_count": 3399
+    },
+    "metrics": {
+      "protein_2h_uM": 5.34619787574427,
+      "protein_4h_uM": 5.34656751701599,
+      "protein_8h_uM": 5.346567517015432,
+      "protein_peak_uM": 5.346567517026243,
+      "plateau_level_uM": 5.346567517015431,
+      "plateau_start_h": 1.989983305509182,
+      "plateau_max_abs_drift_uM": 0.00041513210748167495,
+      "plateau_abs_slope_uM_per_h": 0.000006093490984485009
+    },
+    "parameter_source": "output_full_crn_background/formal_mech_only_20260409_210539_rechecked.json",
+    "hf_source": "output_full_crn_background/batch_then_continuous_summary.json"
+  },
+  "continuous_validation": {
+    "status": "validated_to_72h",
+    "gamma_h": 0.5,
+    "same_parameter_transfer": true,
+    "counts": {
+      "species_total": 3399,
+      "reactions_total": 3762
+    },
+    "runtime_s": 64.90128922462463,
+    "trajectory": {
+      "protein_2h_uM": 5.997342056065933,
+      "protein_4h_uM": 5.6863452275621995,
+      "protein_8h_uM": 5.521310502632366,
+      "protein_24h_uM": 5.499719947087506,
+      "protein_48h_uM": 5.504161516820236,
+      "protein_72h_uM": 5.507118817802301
+    },
+    "stability_48_72": {
+      "max_abs_drift_uM": 0.0015630086407751875,
+      "abs_slope_uM_per_h": 0.00012275173772963516,
+      "delta_72_minus_48_uM": 0.0029573009820644813
+    },
+    "resolved_failure_mode": "The slow runner omitted PURE_ENERGY_REGEN_MODE=background, silently restoring 61 explicit fast energy-regeneration/phosphate reactions and collapsing CVODE internal steps. Restoring the validated background closure resolves the failure."
+  }
+}

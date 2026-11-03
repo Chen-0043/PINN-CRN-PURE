@@ -1,0 +1,19 @@
+{
+  "full_species": 5772,
+  "reduced_teacher_species": 3399,
+  "shared_species": 3151,
+  "full_species_teacher_coverage": 0.545911295911296,
+  "full_only_latent_species": 2621,
+  "reduced_only_bookkeeping_or_effective_species": 248,
+  "full_reactions": 7061,
+  "reduced_teacher_reactions": 3762,
+  "shared_reaction_ids": 2073,
+  "full_reaction_teacher_coverage": 0.29358447811924654,
+  "full_only_expanded_reactions": 4988,
+  "recommended_loss_roles": {
+    "shared_species": "teacher trajectory/scale prior plus full S-v residual",
+    "full_only_latent_species": "full S-v residual, mass-action law, initial condition and conservation",
+    "shared_reactions": "teacher flux warm start only; final flux fixed by full mass-action operator",
+    "reduced_only_species": "do not map into the final full-CRN state vector"
+  }
+}

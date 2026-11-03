@@ -1,0 +1,6 @@
+{
+  "tight_solver_success": true,
+  "tight_time_points": 25,
+  "maximum_state_difference_M": 1.636128741397182e-10,
+  "tight_endpoint_deGFP_uM": 1.9893622776794488e-14
+}

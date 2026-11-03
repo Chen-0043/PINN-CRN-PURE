@@ -1,0 +1,42 @@
+{
+  "scope": "all-floating-species trajectory/snapshot exported from existing deGFP teacher package",
+  "mode": "continuous",
+  "gamma_h": 0.5,
+  "t_end_h": 6.0,
+  "time_points_h": [
+    0.0,
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0
+  ],
+  "species_count": 3399,
+  "counts": {
+    "species_total": 3399,
+    "reactions_total": 3762,
+    "background_species_count": 6,
+    "background_reservoir_species_count": 4,
+    "boundary_species_count": 0,
+    "dynamic_species_count": 3399
+  },
+  "hf_meta_continuous_exchange_policy": {
+    "uses_aggregate_aa_in_translation": false,
+    "aa20_removed_due_to_aggregate_aa": false
+  },
+  "param_apply": {
+    "applied": 27,
+    "missing": 0
+  },
+  "build_s": 109.59109662499941,
+  "simulate_s": 242.55583149999984,
+  "output_npz": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/model_evaluation_20260730/article_gapfill_20260730/existing_teacher_constraints/continuous_existing_teacher_train0to5_validate6h_all_species_6h_snapshot.npz",
+  "output_csv": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/model_evaluation_20260730/article_gapfill_20260730/existing_teacher_constraints/continuous_existing_teacher_train0to5_validate6h_all_species_6h_snapshot.csv",
+  "output_trajectory_npz": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/model_evaluation_20260730/article_gapfill_20260730/existing_teacher_constraints/continuous_existing_teacher_train0to5_validate6h_all_species_trajectory.npz",
+  "output_trajectory_long_csv": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/model_evaluation_20260730/article_gapfill_20260730/existing_teacher_constraints/continuous_existing_teacher_train0to5_validate6h_all_species_trajectory_long.csv",
+  "finite_fraction": 1.0,
+  "negative_fraction_lt_minus_1e_18": 0.0
+}

@@ -1,0 +1,78 @@
+{
+  "batch": {
+    "counts": {
+      "species_total": 3399,
+      "reactions_total": 3696,
+      "background_species_count": 6,
+      "background_reservoir_species_count": 4,
+      "boundary_species_count": 0,
+      "dynamic_species_count": 3399
+    },
+    "legacy_species": [],
+    "legacy_reactions": [],
+    "mRNA_reactions": [],
+    "mRNA_t_reaction_count": 3,
+    "product_related_reactions": [
+      {
+        "id": "reaction_protein_folding",
+        "species": [
+          "PeptGpept",
+          "deGFP_m"
+        ]
+      },
+      {
+        "id": "rxn_tl_chain_term",
+        "species": [
+          "PeptGpept",
+          "Ribosome",
+          "TLchain_pos_226",
+          "mRNA_t"
+        ]
+      }
+    ]
+  },
+  "continuous": {
+    "counts": {
+      "species_total": 3399,
+      "reactions_total": 3762,
+      "background_species_count": 6,
+      "background_reservoir_species_count": 4,
+      "boundary_species_count": 0,
+      "dynamic_species_count": 3399
+    },
+    "legacy_species": [],
+    "legacy_reactions": [],
+    "mRNA_reactions": [],
+    "mRNA_t_reaction_count": 3,
+    "product_related_reactions": [
+      {
+        "id": "reaction_protein_folding",
+        "species": [
+          "PeptGpept",
+          "deGFP_m"
+        ]
+      },
+      {
+        "id": "rxn_tl_chain_term",
+        "species": [
+          "PeptGpept",
+          "Ribosome",
+          "TLchain_pos_226",
+          "mRNA_t"
+        ]
+      },
+      {
+        "id": "rxn_ex_in_deGFP_m",
+        "species": [
+          "deGFP_m"
+        ]
+      },
+      {
+        "id": "rxn_ex_out_deGFP_m",
+        "species": [
+          "deGFP_m"
+        ]
+      }
+    ]
+  }
+}

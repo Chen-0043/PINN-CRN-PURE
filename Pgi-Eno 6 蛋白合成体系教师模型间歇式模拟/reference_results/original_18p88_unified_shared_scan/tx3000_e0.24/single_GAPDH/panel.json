@@ -1,0 +1,17 @@
+{
+  "dna_total_M": 2.8e-09,
+  "dna_allocation_rule": "single_each_2p8nM",
+  "genes": [
+    {
+      "name": "GAPDH",
+      "aa_length": 331,
+      "tx_scale": 3000.0,
+      "tl_scale": 2800.0,
+      "dna_weight": 1.0,
+      "v3_round1_corr_from_tx2p3": 1.1424568470342278,
+      "v3_round2_actdecay2_corr": 3.4401028529118927,
+      "tx_nt_steps": 996,
+      "dna_M": 2.8e-09
+    }
+  ]
+}

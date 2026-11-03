@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="469.19952pt" height="346.800456pt" viewBox="0 0 469.19952 346.800456" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-07-29T23:09:14.722770</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 346.800456 
+L 469.19952 346.800456 
+L 469.19952 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 34.859375 279.33979 
+L 461.99952 279.33979 
+L 461.99952 23.304375 
+L 34.859375 23.304375 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m4506263fa5" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m4506263fa5" x="54.274836" y="279.33979" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 10px; font-family: 'Hiragino Sans GB'; text-anchor: middle" x="54.274836" y="293.999165" transform="rotate(-0 54.274836 293.999165)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m4506263fa5" x="108.206673" y="279.33979" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 10px; font-family: 'Hiragino Sans GB'; text-anchor: middle" x="108.206673" y="293.999165" transform="rotate(-0 108.206673 293.999165)">10</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m4506263fa5" x="162.138509" y="279.33979" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 10px; font-family: 'Hiragino Sans GB'; text-anchor: middle" x="162.138509" y="293.999165" transform="rotate(-0 162.138509 293.999165)">20</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m4506263fa5" x="216.070346" y="279.33979" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 10px; font-family: 'Hiragino Sans GB'; text-anchor: middle" x="216.070346" y="293.999165" transform="rotate(-0 216.070346 293.999165)">30</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m4506263fa5" x="270.002182" y="279.33979" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 10px; font-family: 'Hiragino Sans GB'; text-anchor: middle" x="270.002182" y="293.999165" transform="rotate(-0 270.002182 293.999165)">40</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m4506263fa5" x="323.934019" y="279.33979" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 10px; font-family: 'Hiragino Sans GB'; text-anchor: middle" x="323.934019" y="293.999165" transform="rotate(-0 323.934019 293.999165)">50</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m4506263fa5" x="377.865855" y="279.33979" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 10px; font-family: 'Hiragino Sans GB'; text-anchor: middle" x="377.865855" y="293.999165" transform="rotate(-0 377.865855 293.999165)">60</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m4506263fa5" x="431.797692" y="279.33979" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 10px; font-family: 'Hiragino Sans GB'; text-anchor: middle" x="431.797692" y="293.999165" transform="rotate(-0 431.797692 293.999165)">70</text>
+     </g>
+    </g>
+    <g id="text_9">
+     <text style="font-size: 10px; font-family: 'Hiragino Sans GB'; text-anchor: middle" x="248.429448" y="307.969477" transform="rotate(-0 248.429448 307.969477)">时间 (h)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_9">
+      <defs>
+       <path id="m4969907400" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m4969907400" x="34.859375" y="267.701817" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 10px; font-family: 'Hiragino Sans GB'; text-anchor: end" x="27.859375" y="271.531504" transform="rotate(-0 27.859375 271.531504)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m4969907400" x="34.859375" y="228.901258" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 10px; font-family: 'Hiragino Sans GB'; text-anchor: end" x="27.859375" y="232.730945" transform="rotate(-0 27.859375 232.730945)">1</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m4969907400" x="34.859375" y="190.100699" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 10px; font-family: 'Hiragino Sans GB'; text-anchor: end" x="27.859375" y="193.930387" transform="rotate(-0 27.859375 193.930387)">2</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m4969907400" x="34.859375" y="151.300141" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 10px; font-family: 'Hiragino Sans GB'; text-anchor: end" x="27.859375" y="155.129828" transform="rotate(-0 27.859375 155.129828)">3</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#m4969907400" x="34.859375" y="112.499582" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font-size: 10px; font-family: 'Hiragino Sans GB'; text-anchor: end" x="27.859375" y="116.32927" transform="rotate(-0 27.859375 116.32927)">4</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m4969907400" x="34.859375" y="73.699023" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_15">
+      <text style="font-size: 10px; font-family: 'Hiragino Sans GB'; text-anchor: end" x="27.859375" y="77.528711" transform="rotate(-0 27.859375 77.528711)">5</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m4969907400" x="34.859375" y="34.898465" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_16">
+      <text style="font-size: 10px; font-family: 'Hiragino Sans GB'; text-anchor: end" x="27.859375" y="38.728152" transform="rotate(-0 27.859375 38.728152)">6</text>
+     </g>
+    </g>
+    <g id="text_17">
+     <text style="font-size: 10px; font-family: 'Hiragino Sans GB'; text-anchor: middle" x="15.209375" y="151.322082" transform="rotate(-90 15.209375 151.322082)">deGFP 浓度 (μM)</text>
+    </g>
+   </g>
+   <g id="line2d_16">
+    <path d="M 54.274836 267.701817 
+L 54.598697 267.606069 
+L 54.922558 267.151936 
+L 55.246419 266.048209 
+L 55.57028 264.09362 
+L 56.218002 257.47699 
+L 56.865723 247.438001 
+L 57.837306 226.743604 
+L 58.808889 200.46469 
+L 60.104332 159.214317 
+L 63.342941 51.164668 
+L 63.990663 38.559165 
+L 64.314524 36.047488 
+L 64.638385 35.116741 
+L 64.962246 34.942348 
+L 65.286107 35.136245 
+L 65.933829 35.968633 
+L 68.848577 40.270826 
+L 70.791742 42.619212 
+L 72.734908 44.580254 
+L 74.678073 46.217389 
+L 76.621238 47.583952 
+L 78.888265 48.895347 
+L 81.155291 49.957178 
+L 83.746178 50.925359 
+L 86.660926 51.768251 
+L 89.899535 52.471025 
+L 93.785866 53.075656 
+L 98.319919 53.55072 
+L 104.149415 53.9254 
+L 111.922077 54.185958 
+L 123.90493 54.336586 
+L 147.870637 54.365238 
+L 442.584059 54.02253 
+L 442.584059 54.02253 
+" clip-path="url(#p2912243e27)" style="fill: none; stroke: #c46c27; stroke-width: 2.4; stroke-linecap: square"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 34.859375 279.33979 
+L 34.859375 23.304375 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 34.859375 279.33979 
+L 461.99952 279.33979 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 12px; font-family: 'Hiragino Sans GB'; text-anchor: middle" x="248.429448" y="17.304375" transform="rotate(-0 248.429448 17.304375)">连续 PURE deGFP（gamma = 0.5 h^-1）</text>
+   </g>
+   <g id="legend_1">
+    <g id="line2d_17">
+     <path d="M 219.529448 331.490925 
+L 228.029448 331.490925 
+L 236.529448 331.490925 
+" style="fill: none; stroke: #c46c27; stroke-width: 2.4; stroke-linecap: square"/>
+    </g>
+    <g id="text_19">
+     <text style="font-size: 8.5px; font-family: 'Hiragino Sans GB'; text-anchor: start" x="243.329448" y="334.465925" transform="rotate(-0 243.329448 334.465925)">连续模拟</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p2912243e27">
+   <rect x="34.859375" y="23.304375" width="427.140145" height="256.035415"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,18 @@
+{
+  "created_for": "PURE+ technical report perturbation simulations, cleaned package",
+  "date": "2026-07-27",
+  "included_perturbations": {
+    "GTP": "unified 20260723 time grid; over-optimum adjacent 4x/3x",
+    "ATP": "unified 20260723 time grid; optimum 0.5x; over-optimum adjacent 1x/0.5x",
+    "CTP_UTP": "unified 20260723 time grid; adjacent over-optimum 0.03x/0.01x",
+    "total_aaRS_module": "total aaRS + amino acid supply module data; optimum 0.22x; adjacent over-optimum 0.25x/0.22x",
+    "MetRS": "MetRS enzyme-only data; optimum/practical window 0.06x; adjacent over-optimum 0.125x/0.06x",
+    "ATP_GTP_synergy_window": "baseline enzymes and CTP/UTP; engineering optimum ATP 2x / GTP 5x"
+  },
+  "excluded_as_obsolete_or_wrong": [
+    "old MetRS 0.25x/0.06x mechanism figures/tables",
+    "MetRS runs where non-Met species were co-scaled",
+    "aaRS enzyme-only interpretation as a valid single perturbation; the retained total_aaRS data are treated as an aaRS+AA supply module",
+    "historical render-check pages and previous draft figures"
+  ]
+}

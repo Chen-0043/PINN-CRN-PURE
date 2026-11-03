@@ -1,0 +1,263 @@
+{
+  "model_mode": "continuous",
+  "gamma_h": 0.5,
+  "model_counts": {
+    "species_total": 3399,
+    "reactions_total": 3762,
+    "background_species_count": 6,
+    "background_reservoir_species_count": 4,
+    "boundary_species_count": 0,
+    "dynamic_species_count": 3399
+  },
+  "stoichiometric_matrix": {
+    "shape": [
+      3399,
+      3762
+    ],
+    "nonzeros": 12192,
+    "density": 0.0009534655328309809,
+    "structural_rank": 3189
+  },
+  "reaction_constraint_counts": {
+    "strict_mass_action_monomial": 3488,
+    "effective_non_mass_action": 241,
+    "zero_order_source": 33
+  },
+  "strict_mass_action_monomial_fraction": 0.9271664008506114,
+  "mass_action_monomial_by_molecularity": {
+    "elementary_candidate_order_le_2": 3487,
+    "termolecular_order_3": 1,
+    "high_order_gt_3_effective": 0
+  },
+  "molecularity_counts": {
+    "0": 33,
+    "1.0": 2276,
+    "2.0": 1226,
+    "3.0": 1,
+    "5.0": 226
+  },
+  "declared_conservation_families": 4,
+  "top20_constraint_connected_species": [
+    {
+      "species_id": "PPi",
+      "module": "energy_nucleotide",
+      "reaction_degree": 875,
+      "reactant_degree": 2,
+      "product_degree": 873,
+      "strict_mass_action_degree": 872,
+      "effective_non_mass_action_degree": 2,
+      "conservation_family_count": 0,
+      "constraint_connectivity_score": 1090.75
+    },
+    {
+      "species_id": "CTP_TX",
+      "module": "energy_nucleotide",
+      "reaction_degree": 267,
+      "reactant_degree": 266,
+      "product_degree": 1,
+      "strict_mass_action_degree": 267,
+      "effective_non_mass_action_degree": 0,
+      "conservation_family_count": 1,
+      "constraint_connectivity_score": 335.75
+    },
+    {
+      "species_id": "Moiety_CTP_poly",
+      "module": "energy_nucleotide",
+      "reaction_degree": 265,
+      "reactant_degree": 0,
+      "product_degree": 265,
+      "strict_mass_action_degree": 265,
+      "effective_non_mass_action_degree": 0,
+      "conservation_family_count": 1,
+      "constraint_connectivity_score": 333.25
+    },
+    {
+      "species_id": "GTP_TX",
+      "module": "energy_nucleotide",
+      "reaction_degree": 226,
+      "reactant_degree": 225,
+      "product_degree": 1,
+      "strict_mass_action_degree": 226,
+      "effective_non_mass_action_degree": 0,
+      "conservation_family_count": 1,
+      "constraint_connectivity_score": 284.5
+    },
+    {
+      "species_id": "Moiety_GTP_poly",
+      "module": "energy_nucleotide",
+      "reaction_degree": 224,
+      "reactant_degree": 0,
+      "product_degree": 224,
+      "strict_mass_action_degree": 224,
+      "effective_non_mass_action_degree": 0,
+      "conservation_family_count": 1,
+      "constraint_connectivity_score": 282.0
+    },
+    {
+      "species_id": "ATP",
+      "module": "energy_nucleotide",
+      "reaction_degree": 396,
+      "reactant_degree": 311,
+      "product_degree": 85,
+      "strict_mass_action_degree": 167,
+      "effective_non_mass_action_degree": 228,
+      "conservation_family_count": 1,
+      "constraint_connectivity_score": 268.0
+    },
+    {
+      "species_id": "ATP_TX",
+      "module": "energy_nucleotide",
+      "reaction_degree": 211,
+      "reactant_degree": 210,
+      "product_degree": 1,
+      "strict_mass_action_degree": 211,
+      "effective_non_mass_action_degree": 0,
+      "conservation_family_count": 1,
+      "constraint_connectivity_score": 265.75
+    },
+    {
+      "species_id": "Moiety_ATP_poly",
+      "module": "energy_nucleotide",
+      "reaction_degree": 209,
+      "reactant_degree": 0,
+      "product_degree": 209,
+      "strict_mass_action_degree": 209,
+      "effective_non_mass_action_degree": 0,
+      "conservation_family_count": 1,
+      "constraint_connectivity_score": 263.25
+    },
+    {
+      "species_id": "UTP_TX",
+      "module": "energy_nucleotide",
+      "reaction_degree": 135,
+      "reactant_degree": 134,
+      "product_degree": 1,
+      "strict_mass_action_degree": 135,
+      "effective_non_mass_action_degree": 0,
+      "conservation_family_count": 1,
+      "constraint_connectivity_score": 170.75
+    },
+    {
+      "species_id": "Moiety_UTP_poly",
+      "module": "energy_nucleotide",
+      "reaction_degree": 133,
+      "reactant_degree": 0,
+      "product_degree": 133,
+      "strict_mass_action_degree": 133,
+      "effective_non_mass_action_degree": 0,
+      "conservation_family_count": 1,
+      "constraint_connectivity_score": 168.25
+    },
+    {
+      "species_id": "Moiety_ATP_untracked_loss",
+      "module": "energy_nucleotide",
+      "reaction_degree": 308,
+      "reactant_degree": 0,
+      "product_degree": 308,
+      "strict_mass_action_degree": 82,
+      "effective_non_mass_action_degree": 226,
+      "conservation_family_count": 1,
+      "constraint_connectivity_score": 161.0
+    },
+    {
+      "species_id": "Moiety_ATP_untracked_gain",
+      "module": "energy_nucleotide",
+      "reaction_degree": 123,
+      "reactant_degree": 0,
+      "product_degree": 123,
+      "strict_mass_action_degree": 123,
+      "effective_non_mass_action_degree": 0,
+      "conservation_family_count": 1,
+      "constraint_connectivity_score": 155.75
+    },
+    {
+      "species_id": "GTP",
+      "module": "energy_nucleotide",
+      "reaction_degree": 242,
+      "reactant_degree": 234,
+      "product_degree": 8,
+      "strict_mass_action_degree": 13,
+      "effective_non_mass_action_degree": 228,
+      "conservation_family_count": 1,
+      "constraint_connectivity_score": 75.5
+    },
+    {
+      "species_id": "Moiety_GTP_untracked_loss",
+      "module": "energy_nucleotide",
+      "reaction_degree": 236,
+      "reactant_degree": 0,
+      "product_degree": 236,
+      "strict_mass_action_degree": 10,
+      "effective_non_mass_action_degree": 226,
+      "conservation_family_count": 1,
+      "constraint_connectivity_score": 71.0
+    },
+    {
+      "species_id": "AA",
+      "module": "other",
+      "reaction_degree": 228,
+      "reactant_degree": 227,
+      "product_degree": 1,
+      "strict_mass_action_degree": 1,
+      "effective_non_mass_action_degree": 226,
+      "conservation_family_count": 0,
+      "constraint_connectivity_score": 58.0
+    },
+    {
+      "species_id": "EFTu_GTP",
+      "module": "energy_nucleotide",
+      "reaction_degree": 46,
+      "reactant_degree": 23,
+      "product_degree": 23,
+      "strict_mass_action_degree": 46,
+      "effective_non_mass_action_degree": 0,
+      "conservation_family_count": 0,
+      "constraint_connectivity_score": 57.5
+    },
+    {
+      "species_id": "AMP",
+      "module": "energy_nucleotide",
+      "reaction_degree": 43,
+      "reactant_degree": 1,
+      "product_degree": 42,
+      "strict_mass_action_degree": 42,
+      "effective_non_mass_action_degree": 0,
+      "conservation_family_count": 1,
+      "constraint_connectivity_score": 54.75
+    },
+    {
+      "species_id": "MetRS",
+      "module": "aminoacylation",
+      "reaction_degree": 15,
+      "reactant_degree": 7,
+      "product_degree": 8,
+      "strict_mass_action_degree": 15,
+      "effective_non_mass_action_degree": 0,
+      "conservation_family_count": 0,
+      "constraint_connectivity_score": 18.75
+    },
+    {
+      "species_id": "GDP",
+      "module": "energy_nucleotide",
+      "reaction_degree": 15,
+      "reactant_degree": 7,
+      "product_degree": 8,
+      "strict_mass_action_degree": 12,
+      "effective_non_mass_action_degree": 2,
+      "conservation_family_count": 1,
+      "constraint_connectivity_score": 17.75
+    },
+    {
+      "species_id": "Met",
+      "module": "other",
+      "reaction_degree": 14,
+      "reactant_degree": 7,
+      "product_degree": 7,
+      "strict_mass_action_degree": 13,
+      "effective_non_mass_action_degree": 0,
+      "conservation_family_count": 0,
+      "constraint_connectivity_score": 16.5
+    }
+  ],
+  "fitted_parameter_count": 27
+}

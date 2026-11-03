@@ -1,0 +1,5 @@
+family,members_declared,members_present,max_abs_internal_lT_S,nonzero_internal_reaction_residuals,nonzero_exchange_reaction_residuals
+ATP_family,7,7,1.0,6,0
+GTP_family,7,7,1.0,6,0
+CTP_family,8,6,1.0,2,0
+UTP_family,8,6,1.0,2,0

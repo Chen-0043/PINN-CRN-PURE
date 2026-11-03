@@ -1,0 +1,13 @@
+module,full_elementary_reaction_count,pred_end_flux_M_per_s,pred_integrated_flux_M,interpretation
+gtp_total_reactant_consumption,1991,1.758594707998629e-07,0.01114926045229764,full-elementary PINN module indicator; not necessarily teacher-supervised if full-only latent chain reactions are involved
+gtp_tx_consumption,223,2.8602719316444047e-17,1.4731487983191698e-08,full-elementary PINN module indicator; not necessarily teacher-supervised if full-only latent chain reactions are involved
+gtp_non_tx_non_progression,427,1.2601150146815346e-07,0.010019331337122444,full-elementary PINN module indicator; not necessarily teacher-supervised if full-only latent chain reactions are involved
+gtp_eftu_delivery,714,7.014654580816441e-08,0.001725887946299313,full-elementary PINN module indicator; not necessarily teacher-supervised if full-only latent chain reactions are involved
+gtp_factor_gtpase,230,9.140718931306124e-10,2.390448421903735e-05,full-elementary PINN module indicator; not necessarily teacher-supervised if full-only latent chain reactions are involved
+atp_tx_consumption,209,2.5254982981592674e-14,2.0546716912395783e-10,full-elementary PINN module indicator; not necessarily teacher-supervised if full-only latent chain reactions are involved
+atp_aars_activation,82,1.0527497282585264e-08,0.0010391287809257015,full-elementary PINN module indicator; not necessarily teacher-supervised if full-only latent chain reactions are involved
+mrna_production,1,1.0789345332397981e-13,6.39835738189829e-10,full-elementary PINN module indicator; not necessarily teacher-supervised if full-only latent chain reactions are involved
+ribosome_mrna_assembly,127,6.072723668523865e-10,7.116443529918613e-06,full-elementary PINN module indicator; not necessarily teacher-supervised if full-only latent chain reactions are involved
+translation_progression,3135,4.937848933039372e-07,0.007696263562367115,full-elementary PINN module indicator; not necessarily teacher-supervised if full-only latent chain reactions are involved
+termination_product,3,1.292004922164008e-10,9.239952868561551e-07,full-elementary PINN module indicator; not necessarily teacher-supervised if full-only latent chain reactions are involved
+ppi_po4_generation,2704,1.6039924663456156e-07,0.0026186986449619728,full-elementary PINN module indicator; not necessarily teacher-supervised if full-only latent chain reactions are involved

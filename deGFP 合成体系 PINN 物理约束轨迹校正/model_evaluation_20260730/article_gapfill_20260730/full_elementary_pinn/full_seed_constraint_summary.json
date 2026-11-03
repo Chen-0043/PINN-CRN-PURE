@@ -1,0 +1,337 @@
+{
+  "trajectory_time_s": [
+    0.0,
+    60.0
+  ],
+  "trajectory_points": 31,
+  "species": 5772,
+  "reactions": 7061,
+  "finite_flux_fraction": 1.0,
+  "negative_flux_fraction": 0.0,
+  "raw_subnormal_negative_state_values_clamped": 2,
+  "top20_flux_weighted_species": [
+    {
+      "species_id": "EFTu",
+      "flux_weighted_stoichiometric_throughput_M": 0.0020716716871767788,
+      "dxdt_rms_M_per_s": 3.096763001850758e-05,
+      "state_p95_M": 7.64897625041944e-05,
+      "state_max_M": 8e-05
+    },
+    {
+      "species_id": "GTP",
+      "flux_weighted_stoichiometric_throughput_M": 0.0019072026536733997,
+      "dxdt_rms_M_per_s": 2.779963502739426e-05,
+      "state_p95_M": 0.002496653051659477,
+      "state_max_M": 0.0025
+    },
+    {
+      "species_id": "EFTu_GTP",
+      "flux_weighted_stoichiometric_throughput_M": 0.00189280945571126,
+      "dxdt_rms_M_per_s": 2.798535362294976e-05,
+      "state_p95_M": 3.2182395570397464e-06,
+      "state_max_M": 3.2185284872629464e-06
+    },
+    {
+      "species_id": "EFTu_EFTs",
+      "flux_weighted_stoichiometric_throughput_M": 0.00016109197065762557,
+      "dxdt_rms_M_per_s": 2.667121052617808e-06,
+      "state_p95_M": 2.8856616871484125e-07,
+      "state_max_M": 2.885701266645378e-07
+    },
+    {
+      "species_id": "EFTs",
+      "flux_weighted_stoichiometric_throughput_M": 0.00016071523512292815,
+      "dxdt_rms_M_per_s": 2.66078410957017e-06,
+      "state_p95_M": 1.2711466275711229e-05,
+      "state_max_M": 1.3e-05
+    },
+    {
+      "species_id": "RS30S",
+      "flux_weighted_stoichiometric_throughput_M": 4.9582945330005147e-05,
+      "dxdt_rms_M_per_s": 5.080232197795207e-06,
+      "state_p95_M": 2.961628337360428e-06,
+      "state_max_M": 2.9616283907759466e-06
+    },
+    {
+      "species_id": "ATP",
+      "flux_weighted_stoichiometric_throughput_M": 3.910698540758482e-05,
+      "dxdt_rms_M_per_s": 6.442747344478111e-07,
+      "state_p95_M": 0.003749825062590686,
+      "state_max_M": 0.00375
+    },
+    {
+      "species_id": "RS70S",
+      "flux_weighted_stoichiometric_throughput_M": 3.315695596600087e-05,
+      "dxdt_rms_M_per_s": 5.069320307286296e-06,
+      "state_p95_M": 8.859193454990126e-09,
+      "state_max_M": 3e-06
+    },
+    {
+      "species_id": "RS50S",
+      "flux_weighted_stoichiometric_throughput_M": 3.315356376660701e-05,
+      "dxdt_rms_M_per_s": 5.068801153574651e-06,
+      "state_p95_M": 2.9910676660810202e-06,
+      "state_max_M": 2.9910676662404158e-06
+    },
+    {
+      "species_id": "GDP",
+      "flux_weighted_stoichiometric_throughput_M": 1.865327025945794e-05,
+      "dxdt_rms_M_per_s": 3.6104350227399944e-07,
+      "state_p95_M": 8.837828562474325e-07,
+      "state_max_M": 9.30275237978947e-07
+    },
+    {
+      "species_id": "EFTu_GDP",
+      "flux_weighted_stoichiometric_throughput_M": 1.861689885175906e-05,
+      "dxdt_rms_M_per_s": 3.604327649347516e-07,
+      "state_p95_M": 6.25852453626546e-08,
+      "state_max_M": 6.587500465553307e-08
+    },
+    {
+      "species_id": "MK",
+      "flux_weighted_stoichiometric_throughput_M": 1.2040057783569755e-05,
+      "dxdt_rms_M_per_s": 1.9424902460232456e-07,
+      "state_p95_M": 5.599650321231066e-06,
+      "state_max_M": 5.6e-06
+    },
+    {
+      "species_id": "MK_ATP",
+      "flux_weighted_stoichiometric_throughput_M": 1.2039458743096969e-05,
+      "dxdt_rms_M_per_s": 1.9423909386041098e-07,
+      "state_p95_M": 3.4995080776759494e-10,
+      "state_max_M": 3.4996729763838844e-10
+    },
+    {
+      "species_id": "RS30S_IF3",
+      "flux_weighted_stoichiometric_throughput_M": 1.1722775530065004e-05,
+      "dxdt_rms_M_per_s": 1.9314527875764824e-07,
+      "state_p95_M": 2.0996505628316044e-08,
+      "state_max_M": 2.0996506007632727e-08
+    },
+    {
+      "species_id": "IF3",
+      "flux_weighted_stoichiometric_throughput_M": 1.172177215707337e-05,
+      "dxdt_rms_M_per_s": 1.9517215314481044e-07,
+      "state_p95_M": 4.878892886681199e-06,
+      "state_max_M": 4.9e-06
+    },
+    {
+      "species_id": "CK",
+      "flux_weighted_stoichiometric_throughput_M": 7.774696731675724e-06,
+      "dxdt_rms_M_per_s": 1.2911724729940934e-07,
+      "state_p95_M": 1.0005376081263854e-06,
+      "state_max_M": 1.0006090261311693e-06
+    },
+    {
+      "species_id": "AlaRS",
+      "flux_weighted_stoichiometric_throughput_M": 6.919698785124836e-06,
+      "dxdt_rms_M_per_s": 1.1333868447628976e-07,
+      "state_p95_M": 2.999906360172522e-06,
+      "state_max_M": 3e-06
+    },
+    {
+      "species_id": "IF2",
+      "flux_weighted_stoichiometric_throughput_M": 6.621230956986678e-06,
+      "dxdt_rms_M_per_s": 8.235971507180149e-08,
+      "state_p95_M": 4.098472644814248e-06,
+      "state_max_M": 4.1e-06
+    },
+    {
+      "species_id": "IF2_GTP",
+      "flux_weighted_stoichiometric_throughput_M": 6.619483800840899e-06,
+      "dxdt_rms_M_per_s": 8.235305491361534e-08,
+      "state_p95_M": 1.5271813411302115e-09,
+      "state_max_M": 1.5272595311522737e-09
+    },
+    {
+      "species_id": "AlaRS_ATP",
+      "flux_weighted_stoichiometric_throughput_M": 6.352824650086499e-06,
+      "dxdt_rms_M_per_s": 1.0564853756002095e-07,
+      "state_p95_M": 1.263906145822414e-11,
+      "state_max_M": 1.2639667362519953e-11
+    }
+  ],
+  "top20_integrated_flux_reactions": [
+    {
+      "reaction_index": 2508,
+      "reaction_id": "r2508",
+      "molecularity": 1.0,
+      "reactants": "1 EFTu_GTP",
+      "products": "1 EFTu; 1 GTP",
+      "integrated_abs_flux_M": 0.0017846122948404633,
+      "max_abs_flux_M_per_s": 3.0273678499961486e-05
+    },
+    {
+      "reaction_index": 2496,
+      "reaction_id": "r2496",
+      "molecularity": 1.0,
+      "reactants": "1 EFTu_EFTs",
+      "products": "1 EFTu; 1 EFTs",
+      "integrated_abs_flux_M": 0.00016012188886906624,
+      "max_abs_flux_M_per_s": 2.714308502754496e-06
+    },
+    {
+      "reaction_index": 2507,
+      "reaction_id": "r2507",
+      "molecularity": 2.0,
+      "reactants": "1 EFTu; 1 GTP",
+      "products": "1 EFTu_GTP",
+      "integrated_abs_flux_M": 0.00010777170812667426,
+      "max_abs_flux_M_per_s": 1.8812124000000002e-06
+    },
+    {
+      "reaction_index": 2593,
+      "reaction_id": "r2593",
+      "molecularity": 1.0,
+      "reactants": "1 RS70S",
+      "products": "1 RS30S; 1 RS50S",
+      "integrated_abs_flux_M": 3.313466244141147e-05,
+      "max_abs_flux_M_per_s": 2.8218186000000002e-05
+    },
+    {
+      "reaction_index": 2501,
+      "reaction_id": "r2501",
+      "molecularity": 1.0,
+      "reactants": "1 EFTu_GDP",
+      "products": "1 EFTu; 1 GDP",
+      "integrated_abs_flux_M": 1.859655802857865e-05,
+      "max_abs_flux_M_per_s": 6.196243780402327e-07
+    },
+    {
+      "reaction_index": 2560,
+      "reaction_id": "r2560",
+      "molecularity": 2.0,
+      "reactants": "1 MK; 1 ATP",
+      "products": "1 MK_ATP",
+      "integrated_abs_flux_M": 1.1845328683991973e-05,
+      "max_abs_flux_M_per_s": 1.97527302e-07
+    },
+    {
+      "reaction_index": 2598,
+      "reaction_id": "r2598",
+      "molecularity": 1.0,
+      "reactants": "1 RS30S_IF3",
+      "products": "1 RS30S; 1 IF3",
+      "integrated_abs_flux_M": 1.1652169801623904e-05,
+      "max_abs_flux_M_per_s": 1.974944372911659e-07
+    },
+    {
+      "reaction_index": 2845,
+      "reaction_id": "r2845",
+      "molecularity": 2.0,
+      "reactants": "1 AlaRS; 1 ATP",
+      "products": "1 AlaRS_ATP",
+      "integrated_abs_flux_M": 6.345811029563575e-06,
+      "max_abs_flux_M_per_s": 1.058181975e-07
+    },
+    {
+      "reaction_index": 2511,
+      "reaction_id": "r2511",
+      "molecularity": 2.0,
+      "reactants": "1 EFG; 1 GTP",
+      "products": "1 EFG_GTP",
+      "integrated_abs_flux_M": 6.055463322540611e-06,
+      "max_abs_flux_M_per_s": 1.0111516650000001e-07
+    },
+    {
+      "reaction_index": 2589,
+      "reaction_id": "r2589",
+      "molecularity": 2.0,
+      "reactants": "1 IF2; 1 GTP",
+      "products": "1 IF2_GTP",
+      "integrated_abs_flux_M": 5.772330394175695e-06,
+      "max_abs_flux_M_per_s": 9.641213549999999e-08
+    },
+    {
+      "reaction_index": 2527,
+      "reaction_id": "r2527",
+      "molecularity": 2.0,
+      "reactants": "1 CK; 1 CP",
+      "products": "1 CK_CP",
+      "integrated_abs_flux_M": 5.644901922765596e-06,
+      "max_abs_flux_M_per_s": 9.411790518530109e-08
+    },
+    {
+      "reaction_index": 2622,
+      "reaction_id": "r2622",
+      "molecularity": 1.0,
+      "reactants": "1 RS30S_IF1",
+      "products": "1 RS30S; 1 IF1",
+      "integrated_abs_flux_M": 4.620172241273572e-06,
+      "max_abs_flux_M_per_s": 7.830801749409069e-08
+    },
+    {
+      "reaction_index": 2949,
+      "reaction_id": "r2949",
+      "molecularity": 2.0,
+      "reactants": "1 AsnRS; 1 ATP",
+      "products": "1 AsnRS_ATP",
+      "integrated_abs_flux_M": 3.5959846680370634e-06,
+      "max_abs_flux_M_per_s": 5.996364525e-08
+    },
+    {
+      "reaction_index": 3313,
+      "reaction_id": "r3313",
+      "molecularity": 2.0,
+      "reactants": "1 IleRS; 1 ATP",
+      "products": "1 IleRS_ATP",
+      "integrated_abs_flux_M": 3.1729274128588877e-06,
+      "max_abs_flux_M_per_s": 5.290909875e-08
+    },
+    {
+      "reaction_index": 2540,
+      "reaction_id": "r2540",
+      "molecularity": 2.0,
+      "reactants": "1 CK; 1 ATP",
+      "products": "1 CK_ATP",
+      "integrated_abs_flux_M": 2.115841135642848e-06,
+      "max_abs_flux_M_per_s": 3.52727325e-08
+    },
+    {
+      "reaction_index": 3157,
+      "reaction_id": "r3157",
+      "molecularity": 2.0,
+      "reactants": "1 GluRS; 1 ATP",
+      "products": "1 GluRS_ATP",
+      "integrated_abs_flux_M": 1.90377805993442e-06,
+      "max_abs_flux_M_per_s": 3.1745459249999996e-08
+    },
+    {
+      "reaction_index": 3559,
+      "reaction_id": "r3559",
+      "molecularity": 2.0,
+      "reactants": "1 ProRS; 1 ATP",
+      "products": "1 ProRS_ATP",
+      "integrated_abs_flux_M": 1.4172505315017325e-06,
+      "max_abs_flux_M_per_s": 2.3632730775000002e-08
+    },
+    {
+      "reaction_index": 3507,
+      "reaction_id": "r3507",
+      "molecularity": 2.0,
+      "reactants": "1 PheRS; 1 ATP",
+      "products": "1 PheRS_ATP",
+      "integrated_abs_flux_M": 1.1422621322855557e-06,
+      "max_abs_flux_M_per_s": 1.904727555e-08
+    },
+    {
+      "reaction_index": 3001,
+      "reaction_id": "r3001",
+      "molecularity": 2.0,
+      "reactants": "1 AspRS; 1 ATP",
+      "products": "1 AspRS_ATP",
+      "integrated_abs_flux_M": 1.0364974752708991e-06,
+      "max_abs_flux_M_per_s": 1.7283638925e-08
+    },
+    {
+      "reaction_index": 2674,
+      "reaction_id": "r2674",
+      "molecularity": 2.0,
+      "reactants": "1 RF3; 1 GTP",
+      "products": "1 RF3_GTP",
+      "integrated_abs_flux_M": 9.848311184255592e-07,
+      "max_abs_flux_M_per_s": 1.64606085e-08
+    }
+  ],
+  "interpretation": "Short-time full-elementary labels for PINN residual scaling and candidate-node selection; not a trained-PINN result or a long-time importance ranking."
+}

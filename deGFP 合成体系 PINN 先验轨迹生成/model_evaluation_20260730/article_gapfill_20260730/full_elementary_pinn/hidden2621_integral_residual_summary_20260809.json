@@ -1,0 +1,182 @@
+{
+  "trajectory_file": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/model_evaluation_20260730/article_gapfill_20260730/full_elementary_pinn/continuous_6h_trackpriority_200_shooting_continue_add300_train5h30_1000_shooting_nodes.npz",
+  "n_species_full": 5772,
+  "n_teacher_comparable": 3151,
+  "n_hidden": 2621,
+  "n_reactions": 7061,
+  "hidden_state_integral_residuals": {
+    "n": 2621,
+    "integral_residual_rms_uM_mean": 78.87870614005726,
+    "integral_residual_rms_uM_median": 0.05431060789092087,
+    "integral_residual_rms_uM_p95": 0.31167673825566866,
+    "rhsint_gt_0.01_uM_n": 2367,
+    "rhsint_gt_0.01_uM_mean_relative_residual": 0.9999248105188009,
+    "rhsint_gt_0.01_uM_median_relative_residual": 0.9999999764434845,
+    "rhsint_gt_0.01_uM_p95_relative_residual": 1.000010137961878,
+    "rhsint_gt_0.1_uM_n": 880,
+    "rhsint_gt_0.1_uM_mean_relative_residual": 0.99981232249991,
+    "rhsint_gt_0.1_uM_median_relative_residual": 0.9997206541315459,
+    "rhsint_gt_0.1_uM_p95_relative_residual": 1.0000051824196892,
+    "rhsint_gt_1_uM_n": 4,
+    "rhsint_gt_1_uM_mean_relative_residual": 0.9978601022702578,
+    "rhsint_gt_1_uM_median_relative_residual": 0.999990979281533,
+    "rhsint_gt_1_uM_p95_relative_residual": 1.0000048203543852,
+    "rhsint_gt_10_uM_n": 3,
+    "rhsint_gt_10_uM_mean_relative_residual": 0.9999959450323216,
+    "rhsint_gt_10_uM_median_relative_residual": 0.999998835337143,
+    "rhsint_gt_10_uM_p95_relative_residual": 1.000005172414223,
+    "rhsint_gt_100_uM_n": 3,
+    "rhsint_gt_100_uM_mean_relative_residual": 0.9999959450323216,
+    "rhsint_gt_100_uM_median_relative_residual": 0.999998835337143,
+    "rhsint_gt_100_uM_p95_relative_residual": 1.000005172414223
+  },
+  "flux_operator_checks": {
+    "all_flux_values_finite": true,
+    "all_flux_values_nonnegative": true,
+    "flux_min_M_per_s": 3.720075976020836e-44,
+    "flux_max_M_per_s": 0.00012400584692838956,
+    "interpretation": "Fluxes are algebraic mass-action outputs v=k*prod(C**lambda), not independently learned states; therefore a separate mass-action flux residual would be tautologically zero and is not an accuracy metric."
+  },
+  "top20_hidden_by_absolute_integral_residual": [
+    {
+      "species_index": 452,
+      "species_id": "RS70S",
+      "integral_residual_rms_uM": 68818.50799831674,
+      "rhs_integral_rms_uM": 68818.10358639818,
+      "relative_integral_residual": 1.0000058765338986
+    },
+    {
+      "species_index": 445,
+      "species_id": "RS50S",
+      "integral_residual_rms_uM": 68818.18891089733,
+      "rhs_integral_rms_uM": 68818.26906097919,
+      "relative_integral_residual": 0.999998835337143
+    },
+    {
+      "species_index": 428,
+      "species_id": "RS30S",
+      "integral_residual_rms_uM": 68816.62206544558,
+      "rhs_integral_rms_uM": 68817.78348762997,
+      "relative_integral_residual": 0.9999831232259231
+    },
+    {
+      "species_index": 399,
+      "species_id": "mRNA",
+      "integral_residual_rms_uM": 7.704279161629292,
+      "rhs_integral_rms_uM": 7.770698633289451,
+      "relative_integral_residual": 0.9914525739840662
+    },
+    {
+      "species_index": 4243,
+      "species_id": "elRS70SACCA0053_Pept0052_EFTu_GTP_TrptRNATrpCCA",
+      "integral_residual_rms_uM": 0.597874745248927,
+      "rhs_integral_rms_uM": 0.5978744665372905,
+      "relative_integral_residual": 1.0000004661708304
+    },
+    {
+      "species_index": 5767,
+      "species_id": "termRS70SUAA0226_tRNAIleAAU_RF3_GTP",
+      "integral_residual_rms_uM": 0.4817843148208922,
+      "rhs_integral_rms_uM": 0.4817830896248393,
+      "relative_integral_residual": 1.0000025430449497
+    },
+    {
+      "species_index": 4236,
+      "species_id": "elRS70SACAU0214_Pept0213_EFTu_GTP_MettRNAMetCAU",
+      "integral_residual_rms_uM": 0.40944100589882765,
+      "rhs_integral_rms_uM": 0.40944109661302014,
+      "relative_integral_residual": 0.9999997784438512
+    },
+    {
+      "species_index": 4222,
+      "species_id": "elRS70SACAU0084_Pept0083_EFTu_GTP_MettRNAMetCAU",
+      "integral_residual_rms_uM": 0.4093485113298635,
+      "rhs_integral_rms_uM": 0.40934860128946093,
+      "relative_integral_residual": 0.9999997802371935
+    },
+    {
+      "species_index": 4229,
+      "species_id": "elRS70SACAU0149_Pept0148_EFTu_GTP_MettRNAMetCAU",
+      "integral_residual_rms_uM": 0.40932159973253024,
+      "rhs_integral_rms_uM": 0.409321689748246,
+      "relative_integral_residual": 0.999999780085644
+    },
+    {
+      "species_index": 4215,
+      "species_id": "elRS70SACAU0074_Pept0073_EFTu_GTP_MettRNAMetCAU",
+      "integral_residual_rms_uM": 0.4092850309602474,
+      "rhs_integral_rms_uM": 0.4092851205315357,
+      "relative_integral_residual": 0.9999997811518576
+    },
+    {
+      "species_index": 456,
+      "species_id": "RS70S_IF1",
+      "integral_residual_rms_uM": 0.35190999855716554,
+      "rhs_integral_rms_uM": 0.3519175010387081,
+      "relative_integral_residual": 0.9999786811354353
+    },
+    {
+      "species_index": 5266,
+      "species_id": "elRS70SBCCA0053_Pept0053tRNATrpCCA",
+      "integral_residual_rms_uM": 0.34146024235843064,
+      "rhs_integral_rms_uM": 0.34155735458337555,
+      "relative_integral_residual": 0.999715678132408
+    },
+    {
+      "species_index": 433,
+      "species_id": "RS30S_IF1",
+      "integral_residual_rms_uM": 0.34055382909615217,
+      "rhs_integral_rms_uM": 0.34060784914767755,
+      "relative_integral_residual": 0.9998414010374084
+    },
+    {
+      "species_index": 3376,
+      "species_id": "elRS70SAACA0044_Pept0043_EFTu_GTP_CystRNACysACA",
+      "integral_residual_rms_uM": 0.34043936160639016,
+      "rhs_integral_rms_uM": 0.3404390591475097,
+      "relative_integral_residual": 1.000000888437658
+    },
+    {
+      "species_index": 3383,
+      "species_id": "elRS70SAACA0066_Pept0065_EFTu_GTP_CystRNACysACA",
+      "integral_residual_rms_uM": 0.34041814976832613,
+      "rhs_integral_rms_uM": 0.34041785217125947,
+      "relative_integral_residual": 1.0000008742111048
+    },
+    {
+      "species_index": 5263,
+      "species_id": "elRS70SBCAU0214_Pept0214tRNAMetCAU",
+      "integral_residual_rms_uM": 0.340038695474445,
+      "rhs_integral_rms_uM": 0.3401371076028609,
+      "relative_integral_residual": 0.9997106692383272
+    },
+    {
+      "species_index": 5260,
+      "species_id": "elRS70SBCAU0149_Pept0149tRNAMetCAU",
+      "integral_residual_rms_uM": 0.3399822689458173,
+      "rhs_integral_rms_uM": 0.34008063427971513,
+      "relative_integral_residual": 0.999710758790761
+    },
+    {
+      "species_index": 5257,
+      "species_id": "elRS70SBCAU0084_Pept0084tRNAMetCAU",
+      "integral_residual_rms_uM": 0.33996342916954037,
+      "rhs_integral_rms_uM": 0.34006339579912837,
+      "relative_integral_residual": 0.9997060353133477
+    },
+    {
+      "species_index": 5254,
+      "species_id": "elRS70SBCAU0074_Pept0074tRNAMetCAU",
+      "integral_residual_rms_uM": 0.3399505734873917,
+      "rhs_integral_rms_uM": 0.3400480780491446,
+      "relative_integral_residual": 0.9997132624236188
+    },
+    {
+      "species_index": 4894,
+      "species_id": "elRS70SBACA0044_Pept0044tRNACysACA",
+      "integral_residual_rms_uM": 0.33186637847106126,
+      "rhs_integral_rms_uM": 0.3319597621913669,
+      "relative_integral_residual": 0.9997186896397046
+    }
+  ]
+}

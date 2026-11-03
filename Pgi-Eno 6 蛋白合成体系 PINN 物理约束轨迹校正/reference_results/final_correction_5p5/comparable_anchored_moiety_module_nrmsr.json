@@ -1,0 +1,163 @@
+{
+  "prediction": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/PINN 驱动全基元 CRN 数字孪生研究_投稿与核查档案/六蛋白_当前图4先验接续完整校正_20261102/独立计算包/reproduced_results/final_correction_5p5/corrected_prediction_6h.npz",
+  "definition": "A directly comparable free pool plus every full-elementary state whose generated identifier carries the same token-delimited biochemical moiety. The fixed summation operator is applied to both state changes and integrated RHS before NRMSR is calculated.",
+  "interpretation_limit": "A low value establishes module-level net physical consistency; it does not establish low NRMSR for every constituent hidden state.",
+  "activity_threshold_uM_per_h": 0.004,
+  "model_inventory": {
+    "states": 49149,
+    "mass_action_elementary_reactions": 57368
+  },
+  "modules": [
+    {
+      "module": "TPP",
+      "comparable_anchor": "pool::TPP",
+      "total_state_count": 1,
+      "direct_comparable_state_count": 1,
+      "hidden_elementary_state_count": 0,
+      "rhs_rate_rms_uM_per_h": 0.9302748661187098,
+      "active_at_threshold": true,
+      "NRMSR_percent": 0.6214371332872073
+    },
+    {
+      "module": "NAD",
+      "comparable_anchor": "pool::NAD",
+      "total_state_count": 1,
+      "direct_comparable_state_count": 1,
+      "hidden_elementary_state_count": 0,
+      "rhs_rate_rms_uM_per_h": 7.971162613096622,
+      "active_at_threshold": true,
+      "NRMSR_percent": 1.2529865014967054
+    },
+    {
+      "module": "CTP",
+      "comparable_anchor": "pool::CTP",
+      "total_state_count": 1933,
+      "direct_comparable_state_count": 1,
+      "hidden_elementary_state_count": 1932,
+      "rhs_rate_rms_uM_per_h": 127.26199087711161,
+      "active_at_threshold": true,
+      "NRMSR_percent": 32.96426550423978
+    },
+    {
+      "module": "CTP+UTP transcription substrate incorporation",
+      "comparable_anchor": "pool::CTP + pool::UTP",
+      "total_state_count": 3699,
+      "direct_comparable_state_count": 2,
+      "hidden_elementary_state_count": 3697,
+      "rhs_rate_rms_uM_per_h": 254.095957946105,
+      "active_at_threshold": true,
+      "NRMSR_percent": 34.003979642513166
+    },
+    {
+      "module": "UTP",
+      "comparable_anchor": "pool::UTP",
+      "total_state_count": 1766,
+      "direct_comparable_state_count": 1,
+      "hidden_elementary_state_count": 1765,
+      "rhs_rate_rms_uM_per_h": 126.8555877626061,
+      "active_at_threshold": true,
+      "NRMSR_percent": 35.19139281662927
+    },
+    {
+      "module": "ADP",
+      "comparable_anchor": "pool::ADP",
+      "total_state_count": 8,
+      "direct_comparable_state_count": 1,
+      "hidden_elementary_state_count": 7,
+      "rhs_rate_rms_uM_per_h": 188.25308825328133,
+      "active_at_threshold": true,
+      "NRMSR_percent": 99.9537244679207
+    },
+    {
+      "module": "PPi",
+      "comparable_anchor": "pool::PPi",
+      "total_state_count": 7795,
+      "direct_comparable_state_count": 1,
+      "hidden_elementary_state_count": 7794,
+      "rhs_rate_rms_uM_per_h": 622.3718463736562,
+      "active_at_threshold": true,
+      "NRMSR_percent": 99.9980035354104
+    },
+    {
+      "module": "GTP",
+      "comparable_anchor": "pool::GTP",
+      "total_state_count": 6711,
+      "direct_comparable_state_count": 4,
+      "hidden_elementary_state_count": 6707,
+      "rhs_rate_rms_uM_per_h": 447.5995591705091,
+      "active_at_threshold": true,
+      "NRMSR_percent": 100.00239396034537
+    },
+    {
+      "module": "GDP",
+      "comparable_anchor": "pool::GDP",
+      "total_state_count": 11471,
+      "direct_comparable_state_count": 1,
+      "hidden_elementary_state_count": 11470,
+      "rhs_rate_rms_uM_per_h": 45.96273282213326,
+      "active_at_threshold": true,
+      "NRMSR_percent": 100.0637678997762
+    },
+    {
+      "module": "ATP",
+      "comparable_anchor": "pool::ATP",
+      "total_state_count": 2105,
+      "direct_comparable_state_count": 1,
+      "hidden_elementary_state_count": 2104,
+      "rhs_rate_rms_uM_per_h": 515.8436111338826,
+      "active_at_threshold": true,
+      "NRMSR_percent": 100.13031462209086
+    },
+    {
+      "module": "PO4",
+      "comparable_anchor": "pool::PO4",
+      "total_state_count": 4571,
+      "direct_comparable_state_count": 1,
+      "hidden_elementary_state_count": 4570,
+      "rhs_rate_rms_uM_per_h": 820.4631974355567,
+      "active_at_threshold": true,
+      "NRMSR_percent": 1336.4896250356883
+    },
+    {
+      "module": "NADH",
+      "comparable_anchor": "pool::NADH",
+      "total_state_count": 1,
+      "direct_comparable_state_count": 1,
+      "hidden_elementary_state_count": 0,
+      "rhs_rate_rms_uM_per_h": 7.049796071520519e-11,
+      "active_at_threshold": false,
+      "NRMSR_percent": 317.12614457885564
+    },
+    {
+      "module": "EFG",
+      "comparable_anchor": "pool::EFG",
+      "total_state_count": 6878,
+      "direct_comparable_state_count": 2,
+      "hidden_elementary_state_count": 6876,
+      "rhs_rate_rms_uM_per_h": 1.1097872268470697e-12,
+      "active_at_threshold": false,
+      "NRMSR_percent": 1230711590462.6814
+    },
+    {
+      "module": "IF2",
+      "comparable_anchor": "pool::IF2",
+      "total_state_count": 108,
+      "direct_comparable_state_count": 2,
+      "hidden_elementary_state_count": 106,
+      "rhs_rate_rms_uM_per_h": 4.016543980936925e-13,
+      "active_at_threshold": false,
+      "NRMSR_percent": 2908198009666.7837
+    },
+    {
+      "module": "EFTu",
+      "comparable_anchor": "pool::EFTu",
+      "total_state_count": 9099,
+      "direct_comparable_state_count": 2,
+      "hidden_elementary_state_count": 9097,
+      "rhs_rate_rms_uM_per_h": 5.463184929258075e-13,
+      "active_at_threshold": false,
+      "NRMSR_percent": 12263569353734.713
+    }
+  ],
+  "output_csv": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/PINN 驱动全基元 CRN 数字孪生研究_投稿与核查档案/六蛋白_当前图4先验接续完整校正_20261102/独立计算包/reproduced_results/physical_detail/comparable_anchored_moiety_module_nrmsr.csv"
+}

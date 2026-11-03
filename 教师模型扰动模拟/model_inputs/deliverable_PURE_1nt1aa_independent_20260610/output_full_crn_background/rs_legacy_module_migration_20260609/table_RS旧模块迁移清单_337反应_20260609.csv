@@ -1,0 +1,338 @@
+反应ID,涉及物种,功能分类,建议动作,迁移到新链的位置,判定理由
+r362,EFG_GTP; RS50S; RS50S_EFG_GTP,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r363,EFG_GTP; RS50S; RS50S_EFG_GTP,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r364,EFG_GTP; RS70S; RS70S_EFG_GTP,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r365,EFG_GTP; RS70S; RS70S_EFG_GTP,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r366,RS50S_EFG_GDP_PO4; RS50S_EFG_GTP,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r367,RS50S_EFG_GDP_PO4; RS50S_EFG_GTP,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r368,RS70S_EFG_GDP_PO4; RS70S_EFG_GTP,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r369,RS70S_EFG_GDP_PO4; RS70S_EFG_GTP,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r370,PO4; RS50S_EFG_GDP; RS50S_EFG_GDP_PO4,能量/副产物耦合旧侧支,删除RS微状态，保留小分子池,高频背景场 / 小分子连续流 / 新链门控,能量与副产物池应通过统一小分子池耦合，不应继续挂靠旧RS微状态链。
+r371,PO4; RS70S_EFG_GDP; RS70S_EFG_GDP_PO4,能量/副产物耦合旧侧支,删除RS微状态，保留小分子池,高频背景场 / 小分子连续流 / 新链门控,能量与副产物池应通过统一小分子池耦合，不应继续挂靠旧RS微状态链。
+r372,EFG_GDP; RS50S; RS50S_EFG_GDP,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r373,EFG_GDP; RS70S; RS70S_EFG_GDP,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r442,RS30S; RS50S; RS70S,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r443,RS30S; RS50S; RS70S,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r444,IF3; RS70S; RS70S_IF3,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r445,IF3; RS70S; RS70S_IF3,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r446,IF3; RS30S; RS30S_IF3,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r447,IF3; RS30S; RS30S_IF3,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r448,RS30S_IF3; RS50S; RS70S_IF3,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r449,RS30S_IF3; RS50S; RS70S_IF3,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r450,IF2_GTP; RS30S_IF3; RS30S_IF3_IF2_GTP,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r451,IF2_GTP; RS30S_IF3; RS30S_IF3_IF2_GTP,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r454,IF2_GTP; RS30S_IF3_IF2_GTP_mRNA; RS30S_IF3_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r455,IF2_GTP; RS30S_IF3_IF2_GTP_mRNA; RS30S_IF3_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r458,RS30S_IF1; RS50S; RS70S_IF1,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r459,RS30S_IF1; RS50S; RS70S_IF1,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r460,IF3; RS70S_IF1; RS70S_IF1_IF3,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r461,IF3; RS70S_IF1; RS70S_IF1_IF3,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r462,IF3; RS30S_IF1; RS30S_IF1_IF3,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r463,IF3; RS30S_IF1; RS30S_IF1_IF3,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r464,RS30S_IF1_IF3; RS50S; RS70S_IF1_IF3,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r465,RS30S_IF1_IF3; RS50S; RS70S_IF1_IF3,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r466,IF2_GTP; RS30S_IF1_IF3; RS30S_IF1_IF3_IF2_GTP,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r467,IF2_GTP; RS30S_IF1_IF3; RS30S_IF1_IF3_IF2_GTP,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r468,IF1; RS70S; RS70S_IF1,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r469,IF1; RS70S; RS70S_IF1,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r470,IF1; RS30S; RS30S_IF1,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r471,IF1; RS30S; RS30S_IF1,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r472,IF1; RS70S_IF1_IF3; RS70S_IF3,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r473,IF1; RS70S_IF1_IF3; RS70S_IF3,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r474,IF1; RS30S_IF1_IF3; RS30S_IF3,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r475,IF1; RS30S_IF1_IF3; RS30S_IF3,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r476,IF1; RS30S_IF1_IF3_IF2_GTP; RS30S_IF3_IF2_GTP,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r477,IF1; RS30S_IF1_IF3_IF2_GTP; RS30S_IF3_IF2_GTP,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r480,IF2_GTP; RS30S_IF1_IF3_IF2_GTP_mRNA; RS30S_IF1_IF3_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r481,IF2_GTP; RS30S_IF1_IF3_IF2_GTP_mRNA; RS30S_IF1_IF3_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r484,IF1; RS30S_IF1_IF3_mRNA; RS30S_IF3_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r485,IF1; RS30S_IF1_IF3_mRNA; RS30S_IF3_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r486,IF1; RS30S_IF1_IF3_IF2_GTP_mRNA; RS30S_IF3_IF2_GTP_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r487,IF1; RS30S_IF1_IF3_IF2_GTP_mRNA; RS30S_IF3_IF2_GTP_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r488,IF2_GTP; RS30S; RS30S_IF2_GTP,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r489,IF3; RS30S_IF2_GTP; RS30S_IF3_IF2_GTP,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r490,IF3; RS30S_IF2_GTP; RS30S_IF3_IF2_GTP,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r493,IF2_GTP; RS30S_IF2_GTP_mRNA; RS30S_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r494,IF2_GTP; RS30S_IF2_GTP_mRNA; RS30S_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r497,IF3; RS30S_IF3_mRNA; RS30S_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r498,IF3; RS30S_IF3_mRNA; RS30S_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r499,IF3; RS30S_IF2_GTP_mRNA; RS30S_IF3_IF2_GTP_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r500,IF3; RS30S_IF2_GTP_mRNA; RS30S_IF3_IF2_GTP_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r501,IF2_GTP; RS30S_IF1; RS30S_IF1_IF2_GTP,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r502,IF2_GTP; RS30S_IF1; RS30S_IF1_IF2_GTP,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r503,IF1; RS30S_IF1_IF2_GTP; RS30S_IF2_GTP,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r504,IF1; RS30S_IF1_IF2_GTP; RS30S_IF2_GTP,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r505,IF3; RS30S_IF1_IF2_GTP; RS30S_IF1_IF3_IF2_GTP,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r506,IF3; RS30S_IF1_IF2_GTP; RS30S_IF1_IF3_IF2_GTP,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r507,IF2_GTP; RS30S_IF1_IF2_GTP_mRNA; RS30S_IF1_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r508,IF2_GTP; RS30S_IF1_IF2_GTP_mRNA; RS30S_IF1_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r509,IF3; RS30S_IF1_IF3_mRNA; RS30S_IF1_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r510,IF3; RS30S_IF1_IF3_mRNA; RS30S_IF1_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r511,IF3; RS30S_IF1_IF2_GTP_mRNA; RS30S_IF1_IF3_IF2_GTP_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r512,IF3; RS30S_IF1_IF2_GTP_mRNA; RS30S_IF1_IF3_IF2_GTP_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r515,IF1; RS30S_IF1_mRNA; RS30S_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r516,IF1; RS30S_IF1_mRNA; RS30S_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r517,IF1; RS30S_IF1_IF2_GTP_mRNA; RS30S_IF2_GTP_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r518,IF1; RS30S_IF1_IF2_GTP_mRNA; RS30S_IF2_GTP_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r525,RRF; RS50S; RS50S_RRF,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r526,EFG_GDP; RS50S_RRF; RS50S_RRF_EFG_GDP,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r527,RRF; RS50S_EFG_GDP; RS50S_RRF_EFG_GDP,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r584,IF2_GTP_fMettRNAfMetCAU; RS30S_IF3; RS30S_IF3_IF2_GTP_fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r585,IF2_GTP_fMettRNAfMetCAU; RS30S_IF3; RS30S_IF3_IF2_GTP_fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r586,RS30S_IF3_IF2_GTP; RS30S_IF3_IF2_GTP_fMettRNAfMetCAU; fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r587,RS30S_IF3_IF2_GTP; RS30S_IF3_IF2_GTP_fMettRNAfMetCAU; fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r588,RS30S_IF3_fMettRNAfMetCAU_mRNA; RS30S_IF3_mRNA; fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r589,RS30S_IF3_fMettRNAfMetCAU_mRNA; RS30S_IF3_mRNA; fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r590,IF2_GTP_fMettRNAfMetCAU; RS30S_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA; RS30S_IF3_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r591,IF2_GTP_fMettRNAfMetCAU; RS30S_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA; RS30S_IF3_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r592,IF2_GTP; RS30S_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA; RS30S_IF3_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r593,IF2_GTP; RS30S_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA; RS30S_IF3_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r594,RS30S_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA; RS30S_IF3_IF2_GTP_mRNA; fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r595,RS30S_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA; RS30S_IF3_IF2_GTP_mRNA; fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r598,RS30S_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA; RS50S; RS70S_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r599,RS30S_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA; RS50S; RS70S_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r600,IF2_GTP_fMettRNAfMetCAU; RS30S_IF1_IF3; RS30S_IF1_IF3_IF2_GTP_fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r601,IF2_GTP_fMettRNAfMetCAU; RS30S_IF1_IF3; RS30S_IF1_IF3_IF2_GTP_fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r602,RS30S_IF1_IF3_IF2_GTP; RS30S_IF1_IF3_IF2_GTP_fMettRNAfMetCAU; fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r603,RS30S_IF1_IF3_IF2_GTP; RS30S_IF1_IF3_IF2_GTP_fMettRNAfMetCAU; fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r604,IF1; RS30S_IF1_IF3_IF2_GTP_fMettRNAfMetCAU; RS30S_IF3_IF2_GTP_fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r605,IF1; RS30S_IF1_IF3_IF2_GTP_fMettRNAfMetCAU; RS30S_IF3_IF2_GTP_fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r606,RS30S_IF1_IF3_fMettRNAfMetCAU_mRNA; RS30S_IF1_IF3_mRNA; fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r607,RS30S_IF1_IF3_fMettRNAfMetCAU_mRNA; RS30S_IF1_IF3_mRNA; fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r608,IF2_GTP_fMettRNAfMetCAU; RS30S_IF1_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA; RS30S_IF1_IF3_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r609,IF2_GTP_fMettRNAfMetCAU; RS30S_IF1_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA; RS30S_IF1_IF3_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r610,IF2_GTP; RS30S_IF1_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA; RS30S_IF1_IF3_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r611,IF2_GTP; RS30S_IF1_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA; RS30S_IF1_IF3_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r612,RS30S_IF1_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA; RS30S_IF1_IF3_IF2_GTP_mRNA; fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r613,RS30S_IF1_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA; RS30S_IF1_IF3_IF2_GTP_mRNA; fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r616,RS30S_IF1_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA; RS50S; RS70S_IF1_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r617,RS30S_IF1_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA; RS50S; RS70S_IF1_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r618,IF1; RS30S_IF1_IF3_fMettRNAfMetCAU_mRNA; RS30S_IF3_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r619,IF1; RS30S_IF1_IF3_fMettRNAfMetCAU_mRNA; RS30S_IF3_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r620,IF1; RS30S_IF1_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA; RS30S_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r621,IF1; RS30S_IF1_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA; RS30S_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r622,IF1; RS70S_IF1_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA; RS70S_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r623,IF1; RS70S_IF1_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA; RS70S_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r624,IF2_GTP_fMettRNAfMetCAU; RS30S; RS30S_IF2_GTP_fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r625,IF2_GTP_fMettRNAfMetCAU; RS30S; RS30S_IF2_GTP_fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r626,RS30S_IF2_GTP; RS30S_IF2_GTP_fMettRNAfMetCAU; fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r627,RS30S_IF2_GTP; RS30S_IF2_GTP_fMettRNAfMetCAU; fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r628,IF3; RS30S_IF2_GTP_fMettRNAfMetCAU; RS30S_IF3_IF2_GTP_fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r629,IF3; RS30S_IF2_GTP_fMettRNAfMetCAU; RS30S_IF3_IF2_GTP_fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r630,RS30S_fMettRNAfMetCAU_mRNA; RS30S_mRNA; fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r631,RS30S_fMettRNAfMetCAU_mRNA; RS30S_mRNA; fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r632,IF2_GTP_fMettRNAfMetCAU; RS30S_IF2_GTP_fMettRNAfMetCAU_mRNA; RS30S_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r633,IF2_GTP_fMettRNAfMetCAU; RS30S_IF2_GTP_fMettRNAfMetCAU_mRNA; RS30S_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r634,IF2_GTP; RS30S_IF2_GTP_fMettRNAfMetCAU_mRNA; RS30S_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r635,IF2_GTP; RS30S_IF2_GTP_fMettRNAfMetCAU_mRNA; RS30S_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r636,RS30S_IF2_GTP_fMettRNAfMetCAU_mRNA; RS30S_IF2_GTP_mRNA; fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r637,RS30S_IF2_GTP_fMettRNAfMetCAU_mRNA; RS30S_IF2_GTP_mRNA; fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r640,IF3; RS30S_IF3_fMettRNAfMetCAU_mRNA; RS30S_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r641,IF3; RS30S_IF3_fMettRNAfMetCAU_mRNA; RS30S_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r642,IF3; RS30S_IF2_GTP_fMettRNAfMetCAU_mRNA; RS30S_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r643,IF3; RS30S_IF2_GTP_fMettRNAfMetCAU_mRNA; RS30S_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r644,IF2_GTP_fMettRNAfMetCAU; RS30S_IF1; RS30S_IF1_IF2_GTP_fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r645,IF2_GTP_fMettRNAfMetCAU; RS30S_IF1; RS30S_IF1_IF2_GTP_fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r646,RS30S_IF1_IF2_GTP; RS30S_IF1_IF2_GTP_fMettRNAfMetCAU; fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r647,RS30S_IF1_IF2_GTP; RS30S_IF1_IF2_GTP_fMettRNAfMetCAU; fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r648,IF1; RS30S_IF1_IF2_GTP_fMettRNAfMetCAU; RS30S_IF2_GTP_fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r649,IF1; RS30S_IF1_IF2_GTP_fMettRNAfMetCAU; RS30S_IF2_GTP_fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r650,IF3; RS30S_IF1_IF2_GTP_fMettRNAfMetCAU; RS30S_IF1_IF3_IF2_GTP_fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r651,IF3; RS30S_IF1_IF2_GTP_fMettRNAfMetCAU; RS30S_IF1_IF3_IF2_GTP_fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r652,RS30S_IF1_fMettRNAfMetCAU_mRNA; RS30S_IF1_mRNA; fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r653,RS30S_IF1_fMettRNAfMetCAU_mRNA; RS30S_IF1_mRNA; fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r654,RS30S_IF1_IF2_GTP_fMettRNAfMetCAU_mRNA; RS30S_IF1_IF2_GTP_mRNA; fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r655,RS30S_IF1_IF2_GTP_fMettRNAfMetCAU_mRNA; RS30S_IF1_IF2_GTP_mRNA; fMettRNAfMetCAU,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r656,IF2_GTP; RS30S_IF1_IF2_GTP_fMettRNAfMetCAU_mRNA; RS30S_IF1_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r657,IF2_GTP; RS30S_IF1_IF2_GTP_fMettRNAfMetCAU_mRNA; RS30S_IF1_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r658,IF2_GTP_fMettRNAfMetCAU; RS30S_IF1_IF2_GTP_fMettRNAfMetCAU_mRNA; RS30S_IF1_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r659,IF2_GTP_fMettRNAfMetCAU; RS30S_IF1_IF2_GTP_fMettRNAfMetCAU_mRNA; RS30S_IF1_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r660,IF3; RS30S_IF1_IF3_fMettRNAfMetCAU_mRNA; RS30S_IF1_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r661,IF3; RS30S_IF1_IF3_fMettRNAfMetCAU_mRNA; RS30S_IF1_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r662,IF3; RS30S_IF1_IF2_GTP_fMettRNAfMetCAU_mRNA; RS30S_IF1_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r663,IF3; RS30S_IF1_IF2_GTP_fMettRNAfMetCAU_mRNA; RS30S_IF1_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r664,IF1; RS30S_IF1_fMettRNAfMetCAU_mRNA; RS30S_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r665,IF1; RS30S_IF1_fMettRNAfMetCAU_mRNA; RS30S_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r666,IF1; RS30S_IF1_IF2_GTP_fMettRNAfMetCAU_mRNA; RS30S_IF2_GTP_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r667,IF1; RS30S_IF1_IF2_GTP_fMettRNAfMetCAU_mRNA; RS30S_IF2_GTP_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r670,RS70S_IF3_IF2_GDP_PO4_fMettRNAfMetCAU_mRNA; RS70S_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r671,RS70S_IF3_IF2_GDP_PO4_fMettRNAfMetCAU_mRNA; RS70S_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r672,RS70S_IF1_IF3_IF2_GDP_PO4_fMettRNAfMetCAU_mRNA; RS70S_IF1_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r673,RS70S_IF1_IF3_IF2_GDP_PO4_fMettRNAfMetCAU_mRNA; RS70S_IF1_IF3_IF2_GTP_fMettRNAfMetCAU_mRNA,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r674,IF1; RS70S_IF1_IF3_IF2_GDP_PO4_fMettRNAfMetCAU_mRNA; RS70S_IF3_IF2_GDP_PO4_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r675,IF1; RS70S_IF1_IF3_IF2_GDP_PO4_fMettRNAfMetCAU_mRNA; RS70S_IF3_IF2_GDP_PO4_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r676,PO4; RS70S_IF3_IF2_GDP_PO4_fMettRNAfMetCAU_mRNA; RS70S_IF3_IF2_GDP_fMettRNAfMetCAU_mRNA,能量/副产物耦合旧侧支,删除RS微状态，保留小分子池,高频背景场 / 小分子连续流 / 新链门控,能量与副产物池应通过统一小分子池耦合，不应继续挂靠旧RS微状态链。
+r677,PO4; RS70S_IF1_IF3_IF2_GDP_PO4_fMettRNAfMetCAU_mRNA; RS70S_IF1_IF3_IF2_GDP_fMettRNAfMetCAU_mRNA,能量/副产物耦合旧侧支,删除RS微状态，保留小分子池,高频背景场 / 小分子连续流 / 新链门控,能量与副产物池应通过统一小分子池耦合，不应继续挂靠旧RS微状态链。
+r678,IF1; RS70S_IF1_IF3_IF2_GDP_fMettRNAfMetCAU_mRNA; RS70S_IF3_IF2_GDP_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r679,IF1; RS70S_IF1_IF3_IF2_GDP_fMettRNAfMetCAU_mRNA; RS70S_IF3_IF2_GDP_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r680,IF2_GDP; RS70S_IF3_IF2_GDP_fMettRNAfMetCAU_mRNA; RS70S_IF3_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r681,IF3; RS70S_IF1_IF2_GDP_fMettRNAfMetCAU_mRNA; RS70S_IF1_IF3_IF2_GDP_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r682,IF2_GDP; RS70S_IF1_IF3_IF2_GDP_fMettRNAfMetCAU_mRNA; RS70S_IF1_IF3_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r683,IF2_GDP; RS70S_IF1_IF3_IF2_GDP_fMettRNAfMetCAU_mRNA; RS70S_IF1_IF3_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r684,IF2_GDP; RS70S_IF3_IF2_GDP_fMettRNAfMetCAU_mRNA; RS70S_IF3_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r685,IF1; RS70S_IF1_IF3_fMettRNAfMetCAU_mRNA; RS70S_IF3_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r686,IF3; RS70S_IF2_GDP_fMettRNAfMetCAU_mRNA; RS70S_IF3_IF2_GDP_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r687,IF1; RS70S_IF1_IF2_GDP_fMettRNAfMetCAU_mRNA; RS70S_IF2_GDP_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r688,IF2_GDP; RS70S_IF1_IF2_GDP_fMettRNAfMetCAU_mRNA; RS70S_IF1_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r689,IF2_GDP; RS70S_IF1_IF2_GDP_fMettRNAfMetCAU_mRNA; RS70S_IF1_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r690,IF3; RS70S_IF1_IF3_fMettRNAfMetCAU_mRNA; RS70S_IF1_fMettRNAfMetCAU_mRNA,翻译起始微状态,迁移后删除旧状态,Ribosome_mRNA -> TLchain_pos_000 的起始门控 phi_init,新链已覆盖核糖体占位与起始装载，旧链剩余价值主要是 IF1/IF2/IF3/起始tRNA 对起始通量的限制。
+r735,EFG_GDP; RS50S_tRNAAlaAGU_RRF; RS50S_tRNAAlaAGU_RRF_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r736,RRF; RS50S_tRNAAlaAGU_EFG_GDP; RS50S_tRNAAlaAGU_RRF_EFG_GDP,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r737,RS50S_RRF_EFG_GDP; RS50S_tRNAAlaAGU_RRF_EFG_GDP; tRNAAlaAGU,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r738,RS50S_RRF; RS50S_tRNAAlaAGU_RRF; tRNAAlaAGU,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r739,RRF; RS50S_tRNAAlaAGU; RS50S_tRNAAlaAGU_RRF,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r740,RS50S; RS50S_tRNAAlaAGU; tRNAAlaAGU,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r741,EFG_GDP; RS50S_tRNAAlaAGU; RS50S_tRNAAlaAGU_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r742,RS50S_EFG_GDP; RS50S_tRNAAlaAGU_EFG_GDP; tRNAAlaAGU,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r787,EFG_GDP; RS50S_tRNAArgCCG_RRF; RS50S_tRNAArgCCG_RRF_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r788,RRF; RS50S_tRNAArgCCG_EFG_GDP; RS50S_tRNAArgCCG_RRF_EFG_GDP,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r789,RS50S_RRF_EFG_GDP; RS50S_tRNAArgCCG_RRF_EFG_GDP; tRNAArgCCG,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r790,RS50S_RRF; RS50S_tRNAArgCCG_RRF; tRNAArgCCG,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r791,RRF; RS50S_tRNAArgCCG; RS50S_tRNAArgCCG_RRF,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r792,RS50S; RS50S_tRNAArgCCG; tRNAArgCCG,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r793,EFG_GDP; RS50S_tRNAArgCCG; RS50S_tRNAArgCCG_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r794,RS50S_EFG_GDP; RS50S_tRNAArgCCG_EFG_GDP; tRNAArgCCG,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r839,EFG_GDP; RS50S_tRNAAsnAUU_RRF; RS50S_tRNAAsnAUU_RRF_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r840,RRF; RS50S_tRNAAsnAUU_EFG_GDP; RS50S_tRNAAsnAUU_RRF_EFG_GDP,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r841,RS50S_RRF_EFG_GDP; RS50S_tRNAAsnAUU_RRF_EFG_GDP; tRNAAsnAUU,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r842,RS50S_RRF; RS50S_tRNAAsnAUU_RRF; tRNAAsnAUU,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r843,RRF; RS50S_tRNAAsnAUU; RS50S_tRNAAsnAUU_RRF,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r844,RS50S; RS50S_tRNAAsnAUU; tRNAAsnAUU,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r845,EFG_GDP; RS50S_tRNAAsnAUU; RS50S_tRNAAsnAUU_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r846,RS50S_EFG_GDP; RS50S_tRNAAsnAUU_EFG_GDP; tRNAAsnAUU,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r891,EFG_GDP; RS50S_tRNAAspAUC_RRF; RS50S_tRNAAspAUC_RRF_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r892,RRF; RS50S_tRNAAspAUC_EFG_GDP; RS50S_tRNAAspAUC_RRF_EFG_GDP,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r893,RS50S_RRF_EFG_GDP; RS50S_tRNAAspAUC_RRF_EFG_GDP; tRNAAspAUC,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r894,RS50S_RRF; RS50S_tRNAAspAUC_RRF; tRNAAspAUC,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r895,RRF; RS50S_tRNAAspAUC; RS50S_tRNAAspAUC_RRF,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r896,RS50S; RS50S_tRNAAspAUC; tRNAAspAUC,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r897,EFG_GDP; RS50S_tRNAAspAUC; RS50S_tRNAAspAUC_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r898,RS50S_EFG_GDP; RS50S_tRNAAspAUC_EFG_GDP; tRNAAspAUC,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r943,EFG_GDP; RS50S_tRNACysACA_RRF; RS50S_tRNACysACA_RRF_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r944,RRF; RS50S_tRNACysACA_EFG_GDP; RS50S_tRNACysACA_RRF_EFG_GDP,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r945,RS50S_RRF_EFG_GDP; RS50S_tRNACysACA_RRF_EFG_GDP; tRNACysACA,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r946,RS50S_RRF; RS50S_tRNACysACA_RRF; tRNACysACA,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r947,RRF; RS50S_tRNACysACA; RS50S_tRNACysACA_RRF,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r948,RS50S; RS50S_tRNACysACA; tRNACysACA,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r949,EFG_GDP; RS50S_tRNACysACA; RS50S_tRNACysACA_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r950,RS50S_EFG_GDP; RS50S_tRNACysACA_EFG_GDP; tRNACysACA,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r995,EFG_GDP; RS50S_tRNAGlnUUG_RRF; RS50S_tRNAGlnUUG_RRF_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r996,RRF; RS50S_tRNAGlnUUG_EFG_GDP; RS50S_tRNAGlnUUG_RRF_EFG_GDP,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r997,RS50S_RRF_EFG_GDP; RS50S_tRNAGlnUUG_RRF_EFG_GDP; tRNAGlnUUG,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r998,RS50S_RRF; RS50S_tRNAGlnUUG_RRF; tRNAGlnUUG,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r999,RRF; RS50S_tRNAGlnUUG; RS50S_tRNAGlnUUG_RRF,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r1000,RS50S; RS50S_tRNAGlnUUG; tRNAGlnUUG,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1001,EFG_GDP; RS50S_tRNAGlnUUG; RS50S_tRNAGlnUUG_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r1002,RS50S_EFG_GDP; RS50S_tRNAGlnUUG_EFG_GDP; tRNAGlnUUG,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1047,EFG_GDP; RS50S_tRNAGluUUC_RRF; RS50S_tRNAGluUUC_RRF_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r1048,RRF; RS50S_tRNAGluUUC_EFG_GDP; RS50S_tRNAGluUUC_RRF_EFG_GDP,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r1049,RS50S_RRF_EFG_GDP; RS50S_tRNAGluUUC_RRF_EFG_GDP; tRNAGluUUC,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1050,RS50S_RRF; RS50S_tRNAGluUUC_RRF; tRNAGluUUC,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1051,RRF; RS50S_tRNAGluUUC; RS50S_tRNAGluUUC_RRF,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r1052,RS50S; RS50S_tRNAGluUUC; tRNAGluUUC,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1053,EFG_GDP; RS50S_tRNAGluUUC; RS50S_tRNAGluUUC_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r1054,RS50S_EFG_GDP; RS50S_tRNAGluUUC_EFG_GDP; tRNAGluUUC,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1099,EFG_GDP; RS50S_tRNAGlyGCC_RRF; RS50S_tRNAGlyGCC_RRF_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r1100,RRF; RS50S_tRNAGlyGCC_EFG_GDP; RS50S_tRNAGlyGCC_RRF_EFG_GDP,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r1101,RS50S_RRF_EFG_GDP; RS50S_tRNAGlyGCC_RRF_EFG_GDP; tRNAGlyGCC,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1102,RS50S_RRF; RS50S_tRNAGlyGCC_RRF; tRNAGlyGCC,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1103,RRF; RS50S_tRNAGlyGCC; RS50S_tRNAGlyGCC_RRF,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r1104,RS50S; RS50S_tRNAGlyGCC; tRNAGlyGCC,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1105,EFG_GDP; RS50S_tRNAGlyGCC; RS50S_tRNAGlyGCC_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r1106,RS50S_EFG_GDP; RS50S_tRNAGlyGCC_EFG_GDP; tRNAGlyGCC,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1151,EFG_GDP; RS50S_tRNAHisAUG_RRF; RS50S_tRNAHisAUG_RRF_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r1152,RRF; RS50S_tRNAHisAUG_EFG_GDP; RS50S_tRNAHisAUG_RRF_EFG_GDP,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r1153,RS50S_RRF_EFG_GDP; RS50S_tRNAHisAUG_RRF_EFG_GDP; tRNAHisAUG,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1154,RS50S_RRF; RS50S_tRNAHisAUG_RRF; tRNAHisAUG,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1155,RRF; RS50S_tRNAHisAUG; RS50S_tRNAHisAUG_RRF,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r1156,RS50S; RS50S_tRNAHisAUG; tRNAHisAUG,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1157,EFG_GDP; RS50S_tRNAHisAUG; RS50S_tRNAHisAUG_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r1158,RS50S_EFG_GDP; RS50S_tRNAHisAUG_EFG_GDP; tRNAHisAUG,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1203,EFG_GDP; RS50S_tRNAIleAAU_RRF; RS50S_tRNAIleAAU_RRF_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r1204,RRF; RS50S_tRNAIleAAU_EFG_GDP; RS50S_tRNAIleAAU_RRF_EFG_GDP,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r1205,RS50S_RRF_EFG_GDP; RS50S_tRNAIleAAU_RRF_EFG_GDP; tRNAIleAAU,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1206,RS50S_RRF; RS50S_tRNAIleAAU_RRF; tRNAIleAAU,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1207,RRF; RS50S_tRNAIleAAU; RS50S_tRNAIleAAU_RRF,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r1208,RS50S; RS50S_tRNAIleAAU; tRNAIleAAU,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1209,EFG_GDP; RS50S_tRNAIleAAU; RS50S_tRNAIleAAU_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r1210,RS50S_EFG_GDP; RS50S_tRNAIleAAU_EFG_GDP; tRNAIleAAU,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1255,EFG_GDP; RS50S_tRNALeuCAG_RRF; RS50S_tRNALeuCAG_RRF_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r1256,RRF; RS50S_tRNALeuCAG_EFG_GDP; RS50S_tRNALeuCAG_RRF_EFG_GDP,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r1257,RS50S_RRF_EFG_GDP; RS50S_tRNALeuCAG_RRF_EFG_GDP; tRNALeuCAG,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1258,RS50S_RRF; RS50S_tRNALeuCAG_RRF; tRNALeuCAG,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1259,RRF; RS50S_tRNALeuCAG; RS50S_tRNALeuCAG_RRF,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r1260,RS50S; RS50S_tRNALeuCAG; tRNALeuCAG,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1261,EFG_GDP; RS50S_tRNALeuCAG; RS50S_tRNALeuCAG_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r1262,RS50S_EFG_GDP; RS50S_tRNALeuCAG_EFG_GDP; tRNALeuCAG,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1307,EFG_GDP; RS50S_tRNALysCUU_RRF; RS50S_tRNALysCUU_RRF_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r1308,RRF; RS50S_tRNALysCUU_EFG_GDP; RS50S_tRNALysCUU_RRF_EFG_GDP,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r1309,RS50S_RRF_EFG_GDP; RS50S_tRNALysCUU_RRF_EFG_GDP; tRNALysCUU,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1310,RS50S_RRF; RS50S_tRNALysCUU_RRF; tRNALysCUU,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1311,RRF; RS50S_tRNALysCUU; RS50S_tRNALysCUU_RRF,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r1312,RS50S; RS50S_tRNALysCUU; tRNALysCUU,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1313,EFG_GDP; RS50S_tRNALysCUU; RS50S_tRNALysCUU_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r1314,RS50S_EFG_GDP; RS50S_tRNALysCUU_EFG_GDP; tRNALysCUU,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1345,EFG_GDP; RS50S_tRNAMetCAU_RRF; RS50S_tRNAMetCAU_RRF_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r1346,RRF; RS50S_tRNAMetCAU_EFG_GDP; RS50S_tRNAMetCAU_RRF_EFG_GDP,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r1347,RS50S_RRF_EFG_GDP; RS50S_tRNAMetCAU_RRF_EFG_GDP; tRNAMetCAU,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1348,RS50S_RRF; RS50S_tRNAMetCAU_RRF; tRNAMetCAU,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1349,RRF; RS50S_tRNAMetCAU; RS50S_tRNAMetCAU_RRF,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r1350,RS50S; RS50S_tRNAMetCAU; tRNAMetCAU,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1351,EFG_GDP; RS50S_tRNAMetCAU; RS50S_tRNAMetCAU_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r1352,RS50S_EFG_GDP; RS50S_tRNAMetCAU_EFG_GDP; tRNAMetCAU,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1397,EFG_GDP; RS50S_tRNAPheGAA_RRF; RS50S_tRNAPheGAA_RRF_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r1398,RRF; RS50S_tRNAPheGAA_EFG_GDP; RS50S_tRNAPheGAA_RRF_EFG_GDP,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r1399,RS50S_RRF_EFG_GDP; RS50S_tRNAPheGAA_RRF_EFG_GDP; tRNAPheGAA,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1400,RS50S_RRF; RS50S_tRNAPheGAA_RRF; tRNAPheGAA,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1401,RRF; RS50S_tRNAPheGAA; RS50S_tRNAPheGAA_RRF,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r1402,RS50S; RS50S_tRNAPheGAA; tRNAPheGAA,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1403,EFG_GDP; RS50S_tRNAPheGAA; RS50S_tRNAPheGAA_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r1404,RS50S_EFG_GDP; RS50S_tRNAPheGAA_EFG_GDP; tRNAPheGAA,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1449,EFG_GDP; RS50S_tRNAProAGG_RRF; RS50S_tRNAProAGG_RRF_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r1450,RRF; RS50S_tRNAProAGG_EFG_GDP; RS50S_tRNAProAGG_RRF_EFG_GDP,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r1451,RS50S_RRF_EFG_GDP; RS50S_tRNAProAGG_RRF_EFG_GDP; tRNAProAGG,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1452,RS50S_RRF; RS50S_tRNAProAGG_RRF; tRNAProAGG,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1453,RRF; RS50S_tRNAProAGG; RS50S_tRNAProAGG_RRF,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r1454,RS50S; RS50S_tRNAProAGG; tRNAProAGG,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1455,EFG_GDP; RS50S_tRNAProAGG; RS50S_tRNAProAGG_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r1456,RS50S_EFG_GDP; RS50S_tRNAProAGG_EFG_GDP; tRNAProAGG,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1501,EFG_GDP; RS50S_tRNASerGCU_RRF; RS50S_tRNASerGCU_RRF_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r1502,RRF; RS50S_tRNASerGCU_EFG_GDP; RS50S_tRNASerGCU_RRF_EFG_GDP,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r1503,RS50S_RRF_EFG_GDP; RS50S_tRNASerGCU_RRF_EFG_GDP; tRNASerGCU,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1504,RS50S_RRF; RS50S_tRNASerGCU_RRF; tRNASerGCU,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1505,RRF; RS50S_tRNASerGCU; RS50S_tRNASerGCU_RRF,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r1506,RS50S; RS50S_tRNASerGCU; tRNASerGCU,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1507,EFG_GDP; RS50S_tRNASerGCU; RS50S_tRNASerGCU_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r1508,RS50S_EFG_GDP; RS50S_tRNASerGCU_EFG_GDP; tRNASerGCU,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1553,EFG_GDP; RS50S_tRNAThrAGU_RRF; RS50S_tRNAThrAGU_RRF_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r1554,RRF; RS50S_tRNAThrAGU_EFG_GDP; RS50S_tRNAThrAGU_RRF_EFG_GDP,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r1555,RS50S_RRF_EFG_GDP; RS50S_tRNAThrAGU_RRF_EFG_GDP; tRNAThrAGU,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1556,RS50S_RRF; RS50S_tRNAThrAGU_RRF; tRNAThrAGU,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1557,RRF; RS50S_tRNAThrAGU; RS50S_tRNAThrAGU_RRF,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r1558,RS50S; RS50S_tRNAThrAGU; tRNAThrAGU,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1559,EFG_GDP; RS50S_tRNAThrAGU; RS50S_tRNAThrAGU_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r1560,RS50S_EFG_GDP; RS50S_tRNAThrAGU_EFG_GDP; tRNAThrAGU,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1605,EFG_GDP; RS50S_tRNATrpCCA_RRF; RS50S_tRNATrpCCA_RRF_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r1606,RRF; RS50S_tRNATrpCCA_EFG_GDP; RS50S_tRNATrpCCA_RRF_EFG_GDP,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r1607,RS50S_RRF_EFG_GDP; RS50S_tRNATrpCCA_RRF_EFG_GDP; tRNATrpCCA,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1608,RS50S_RRF; RS50S_tRNATrpCCA_RRF; tRNATrpCCA,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1609,RRF; RS50S_tRNATrpCCA; RS50S_tRNATrpCCA_RRF,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r1610,RS50S; RS50S_tRNATrpCCA; tRNATrpCCA,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1611,EFG_GDP; RS50S_tRNATrpCCA; RS50S_tRNATrpCCA_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r1612,RS50S_EFG_GDP; RS50S_tRNATrpCCA_EFG_GDP; tRNATrpCCA,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1657,EFG_GDP; RS50S_tRNATyrAUA_RRF; RS50S_tRNATyrAUA_RRF_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r1658,RRF; RS50S_tRNATyrAUA_EFG_GDP; RS50S_tRNATyrAUA_RRF_EFG_GDP,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r1659,RS50S_RRF_EFG_GDP; RS50S_tRNATyrAUA_RRF_EFG_GDP; tRNATyrAUA,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1660,RS50S_RRF; RS50S_tRNATyrAUA_RRF; tRNATyrAUA,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1661,RRF; RS50S_tRNATyrAUA; RS50S_tRNATyrAUA_RRF,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r1662,RS50S; RS50S_tRNATyrAUA; tRNATyrAUA,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1663,EFG_GDP; RS50S_tRNATyrAUA; RS50S_tRNATyrAUA_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r1664,RS50S_EFG_GDP; RS50S_tRNATyrAUA_EFG_GDP; tRNATyrAUA,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1709,EFG_GDP; RS50S_tRNAValCAC_RRF; RS50S_tRNAValCAC_RRF_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r1710,RRF; RS50S_tRNAValCAC_EFG_GDP; RS50S_tRNAValCAC_RRF_EFG_GDP,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r1711,RS50S_RRF_EFG_GDP; RS50S_tRNAValCAC_RRF_EFG_GDP; tRNAValCAC,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1712,RS50S_RRF; RS50S_tRNAValCAC_RRF; tRNAValCAC,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1713,RRF; RS50S_tRNAValCAC; RS50S_tRNAValCAC_RRF,翻译终止/核糖体回收微状态,迁移后删除旧状态,TLchain_pos_N -> Ribosome + mRNA_t + PeptGpept 的终止门控 phi_term,新链已把终止释放合并进链尾反应，旧链剩余价值是 RRF/EFG/GTP 对回收终止速率的限制。
+r1714,RS50S; RS50S_tRNAValCAC; tRNAValCAC,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。
+r1715,EFG_GDP; RS50S_tRNAValCAC; RS50S_tRNAValCAC_EFG_GDP,翻译延长/转位微状态,迁移后删除旧状态,TLchain_pos_i -> TLchain_pos_{i+1} 的延长门控 phi_elong,新链已逐步表示每个aa延长，旧链剩余价值是 EFTu/EFG/GTP 对延长速率的调制。
+r1716,RS50S_EFG_GDP; RS50S_tRNAValCAC_EFG_GDP; tRNAValCAC,核糖体亚基装配/构象旧模块,原则上删除,若需保留，只通过Ribosome总池表示,新链已用Ribosome总池表示核糖体可用性，无需保留旧的30S/50S/70S显式装配态。

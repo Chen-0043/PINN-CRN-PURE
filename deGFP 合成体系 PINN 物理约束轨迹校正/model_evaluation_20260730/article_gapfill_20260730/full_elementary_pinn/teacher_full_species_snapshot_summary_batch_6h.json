@@ -1,0 +1,10 @@
+{
+  "scope": "full-species endpoint snapshot from reduced teacher SBML",
+  "teacher_species": 3399,
+  "time_s": 21600.0,
+  "compile_s": 110.00149158400018,
+  "simulate_s": 30.78439683400029,
+  "finite_fraction": 1.0,
+  "negative_fraction_lt_minus_1e_18": 0.0,
+  "output": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/model_evaluation_20260730/article_gapfill_20260730/full_elementary_pinn/teacher_full_species_snapshot_batch_6h.npz"
+}

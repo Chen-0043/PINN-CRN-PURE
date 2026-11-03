@@ -1,0 +1,6 @@
+component,scale,report_6h_deGFP_uM,rerun_6h_deGFP_uM,abs_diff_uM,rel_diff,runtime_s,perturbation_kind,n_scaled_species,scaled_params,set_params,status
+ATP,0.5,5.568895211625604,5.56889528342415,7.179854666361507e-08,1.2892781051747698e-08,77.89576411247253,ntp_family_total_and_feed,5,"bg_ATP_feed,bg_feed_ATP,bg_ATP_0","{""bg_ATP_inf_scale"": 0.5}",match
+GTP,3.0,16.75561566268917,16.755611558102608,-4.10458656219248e-06,-2.4496781525804707e-07,63.275840044021606,ntp_family_total_and_feed,5,"bg_GTP_feed,bg_feed_GTP,bg_GTP_0","{""bg_GTP_inf_scale"": 3.0}",check
+CTP,0.01,5.707339577418111,5.7073357938080145,-3.7836100963417607e-06,-6.629376165581849e-07,67.03903007507324,ntp_family_total_and_feed,4,"bg_CTP_feed,bg_feed_CTP,bg_CTP_0,bg_CTP_inf,bg_CTP_total",{},check
+UTP,0.01,5.569778867516005,5.569779180655788,3.131397825484328e-07,5.6221223498606506e-08,60.39394497871399,ntp_family_total_and_feed,4,"bg_UTP_feed,bg_feed_UTP,bg_UTP_0,bg_UTP_inf,bg_UTP_total",{},match
+total_aars_pool,0.22,5.590488563588502,5.590494558037162,5.994448660118223e-06,1.0722584604073356e-06,62.24228501319885,total_aars_pool_all_aars_plus_AA_and_feed,329,bg_feed_AA,{},check

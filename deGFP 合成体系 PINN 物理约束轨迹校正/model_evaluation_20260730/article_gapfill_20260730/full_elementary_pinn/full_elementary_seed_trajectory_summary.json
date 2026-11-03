@@ -1,0 +1,53 @@
+{
+  "time_end_s": 60.0,
+  "points": 31,
+  "species": 5772,
+  "roadrunner_compile_s": 300.7947914159995,
+  "roadrunner_simulate_s": 231.216465583002,
+  "finite_state_fraction": 1.0,
+  "negative_state_fraction": 0.0,
+  "selected_states": [
+    {
+      "species_id": "deGFP_m",
+      "initial_uM": 0.0,
+      "end_uM": 0.0,
+      "max_uM": 0.0
+    },
+    {
+      "species_id": "mRNA_t",
+      "initial_uM": 0.0,
+      "end_uM": 0.006992973001176236,
+      "max_uM": 0.006992973001176236
+    },
+    {
+      "species_id": "ATP",
+      "initial_uM": 3750.0,
+      "end_uM": 3746.4639256884125,
+      "max_uM": 3750.0
+    },
+    {
+      "species_id": "GTP",
+      "initial_uM": 2500.0,
+      "end_uM": 2494.224604461239,
+      "max_uM": 2500.0
+    },
+    {
+      "species_id": "PPi",
+      "initial_uM": 0.0,
+      "end_uM": 0.023730597680475033,
+      "max_uM": 0.023760129801705873
+    },
+    {
+      "species_id": "Ribosome",
+      "initial_uM": 3.0,
+      "end_uM": 3.0,
+      "max_uM": 3.0
+    },
+    {
+      "species_id": "T7RNAP",
+      "initial_uM": 1.0,
+      "end_uM": 0.9999797438739536,
+      "max_uM": 1.0
+    }
+  ]
+}

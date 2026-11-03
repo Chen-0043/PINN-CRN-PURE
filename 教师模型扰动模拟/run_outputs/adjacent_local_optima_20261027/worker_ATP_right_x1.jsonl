@@ -1,0 +1,3 @@
+{"axis": "ATP", "component": "ATP", "side": "right", "scale": 1.0, "sample_id": 0, "deGFP_6h_uM": 5.565103789732453, "network_build_runtime_s": 122.88198518753052, "simulation_runtime_s": 67.07304668426514, "status": "ok", "error": ""}
+{"axis": "ATP", "component": "ATP", "side": "right", "scale": 1.0, "sample_id": 1, "deGFP_6h_uM": 5.564994487061508, "network_build_runtime_s": 122.88198518753052, "simulation_runtime_s": 79.24989891052246, "status": "ok", "error": ""}
+{"axis": "ATP", "component": "ATP", "side": "right", "scale": 1.0, "sample_id": 2, "deGFP_6h_uM": 5.569230796598297, "network_build_runtime_s": 122.88198518753052, "simulation_runtime_s": 53.91118502616882, "status": "ok", "error": ""}

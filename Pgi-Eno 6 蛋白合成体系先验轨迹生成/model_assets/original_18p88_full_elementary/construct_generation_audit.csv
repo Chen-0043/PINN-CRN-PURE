@@ -1,0 +1,7 @@
+gene,reference_prefix_nt,cds_nt,reference_suffix_nt,full_transcribed_construct_nt,protein_aa_including_terminal_stop_excluded,single_gene_sbml
+Pgi,99,1650,53,1802,549,/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/6 蛋白模拟/outputs/original_18p88_full_elementary/single_gene_sources/Pgi/Models/TXTL_PURE_MGapt-deGFP_model.xml
+PfkA,99,963,53,1115,320,/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/6 蛋白模拟/outputs/original_18p88_full_elementary/single_gene_sources/PfkA/Models/TXTL_PURE_MGapt-deGFP_model.xml
+TpiA,99,768,53,920,255,/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/6 蛋白模拟/outputs/original_18p88_full_elementary/single_gene_sources/TpiA/Models/TXTL_PURE_MGapt-deGFP_model.xml
+GAPDH,99,996,53,1148,331,/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/6 蛋白模拟/outputs/original_18p88_full_elementary/single_gene_sources/GAPDH/Models/TXTL_PURE_MGapt-deGFP_model.xml
+Pgk,99,1164,53,1316,387,/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/6 蛋白模拟/outputs/original_18p88_full_elementary/single_gene_sources/Pgk/Models/TXTL_PURE_MGapt-deGFP_model.xml
+Eno,99,1299,53,1451,432,/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/6 蛋白模拟/outputs/original_18p88_full_elementary/single_gene_sources/Eno/Models/TXTL_PURE_MGapt-deGFP_model.xml

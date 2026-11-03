@@ -1,0 +1,30 @@
+{
+  "timestamp_end": "2026-09-02 19:53:09",
+  "reference_csv": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/扰动模拟-new/technical_report_pure_20260713/report_audit_20260723/unified_perturbation_timeseries_records_20260723.csv",
+  "samples": [
+    [
+      "ATP",
+      0.5
+    ],
+    [
+      "GTP",
+      3.0
+    ],
+    [
+      "CTP",
+      0.01
+    ],
+    [
+      "UTP",
+      0.01
+    ],
+    [
+      "total_aars_pool",
+      0.22
+    ]
+  ],
+  "max_abs_diff_uM": 5.994448660118223e-06,
+  "max_rel_diff": 1.0722584604073356e-06,
+  "all_match_at_1e-6_uM": false,
+  "results_csv": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/扰动模拟-new/run_outputs/report_sample_recheck_20260902/sample_recheck_results.csv"
+}

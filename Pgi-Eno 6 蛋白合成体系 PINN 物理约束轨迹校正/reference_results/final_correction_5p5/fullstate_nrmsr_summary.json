@@ -1,0 +1,38 @@
+{
+  "formula": "NRMSR_i = RMS_t(Delta x_i - integral f_i dt) / RMS_t(integral f_i dt)",
+  "activity_threshold_uM_per_h": 0.004,
+  "native_window_s": 900.0,
+  "time_points": 25,
+  "internal_step_s": 900.0,
+  "all_states": {
+    "states": 49149,
+    "mean_NRMSR_percent": 4.489532459397956e+26,
+    "median_NRMSR_percent": 100.00000010697197,
+    "pooled_NRMSR_percent": 99.99999965701923
+  },
+  "active_all": {
+    "states": 11407,
+    "mean_NRMSR_percent": 99.6746637784612,
+    "median_NRMSR_percent": 100.0000000345546,
+    "pooled_NRMSR_percent": 99.99999965701923
+  },
+  "active_direct_teacher_states": {
+    "states": 52,
+    "mean_NRMSR_percent": 28.873159036285163,
+    "median_NRMSR_percent": 0.22702539220275453,
+    "pooled_NRMSR_percent": 6.183910884429292
+  },
+  "active_aggregate_covered_hidden_states": {
+    "states": 9065,
+    "mean_NRMSR_percent": 100.0000088547632,
+    "median_NRMSR_percent": 100.00000004524618,
+    "pooled_NRMSR_percent": 100.00000084128375
+  },
+  "active_uncovered_hidden_states": {
+    "states": 2290,
+    "mean_NRMSR_percent": 99.99450007973434,
+    "median_NRMSR_percent": 100.0,
+    "pooled_NRMSR_percent": 99.99999999375618
+  },
+  "output_csv": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/PINN 驱动全基元 CRN 数字孪生研究_投稿与核查档案/六蛋白_当前图4先验接续完整校正_20261102/独立计算包/reproduced_results/physical_detail/fullstate_nrmsr_by_species.csv"
+}

@@ -1,0 +1,32 @@
+{
+  "Pgi": {
+    "tx_scale": 1.0,
+    "tl_scale": 3.687121461323632,
+    "activity_decay_h_inv": 0.5771198207838131
+  },
+  "PfkA": {
+    "tx_scale": 1.0,
+    "tl_scale": 3.653735772054793,
+    "activity_decay_h_inv": 0.6104536263329008
+  },
+  "TpiA": {
+    "tx_scale": 1.0,
+    "tl_scale": 3.94002008144466,
+    "activity_decay_h_inv": 0.6206489272368726
+  },
+  "GAPDH": {
+    "tx_scale": 1.0,
+    "tl_scale": 3.3333420105365215,
+    "activity_decay_h_inv": 0.6288535938137008
+  },
+  "Pgk": {
+    "tx_scale": 1.0,
+    "tl_scale": 4.999979460392991,
+    "activity_decay_h_inv": 0.7535925689403633
+  },
+  "Eno": {
+    "tx_scale": 1.0,
+    "tl_scale": 3.928314399624685,
+    "activity_decay_h_inv": 0.5828984404256751
+  }
+}

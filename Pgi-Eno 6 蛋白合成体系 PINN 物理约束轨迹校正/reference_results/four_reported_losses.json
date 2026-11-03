@@ -1,0 +1,8 @@
+{
+  "L_data": 0.011423593740873065,
+  "L_int": 0.05470841435882209,
+  "L_key": 0.2188060416700384,
+  "L_prox": 2.003624516982231e-06,
+  "L_total_four_term": 0.5037441014578945,
+  "interpretation": "Existing auxiliary terms are retained; four reported losses are post-hoc, not the entire optimization objective."
+}

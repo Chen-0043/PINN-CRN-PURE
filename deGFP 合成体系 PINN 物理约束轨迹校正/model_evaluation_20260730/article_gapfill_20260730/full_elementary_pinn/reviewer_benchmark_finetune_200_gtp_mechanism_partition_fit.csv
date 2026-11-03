@@ -1,0 +1,4 @@
+mechanism_metric,full_elementary_proxy_module,teacher_target_end,proxy_end_M_per_s,teacher_norm_end,proxy_norm_end,normalized_shape_rmse,interpretation
+tx_gtp_entry,gtp_tx_consumption,1458628036.5991304,1.8610618135306405e-14,0.009313848205915775,0.00223253047833712,0.18379948451311912,shape/bottleneck-switching loss; target and proxy are not treated as same absolute unit
+tl_gtp_entry,gtp_non_tx_non_progression,4945775442518.1875,1.4986445160201516e-07,0.008442879057751242,0.06939485225898959,0.13787757450468327,shape/bottleneck-switching loss; target and proxy are not treated as same absolute unit
+tl_gtp_progression,translation_progression,2013.6635030198177,1.0179445219332118e-06,1.0,1.0,0.1879993973670186,shape/bottleneck-switching loss; target and proxy are not treated as same absolute unit

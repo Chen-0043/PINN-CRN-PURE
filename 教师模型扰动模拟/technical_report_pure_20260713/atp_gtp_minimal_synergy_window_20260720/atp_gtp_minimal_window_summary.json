@@ -1,0 +1,18 @@
+{
+  "best_scale_ATP": 160.0,
+  "best_scale_GTP": 5.0,
+  "best_deGFP_end_uM": 26.45500291772425,
+  "best_ATP_end_uM": 529175.6001128186,
+  "best_GTP_end_uM": 615.5157056307874,
+  "best_PPi_end_uM": 2379.240869495186,
+  "n_points_total": 27,
+  "minimal_95pct_scale_ATP": 2.0,
+  "minimal_95pct_scale_GTP": 5.0,
+  "minimal_95pct_deGFP_end_uM": 26.45347980715645,
+  "minimal_98pct_scale_ATP": 2.0,
+  "minimal_98pct_scale_GTP": 5.0,
+  "minimal_98pct_deGFP_end_uM": 26.45347980715645,
+  "minimal_99pct_scale_ATP": 2.0,
+  "minimal_99pct_scale_GTP": 5.0,
+  "minimal_99pct_deGFP_end_uM": 26.45347980715645
+}

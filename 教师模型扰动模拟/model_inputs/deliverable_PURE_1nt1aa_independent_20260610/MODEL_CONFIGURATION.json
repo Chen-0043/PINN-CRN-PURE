@@ -1,0 +1,59 @@
+{
+  "formal_model_name": "PURE_deGFP_1nt_TX_1aa_TL_factorized_QSSA_energy_background_legacy_pruned",
+  "model_inputs_are_package_local": true,
+  "runtime_software_is_bundled": false,
+  "runtime_software_note": "Python and compiled scientific packages must be installed using requirements.txt or environment.yml.",
+  "fixed_environment": {
+    "PURE_TX_PATHWAY_MODE": "1nt",
+    "PURE_TX_STEP_MODE": "micro3",
+    "PURE_TX_NET_SCALE": "0.35",
+    "PURE_ENERGY_REGEN_MODE": "background",
+    "PURE_TL_PATHWAY_MODE": "step_chain",
+    "PURE_TL_QSSA_MODE": "factorized",
+    "PURE_TL_CHAIN_GROUP_AA": "1.0",
+    "PURE_TL_CHAIN_SCALE": "30.0",
+    "PURE_TL_CHAIN_KINETICS": "effective",
+    "PURE_RIBO_BIND_MODE": "explicit",
+    "PURE_RIBO_BIND_SCALE": "1.0",
+    "PURE_FAST_SIDE_SCALE": "1.0",
+    "PURE_FAST_SIDE_MIN_K": "10.0",
+    "PURE_BG_FAMILY_EXCHANGE_BOOKKEEP": "1",
+    "PURE_BG_WATER_INIT_M": "55.0",
+    "PURE_REMOVE_LEGACY_MRNA_RS": "1",
+    "PURE_REMOVE_LEGACY_RS_INIT": "1",
+    "PURE_REMOVE_LEGACY_RS_ELONG_TERM": "1",
+    "PURE_REMOVE_LEGACY_RS_ENERGY_SIDE": "1",
+    "PURE_REMOVE_LEGACY_RS_ASSEMBLY": "1",
+    "PURE_PRUNE_LEGACY_SPECIES": "1",
+    "PURE_PLATEAU_SLOPE_THR_UMPH": "5e-3",
+    "PURE_PLATEAU_BAND_REL": "5e-3",
+    "PURE_PLATEAU_BAND_ABS_UM": "0.0",
+    "PURE_PLATEAU_MIN_START_H": "0.5"
+  },
+  "batch": {
+    "species": 3399,
+    "reactions": 3696,
+    "simulation_hours": 8,
+    "points": 600
+  },
+  "continuous": {
+    "species": 3399,
+    "reactions": 3762,
+    "gamma_h_inv": 0.5,
+    "feed_multiplier": 1.0,
+    "product_outflow_h_inv": 0.5,
+    "simulation_hours": 72,
+    "points": 1200,
+    "feed_species": [
+      "ATP", "GTP", "CTP", "UTP", "AA", "CP",
+      "Ala", "Arg", "Asn", "Asp", "Cys", "Gln", "Glu", "Gly", "His", "Ile",
+      "Leu", "Lys", "Met", "Phe", "Pro", "Ser", "Thr", "Trp", "Tyr", "Val"
+    ],
+    "washout_to_zero_species": ["ADP", "AMP", "GDP", "GMP", "PO4", "PPi"],
+    "product_outflow_species": ["deGFP_m"]
+  },
+  "authoritative_parameter_sources": {
+    "batch_runtime_parameters": "output_full_crn_background/formal_mech_only_20260409_210539_rechecked.json",
+    "background_and_keff_parameters": "output_full_crn_background/batch_then_continuous_summary.json"
+  }
+}

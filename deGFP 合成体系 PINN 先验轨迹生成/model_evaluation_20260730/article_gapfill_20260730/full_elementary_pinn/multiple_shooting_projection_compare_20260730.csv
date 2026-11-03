@@ -1,0 +1,5 @@
+label,validate6h_mean_relative_error,validate6h_median_relative_error,validate6h_p95_relative_error,validate6h_weighted_relative_error,validate6h_r2,all3151_integral_residual_rms_uM_mean,all3151_integral_residual_rms_uM_median,all3151_rhsint_gt_1_uM_mean_relative_residual,all3151_rhsint_gt_10_uM_mean_relative_residual,key20_integral_residual_rms_uM_mean,key20_rhsint_gt_1_uM_mean_relative_residual
+direct_corrected_gtp,,,,,,,,,,,
+trackpriority_200_direct,,,,,,,,,,,
+shooting_from_track200_100,0.1877276837788142,0.010366064455831636,0.2179846970361641,0.08524320219252272,0.9916896059249469,0.3816668432280994,3.0277620792839777e-05,0.946250491427876,0.9777440912217946,48.051688630094034,1.0947503163934387
+shooting_from_track150_100,0.10467982346239804,0.012539098843235398,0.18847743837287717,0.08430023255542159,0.9919852864801458,0.3391561534500674,3.496499410444115e-05,0.9658711888593541,1.1014407375110224,40.717927458918545,1.1656074691795597

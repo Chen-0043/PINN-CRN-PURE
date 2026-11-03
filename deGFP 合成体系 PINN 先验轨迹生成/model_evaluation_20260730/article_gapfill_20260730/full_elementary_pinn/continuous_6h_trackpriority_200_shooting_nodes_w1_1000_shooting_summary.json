@@ -1,0 +1,183 @@
+{
+  "scope": "multiple-shooting node optimization with full-elementary mass-action integral constraints",
+  "source_pinn": "model_evaluation_20260730/article_gapfill_20260730/full_elementary_pinn/continuous_6h_trackpriority_tol15_finetune_200_prediction.npz",
+  "steps": 1000,
+  "lr": 0.03,
+  "teacher_weight": 1.0,
+  "integral_weight": 1.0,
+  "key_integral_weight": 2.0,
+  "pinn_proximity_weight": 0.01,
+  "rhs_floor_uM": 0.01,
+  "history": [
+    {
+      "step": 0,
+      "loss": 5801.914902557221,
+      "shared_integral_rmse": 76.15658388021104,
+      "key_integral_rmse": 1.018109954160425,
+      "teacher_log_rmse": 0.12860208427076816,
+      "proximity_log_rmse": 4.678551064758788e-16
+    },
+    {
+      "step": 1,
+      "loss": 165412.28793484802,
+      "shared_integral_rmse": 406.66995036095204,
+      "key_integral_rmse": 3.988911751596212,
+      "teacher_log_rmse": 0.12874135177402796,
+      "proximity_log_rmse": 0.0009564023252069427
+    },
+    {
+      "step": 2,
+      "loss": 99366.30444316984,
+      "shared_integral_rmse": 315.19026619121024,
+      "key_integral_rmse": 3.2698579763874336,
+      "teacher_log_rmse": 0.12883746341924288,
+      "proximity_log_rmse": 0.0014277171284091427
+    },
+    {
+      "step": 5,
+      "loss": 35009.97719957054,
+      "shared_integral_rmse": 187.08001821281738,
+      "key_integral_rmse": 2.348119242432947,
+      "teacher_log_rmse": 0.12906222279146004,
+      "proximity_log_rmse": 0.0022747785662080296
+    },
+    {
+      "step": 10,
+      "loss": 15493.336100213732,
+      "shared_integral_rmse": 124.44538343388518,
+      "key_integral_rmse": 1.8256358398560775,
+      "teacher_log_rmse": 0.1294204895442495,
+      "proximity_log_rmse": 0.0032307846972887476
+    },
+    {
+      "step": 25,
+      "loss": 2366.916590778387,
+      "shared_integral_rmse": 48.607615903174164,
+      "key_integral_rmse": 1.4489982740404184,
+      "teacher_log_rmse": 0.13066931179315158,
+      "proximity_log_rmse": 0.007228336038227528
+    },
+    {
+      "step": 50,
+      "loss": 949.588441403857,
+      "shared_integral_rmse": 30.75541046629335,
+      "key_integral_rmse": 1.35557724887136,
+      "teacher_log_rmse": 0.1341116888844888,
+      "proximity_log_rmse": 0.01775742025401645
+    },
+    {
+      "step": 100,
+      "loss": 603.3298608186034,
+      "shared_integral_rmse": 24.52299664722411,
+      "key_integral_rmse": 0.9829675770729837,
+      "teacher_log_rmse": 0.14154158186064156,
+      "proximity_log_rmse": 0.03424074927240465
+    },
+    {
+      "step": 200,
+      "loss": 375.8435108926683,
+      "shared_integral_rmse": 19.279282475202685,
+      "key_integral_rmse": 1.4367089925510153,
+      "teacher_log_rmse": 0.15645786291792985,
+      "proximity_log_rmse": 0.05797636420632554
+    },
+    {
+      "step": 300,
+      "loss": 540.3070377696922,
+      "shared_integral_rmse": 23.224223314143313,
+      "key_integral_rmse": 0.6770387878578363,
+      "teacher_log_rmse": 0.1602699531995064,
+      "proximity_log_rmse": 0.06302861870344117
+    },
+    {
+      "step": 400,
+      "loss": 984.4248805261029,
+      "shared_integral_rmse": 31.360886852385057,
+      "key_integral_rmse": 0.6682683297318696,
+      "teacher_log_rmse": 0.16262784735935237,
+      "proximity_log_rmse": 0.06589402309352817
+    },
+    {
+      "step": 500,
+      "loss": 656.127450016765,
+      "shared_integral_rmse": 25.59729499507712,
+      "key_integral_rmse": 0.662859368320141,
+      "teacher_log_rmse": 0.16470349346757343,
+      "proximity_log_rmse": 0.06828372035828373
+    },
+    {
+      "step": 600,
+      "loss": 606.2679726995232,
+      "shared_integral_rmse": 24.598731600786852,
+      "key_integral_rmse": 0.755782153832777,
+      "teacher_log_rmse": 0.16707074913502803,
+      "proximity_log_rmse": 0.07097087620522595
+    },
+    {
+      "step": 700,
+      "loss": 553.8084580902487,
+      "shared_integral_rmse": 23.51414592274034,
+      "key_integral_rmse": 0.6574797835555153,
+      "teacher_log_rmse": 0.16966322251354304,
+      "proximity_log_rmse": 0.07394165297610189
+    },
+    {
+      "step": 800,
+      "loss": 527.06126832299,
+      "shared_integral_rmse": 22.94059681502387,
+      "key_integral_rmse": 0.6166510986179666,
+      "teacher_log_rmse": 0.17236507113967142,
+      "proximity_log_rmse": 0.07695511959328083
+    },
+    {
+      "step": 900,
+      "loss": 990.559611116876,
+      "shared_integral_rmse": 31.45543130763229,
+      "key_integral_rmse": 0.7365411016306811,
+      "teacher_log_rmse": 0.1743664803032138,
+      "proximity_log_rmse": 0.07944146678115253
+    },
+    {
+      "step": 1000,
+      "loss": 778.0769082335049,
+      "shared_integral_rmse": 27.881822024116296,
+      "key_integral_rmse": 0.5700420021298191,
+      "teacher_log_rmse": 0.1759168612430285,
+      "proximity_log_rmse": 0.08144848348073737
+    }
+  ],
+  "output_npz": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/model_evaluation_20260730/article_gapfill_20260730/full_elementary_pinn/continuous_6h_trackpriority_200_shooting_nodes_w1_1000_shooting_nodes.npz",
+  "validate6h_mean_relative_error": 0.21887879299769852,
+  "validate6h_median_relative_error": 0.010393586201707813,
+  "validate6h_p95_relative_error": 0.32866482848463596,
+  "validate6h_weighted_relative_error": 0.18594361656792432,
+  "validate6h_r2": 0.9759110716591466,
+  "all3151_integral_residual_rms_uM_mean": 0.24446446924286894,
+  "all3151_integral_residual_rms_uM_median": 3.0355001858607e-05,
+  "all3151_rhsint_gt_1_uM_n": 58,
+  "all3151_rhsint_gt_1_uM_mean_relative_residual": 0.49999966371042365,
+  "all3151_rhsint_gt_1_uM_median_relative_residual": 0.7361593983085477,
+  "all3151_rhsint_gt_1_uM_p95_relative_residual": 1.00057399113655,
+  "all3151_rhsint_gt_10_uM_n": 9,
+  "all3151_rhsint_gt_10_uM_mean_relative_residual": 0.5121851193319558,
+  "all3151_rhsint_gt_10_uM_median_relative_residual": 0.10347443542820123,
+  "all3151_rhsint_gt_10_uM_p95_relative_residual": 1.2902138479153298,
+  "all3151_rhsint_gt_100_uM_n": 3,
+  "all3151_rhsint_gt_100_uM_mean_relative_residual": 0.702240803200665,
+  "all3151_rhsint_gt_100_uM_median_relative_residual": 0.8780927186213519,
+  "all3151_rhsint_gt_100_uM_p95_relative_residual": 1.100449001859333,
+  "key20_integral_residual_rms_uM_mean": 28.092438182598897,
+  "key20_integral_residual_rms_uM_median": 0.0029798116644245507,
+  "key20_rhsint_gt_1_uM_n": 6,
+  "key20_rhsint_gt_1_uM_mean_relative_residual": 0.5199242070096869,
+  "key20_rhsint_gt_1_uM_median_relative_residual": 0.49078357702477654,
+  "key20_rhsint_gt_1_uM_p95_relative_residual": 1.0948185663669308,
+  "key20_rhsint_gt_10_uM_n": 6,
+  "key20_rhsint_gt_10_uM_mean_relative_residual": 0.5199242070096869,
+  "key20_rhsint_gt_10_uM_median_relative_residual": 0.49078357702477654,
+  "key20_rhsint_gt_10_uM_p95_relative_residual": 1.0948185663669308,
+  "key20_rhsint_gt_100_uM_n": 3,
+  "key20_rhsint_gt_100_uM_mean_relative_residual": 0.702240803200665,
+  "key20_rhsint_gt_100_uM_median_relative_residual": 0.8780927186213519,
+  "key20_rhsint_gt_100_uM_p95_relative_residual": 1.100449001859333
+}

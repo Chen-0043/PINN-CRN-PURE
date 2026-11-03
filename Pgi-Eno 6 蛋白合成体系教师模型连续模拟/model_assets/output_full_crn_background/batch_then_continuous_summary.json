@@ -1,0 +1,198 @@
+{
+  "workflow": "full CRN + reference-informed high-frequency backgrounds",
+  "source_model": "PURE_CRN_models/Models/CRN_PURE_MGaptTXwTL_with_deGFP_COPASI.xml",
+  "counts_full_model": {
+    "species_total": 1053,
+    "reactions_total": 1728
+  },
+  "counts_background_model": {
+    "species_total": 1059,
+    "reactions_total": 1740,
+    "background_species_count": 6,
+    "background_reservoir_species_count": 6,
+    "boundary_species_count": 0,
+    "dynamic_species_count": 1059
+  },
+  "counts_background_model_continuous": null,
+  "background_species": [
+    "ATP",
+    "GTP",
+    "CTP",
+    "UTP",
+    "PPi",
+    "PO4"
+  ],
+  "background_groups": {
+    "consumed_like": [
+      "ATP",
+      "GTP",
+      "CTP",
+      "UTP"
+    ],
+    "waste_like": [
+      "PPi",
+      "PO4"
+    ],
+    "continuous_feed_species": [],
+    "continuous_washout_species": [],
+    "continuous_product_outflow_species": [],
+    "continuous_feed_uM": {},
+    "continuous_product_outflow_h_inv": 0.0
+  },
+  "batch_reference_full_model_metrics": {
+    "protein_2h_uM": 2.6339095358076574,
+    "protein_4h_uM": 5.370882120384952,
+    "protein_8h_uM": 5.373503021352417,
+    "protein_peak_uM": 5.373503021352417,
+    "plateau_level_uM": 5.373233411613637,
+    "plateau_start_h": 3.742489270386266,
+    "plateau_max_abs_drift_uM": 0.008896453417241545,
+    "plateau_abs_slope_uM_per_h": 0.0006145793310435475
+  },
+  "batch_fit": {
+    "target_2h_uM": 5.3,
+    "baseline_without_keff_metrics": {
+      "protein_2h_uM": 2.464768338273746,
+      "protein_4h_uM": 4.4427901364865985,
+      "protein_8h_uM": 4.444044818832285,
+      "protein_peak_uM": 4.444044818832285,
+      "plateau_level_uM": 4.44382569457224,
+      "plateau_start_h": 3.591182364729459,
+      "plateau_max_abs_drift_uM": 0.007766903462662178,
+      "plateau_abs_slope_uM_per_h": 0.0005123302655257484
+    },
+    "baseline_without_keff_params": {
+      "k_scale": 0.12121837449044709,
+      "ATP_inf_scale": 1.0096243522212962,
+      "GTP_inf_scale": 0.5088384932838214,
+      "keff_scale": 1.0,
+      "keff_inf_scale": 1.0,
+      "keff_KATP_scale": 1.0,
+      "keff_KGTP_scale": 1.0,
+      "keff_KIPO4_scale": 1.0,
+      "keff_KIPPi_scale": 1.0,
+      "mem_in_scale": 75.23616724771883,
+      "mem_out_scale": 0.0014332089438396853,
+      "mem_gain_scale": 1.7304029859725696,
+      "mem_in": 0.007523616724771883,
+      "mem_out": 7.166044719198427e-08,
+      "mem_gain": 1.7304029859725696,
+      "load_gain_scale": 1.8466452733484902,
+      "load_km2_scale": 0.2791145050739714,
+      "load_gain": 1.8466452733484902,
+      "load_K_M2": 8.373435152219142e-14
+    },
+    "keff_map": {
+      "r_inf": 1.9999999999999998,
+      "r_0": 0.3708319252239038,
+      "K_ATP_M": 1.0000000000000001e-07,
+      "K_GTP_M": 0.00030751007907226804,
+      "KI_PO4_M": 0.049999698670824405,
+      "KI_PPi_M": 1.3019909360953865e-08,
+      "fit_rmse": 0.13440444718914263
+    },
+    "effective_params": {
+      "k_scale": 0.1,
+      "ATP_inf_scale": 1.383608018701102,
+      "GTP_inf_scale": 1.2774226564683855,
+      "keff_scale": 0.4839759961810548,
+      "keff_inf_scale": 0.8714592142651073,
+      "keff_KATP_scale": 1.1044181748020556,
+      "keff_KGTP_scale": 1.3050706425340792,
+      "keff_KIPO4_scale": 0.9593615107682918,
+      "keff_KIPPi_scale": 1.0,
+      "mem_in_scale": 0.01854995506403902,
+      "mem_out_scale": 9175.465150878932,
+      "mem_gain_scale": 0.004141919268538209,
+      "mem_in": 1.8549955064039022e-06,
+      "mem_out": 0.4587732575439466,
+      "mem_gain": 0.004141919268538209,
+      "load_gain_scale": 0.7581215002886305,
+      "load_km2_scale": 22.96665030793455,
+      "load_gain": 0.7581215002886305,
+      "load_K_M2": 6.889995092380365e-12
+    },
+    "metrics": {
+      "protein_2h_uM": 1.259607629091065,
+      "protein_4h_uM": 4.3807785238709425,
+      "protein_8h_uM": 4.520957804031125,
+      "protein_peak_uM": 4.520957804031125,
+      "plateau_level_uM": 4.520675436833113,
+      "plateau_start_h": 4.569138276553106,
+      "plateau_max_abs_drift_uM": 0.006659388259182997,
+      "plateau_abs_slope_uM_per_h": 0.0007091067741406576
+    }
+  },
+  "continuous_process": null,
+  "hf_fit_params": {
+    "ATP": {
+      "profile": "bi_exp",
+      "y0_M": 0.0028125,
+      "yinf_M": 0.0010516787561311073,
+      "a_fast": 0.3749498123445201,
+      "k_fast_s_inv": 0.007985934987172295,
+      "k_slow_s_inv": 0.0001548189278637799,
+      "k_s_inv": 0.0030910944247496655,
+      "trend": "down",
+      "rmse_M": 4.662104408216975e-05,
+      "rmse_single_M": 0.00013870543442076955
+    },
+    "GTP": {
+      "profile": "single_exp",
+      "y0_M": 0.001875,
+      "yinf_M": 3.720493299819288e-26,
+      "k_s_inv": 0.00035216302204282965,
+      "trend": "down",
+      "rmse_M": 0.00023755899444018777
+    },
+    "CTP": {
+      "profile": "bi_exp",
+      "y0_M": 0.0009375,
+      "yinf_M": 0.000618841284355787,
+      "a_fast": 0.9747065553568974,
+      "k_fast_s_inv": 0.0040385776839781794,
+      "k_slow_s_inv": 0.00025545989266217436,
+      "k_s_inv": 0.003942889603545192,
+      "trend": "down",
+      "rmse_M": 1.7220868118920144e-07,
+      "rmse_single_M": 1.4042629753857224e-06
+    },
+    "UTP": {
+      "profile": "bi_exp",
+      "y0_M": 0.0009375,
+      "yinf_M": 0.000621175569249317,
+      "a_fast": 0.9841887009581345,
+      "k_fast_s_inv": 0.004023863040363264,
+      "k_slow_s_inv": 0.00025504420082915924,
+      "k_s_inv": 0.003964273118656774,
+      "trend": "down",
+      "rmse_M": 1.0637840502263223e-07,
+      "rmse_single_M": 8.735086379675745e-07
+    },
+    "PPi": {
+      "profile": "single_exp",
+      "y0_M": 0.0,
+      "yinf_M": 1.8677624407848607e-09,
+      "k_s_inv": 0.09999999999999999,
+      "trend": "up",
+      "rmse_M": 1.0406410794891658e-09
+    },
+    "PO4": {
+      "profile": "bi_exp",
+      "y0_M": 0.0,
+      "yinf_M": 0.0015892987467157286,
+      "a_fast": 0.2575548250823652,
+      "k_fast_s_inv": 0.0001182244998771937,
+      "k_slow_s_inv": 1.3376468620542457e-05,
+      "k_s_inv": 4.038058497107963e-05,
+      "trend": "up",
+      "rmse_M": 9.011777515033496e-06,
+      "rmse_single_M": 1.6247477376899958e-05
+    }
+  },
+  "output_files": {
+    "reference_batch_csv": "output_full_crn_background/reference_batch_full_crn.csv",
+    "batch_csv": "output_full_crn_background/batch_fitted_timeseries.csv",
+    "continuous_csv": null
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "source": "Sato et al. SG-PURE 2.0 recipe plus an explicit amino-acid-pool reconstruction",
+  "description": "Six-protein validation pool. The paper uses custom PUREfrex 2.0 Solution I, whose amino-acid composition is proprietary. Each amino acid is set to 0.5 mM as a transparent reconstruction assumption rather than inherited from the unrelated 0.3 mM Jurado mixture.",
+  "amino_acid_assumption": {
+    "value_M_each": 0.0005,
+    "status": "reconstruction assumption requiring sensitivity analysis",
+    "rationale": [
+      "The manufacturer does not disclose the PUREfrex 2.0 Solution I composition.",
+      "The manufacturer reports 0.5 mM of each amino acid for PUREfrex 1.0.",
+      "At the experimental 6 h aggregate product proxy of 6.629834 uM, equal expression of the six modeled fusions requires at least 0.3823 mM glycine, 0.3492 mM alanine, 0.3359 mM leucine and 0.3171 mM lysine before accounting for incomplete chains; therefore 0.3 mM each is chemically incompatible with that target."
+    ]
+  },
+  "pool_overrides_M": {
+    "ATP": 0.0013,
+    "ADP": 0.0,
+    "GTP": 0.001,
+    "CTP": 0.000625,
+    "UTP": 0.000625,
+    "PO4": 0.05,
+    "GDP": 0.0,
+    "PPi": 0.0,
+    "Glucose": 0.05,
+    "NAD": 0.001,
+    "NADH": 0.0,
+    "TPP": 0.0001,
+    "Mg": 0.016,
+    "Ala": 0.0005,
+    "Arg": 0.0005,
+    "Asn": 0.0005,
+    "Asp": 0.0005,
+    "Cys": 0.0005,
+    "Gln": 0.0005,
+    "Glu": 0.0005,
+    "Gly": 0.0005,
+    "His": 0.0005,
+    "Ile": 0.0005,
+    "Leu": 0.0005,
+    "Lys": 0.0005,
+    "Met": 0.0005,
+    "Phe": 0.0005,
+    "Pro": 0.0005,
+    "Ser": 0.0005,
+    "Thr": 0.0005,
+    "Trp": 0.0005,
+    "Tyr": 0.0005,
+    "Val": 0.0005
+  }
+}

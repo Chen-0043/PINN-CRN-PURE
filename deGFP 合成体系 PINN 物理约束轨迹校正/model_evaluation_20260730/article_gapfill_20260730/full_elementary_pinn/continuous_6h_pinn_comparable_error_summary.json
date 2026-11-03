@@ -1,0 +1,62 @@
+{
+  "summary": {
+    "all_species_residual_median_abs_scaled": 0.43962151339990124,
+    "all_species_residual_p95_abs_scaled": 1.0525607596731885,
+    "all_species_residual_p99_abs_scaled": 1.0575876454512525,
+    "all_species_residual_rmse_scaled": 0.6375292377332887,
+    "all_species_residual_max_abs_scaled": 16.833032087926338,
+    "finite_residual_fraction": 1.0,
+    "negative_predicted_state_fraction_lt_minus_1e_18": 0.0,
+    "key_end_mre_target_gt_1e-06_uM": 0.4009077906164544,
+    "key_end_median_re_target_gt_1e-06_uM": 0.0015912300359721852,
+    "key_end_p95_re_target_gt_1e-06_uM": 0.6673454890866708,
+    "key_end_weighted_re_target_gt_1e-06_uM": 0.007455291026632899,
+    "key_end_mre_target_gt_0.001_uM": 0.0991906534792071,
+    "key_end_median_re_target_gt_0.001_uM": 0.0003644346098272628,
+    "key_end_p95_re_target_gt_0.001_uM": 0.4678813048669452,
+    "key_end_weighted_re_target_gt_0.001_uM": 0.007455258835578286,
+    "key_end_mre_target_gt_1.0_uM": 0.05039247762462265,
+    "key_end_median_re_target_gt_1.0_uM": 0.00020585904773086773,
+    "key_end_p95_re_target_gt_1.0_uM": 0.44799671627503623,
+    "key_end_weighted_re_target_gt_1.0_uM": 0.007451381727837367,
+    "key_species_count": 49,
+    "key_species_target_gt_1e-3uM_count": 40
+  },
+  "module_relative_errors": [
+    {
+      "group": "energy_nt_exchange",
+      "n": 5,
+      "mean_rel_err": 0.013312233757664682,
+      "median_rel_err": 0.001374570781105191,
+      "weighted_rel_err": 0.009065961420250065
+    },
+    {
+      "group": "free_20_amino_acids",
+      "n": 20,
+      "mean_rel_err": 0.0009901443367418736,
+      "median_rel_err": 9.326757664290437e-07,
+      "weighted_rel_err": 0.000990144316599927
+    },
+    {
+      "group": "other",
+      "n": 4,
+      "mean_rel_err": 0.0010790777995072407,
+      "median_rel_err": 0.00048821571293456773,
+      "weighted_rel_err": 0.001498873939459584
+    },
+    {
+      "group": "ribosome_initiation_subunits",
+      "n": 5,
+      "mean_rel_err": 0.48841083542168306,
+      "median_rel_err": 0.4398264729270874,
+      "weighted_rel_err": 0.4497677369760314
+    },
+    {
+      "group": "translation_factors",
+      "n": 6,
+      "mean_rel_err": 0.23914859922311313,
+      "median_rel_err": 0.19096481283878045,
+      "weighted_rel_err": 0.07531508462800725
+    }
+  ]
+}

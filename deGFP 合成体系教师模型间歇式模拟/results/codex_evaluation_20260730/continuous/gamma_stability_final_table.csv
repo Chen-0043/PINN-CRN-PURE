@@ -1,0 +1,2 @@
+gamma_h,protein_2h_uM,protein_4h_uM,protein_8h_uM,protein_24h_uM,protein_48h_uM,protein_72h_uM,mean_window_uM,max_abs_drift_window_uM,abs_slope_window_uM_per_h,runtime_s,reactions,species,summary_json
+0.5,5.997839297703192,5.686328532736219,5.52130838333048,5.499719829886438,5.5041614400714085,5.507118762390511,5.505729169551987,0.0015647775538365494,0.0001227704825225882,64.54975914955139,3762,3399,results/codex_evaluation_20260730/continuous/gamma_0p5_continuous_72h_summary.json

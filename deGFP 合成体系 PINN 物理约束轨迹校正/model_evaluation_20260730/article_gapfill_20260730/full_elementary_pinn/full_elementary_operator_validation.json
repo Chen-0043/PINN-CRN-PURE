@@ -1,0 +1,10 @@
+{
+  "validation_scope": "S/A/k operator identity against RoadRunner before formal initial-condition patch",
+  "note": "Patching initial concentrations does not change S, A, or k.",
+  "roadrunner_compile_s": 321.9862598330001,
+  "initial_state_max_abs_difference_M": 0.0,
+  "reaction_rate_max_abs_error_M_per_s": 0.0,
+  "reaction_rate_active_median_relative_error": 0.0,
+  "reaction_rate_active_max_relative_error": 0.0,
+  "state_derivative_max_abs_error_M_per_s": 0.0
+}

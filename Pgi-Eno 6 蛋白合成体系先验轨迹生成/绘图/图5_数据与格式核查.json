@@ -1,0 +1,22 @@
+{
+  "dimensions": {
+    "width": "858px",
+    "height": "656px",
+    "viewBox": "0 0 858 656",
+    "version": "1.1"
+  },
+  "deGFP_panels_a_b_identical": true,
+  "all_panel_transforms_identical": true,
+  "panel_c_axis_fonts_ticks_and_spacing_identical": true,
+  "panel_d_all_typography_and_axes_identical": true,
+  "all_text_outlined_no_font_substitution": true,
+  "new_scatter_points": 9198,
+  "new_bar_mean_NRMSR_percent": 23.094125669548657,
+  "new_bar_trajectory_count": 34,
+  "raw_MRE_percent": 0.9183903748840634,
+  "display_MRE_percent": "0.92%",
+  "raw_R2": 0.986312927437589,
+  "display_R2": "0.9863",
+  "source_sha256": "e0dc63c6716f0cb2edfa272e55b45aebc1a6256c69a7796f13c2c9960c4758b8",
+  "output_sha256": "77a86f161bdc5b43563f219843b5da3cacf29adaae43e77b0a8392c661a4f695"
+}

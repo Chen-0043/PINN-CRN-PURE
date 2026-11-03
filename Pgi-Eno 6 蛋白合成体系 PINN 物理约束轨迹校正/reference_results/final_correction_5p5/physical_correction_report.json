@@ -1,0 +1,171 @@
+{
+  "status": "physical_correction_completed",
+  "method": "deGFP-aligned second-stage four-term node correction adapted to direct-and-aggregate teacher mapping",
+  "alignment_scope": "This flag evaluates the second-stage node-shooting formulation only; it does not certify that the upstream prior-PINN training is deGFP-aligned.",
+  "degfp_four_term_source_aligned": true,
+  "mapping_adaptation": "The six-protein teacher states are represented by direct full-CRN states or fixed stoichiometric sums of sequence-specific microstates; this changes only the observation operator, not the four-term loss definition.",
+  "loss_formula": "L_total = L_data + L_int + 2*L_key + 0.005*L_prox",
+  "model_inventory": {
+    "states": 49149,
+    "full_elementary_states": 49143,
+    "mass_action_elementary_reactions": 57368,
+    "teacher_effective_reactions": 1,
+    "assets": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/PINN 驱动全基元 CRN 数字孪生研究_投稿与核查档案/六蛋白_当前图4先验接续完整校正_20261102/独立计算包/model_assets/original_18p88_full_elementary",
+    "pool_json": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/PINN 驱动全基元 CRN 数字孪生研究_投稿与核查档案/六蛋白_当前图4先验接续完整校正_20261102/独立计算包/inputs/input_pool_override_sg_pure2_paper_mapped_20260424.json",
+    "teacher_supervision": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/PINN 驱动全基元 CRN 数字孪生研究_投稿与核查档案/六蛋白_当前图4先验接续完整校正_20261102/独立计算包/model_assets/original_18p88_full_elementary/sixprotein_teacher_supervision_all_metabolites_dt0p125.npz",
+    "prior": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/PINN 驱动全基元 CRN 数字孪生研究_投稿与核查档案/六蛋白_当前图4先验接续完整校正_20261102/独立计算包/reproduced_results/internal_correction_5p5/corrected_prediction_6h.npz",
+    "refined_prior": null
+  },
+  "loss_weights": {
+    "teacher": 1.0,
+    "integral": 1.0,
+    "key_integral": 2.0,
+    "active_integral": 0.0,
+    "trajectory_nrmsr": 0.0,
+    "current_trajectory_nrmsr": 0.0,
+    "hidden_trajectory_nrmsr": 0.0,
+    "comparable_rhs_activity": 0.0,
+    "hidden_integral": 0.0,
+    "hidden_current_integral": 0.0,
+    "hidden_rhs_activity": 0.0,
+    "prior_proximity": 0.005
+  },
+  "rhs_floor_uM": 0.01,
+  "optimization_initial_floor_M": 1e-30,
+  "optimization_seed_scope": "all",
+  "hidden_intermediate_species_count": 3315,
+  "hidden_species_mode": "uncovered",
+  "hidden_include_regex": null,
+  "freeze_nonhidden_state": false,
+  "preserve_source_group_totals": false,
+  "hidden_state_parameterization": "softplus",
+  "hidden_state_scale_M": 1e-06,
+  "hidden_delta_scale_multiplier": 2.0,
+  "hidden_lr": 0.001,
+  "optimizer": "adam",
+  "hidden_loss_active_species_count": 2290,
+  "hidden_rhs_floor_uM": 0.001,
+  "hidden_active_rhs_rate_uM_per_h": 0.004,
+  "hidden_rhs_activity_fraction": 0.5,
+  "active_rhs_rate_uM_per_h": 0.004,
+  "comparable_rhs_activity_fraction": 0.5,
+  "active_integral_direct_count": 52,
+  "active_integral_group_count": 8,
+  "initial_state_mode": "optimize_all",
+  "physics_substeps_per_teacher_interval": 1,
+  "initial_condition_fixed_exactly": false,
+  "teacher_train_window_h": [
+    0.0,
+    5.5
+  ],
+  "teacher_holdout_time_h": 6.0,
+  "teacher_unused_gap_times_h": [
+    5.75
+  ],
+  "train_metrics": {
+    "direct": {
+      "values": 1518,
+      "mre_values": 1405,
+      "MRE_percent": 66.62519882260943,
+      "weighted_relative_error_percent": 26.73755342536137,
+      "RMSE_uM": 2709.227682233338
+    },
+    "aggregate": {
+      "values": 210036,
+      "mre_values": 137672,
+      "MRE_percent": 14.518676454959554,
+      "weighted_relative_error_percent": 11.413522884846202,
+      "RMSE_uM": 7.740622195498427e-08
+    },
+    "transcription_positions": {
+      "values": 157458,
+      "mre_values": 88427,
+      "MRE_percent": 13.68194411956635,
+      "weighted_relative_error_percent": 16.37955862881176,
+      "RMSE_uM": 4.484116135240613e-10
+    },
+    "translation_positions": {
+      "values": 52440,
+      "mre_values": 49179,
+      "MRE_percent": 15.962450899677972,
+      "weighted_relative_error_percent": 8.105122365581392,
+      "RMSE_uM": 8.725342223234111e-08
+    },
+    "translation_initiation_assembly": {
+      "values": 138,
+      "mre_values": 66,
+      "MRE_percent": 59.76635531870797,
+      "weighted_relative_error_percent": 60.015038913136024,
+      "RMSE_uM": 2.4952299692445977e-06
+    }
+  },
+  "holdout_metrics": {
+    "direct": {
+      "values": 66,
+      "mre_values": 62,
+      "MRE_percent": 101.67646576316662,
+      "weighted_relative_error_percent": 16.139831573859908,
+      "RMSE_uM": 758.1403547114622
+    },
+    "aggregate": {
+      "values": 9132,
+      "mre_values": 4085,
+      "MRE_percent": 6.802673330232506,
+      "weighted_relative_error_percent": 9.85897892914118,
+      "RMSE_uM": 1.0964931678380539e-07
+    },
+    "transcription_positions": {
+      "values": 6846,
+      "mre_values": 1799,
+      "MRE_percent": 10.572147671497234,
+      "weighted_relative_error_percent": 16.11654419919255,
+      "RMSE_uM": 1.7216168320321835e-10
+    },
+    "translation_positions": {
+      "values": 2280,
+      "mre_values": 2280,
+      "MRE_percent": 3.6820783596107542,
+      "weighted_relative_error_percent": 6.33646466938871,
+      "RMSE_uM": 1.2103426715701814e-07
+    },
+    "translation_initiation_assembly": {
+      "values": 6,
+      "mre_values": 6,
+      "MRE_percent": 62.414705510623214,
+      "weighted_relative_error_percent": 62.43051255211692,
+      "RMSE_uM": 3.5682206956259584e-06
+    }
+  },
+  "physical_integral_metrics": {
+    "all_constraints_n": 9198,
+    "all_constraints_mean_NRMSR_percent": 2403789863.8015656,
+    "all_constraints_global_NRMSR_percent": 6.183915555075729,
+    "rhs_integral_gt_0p01_uM_n": 44,
+    "rhs_integral_gt_0p01_uM_mean_NRMSR_percent": 31.83342761324996,
+    "rhs_integral_gt_1p0_uM_n": 34,
+    "rhs_integral_gt_1p0_uM_mean_NRMSR_percent": 23.094125669548657,
+    "rhs_rate_gt_0p004_uM_per_h_n": 60,
+    "rhs_rate_gt_0p004_uM_per_h_mean_NRMSR_percent": 38.35769876903415,
+    "rhs_rate_gt_0p004_uM_per_h_global_NRMSR_percent": 6.183910895297911
+  },
+  "output": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/PINN 驱动全基元 CRN 数字孪生研究_投稿与核查档案/六蛋白_当前图4先验接续完整校正_20261102/独立计算包/reproduced_results/final_correction_5p5/corrected_prediction_6h.npz",
+  "history": [
+    {
+      "step": 0,
+      "loss": 0.503744091439772,
+      "teacher_loss": 0.011423593740873065,
+      "integral_loss": 0.05470841435882209,
+      "key_integral_loss": 0.2188060416700384,
+      "active_integral_loss": 0.0,
+      "trajectory_nrmsr_loss": 0.0,
+      "current_trajectory_nrmsr_loss": 0.0,
+      "comparable_rhs_activity_loss": 0.0,
+      "hidden_integral_loss": 0.0,
+      "hidden_trajectory_nrmsr_loss": 0.0,
+      "hidden_current_integral_loss": 0.0,
+      "hidden_rhs_activity_loss": 0.0,
+      "proximity_loss": 4.4427495689673456e-34,
+      "gradient_norm": NaN
+    }
+  ]
+}

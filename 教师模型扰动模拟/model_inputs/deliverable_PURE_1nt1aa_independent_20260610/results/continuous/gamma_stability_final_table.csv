@@ -1,0 +1,2 @@
+gamma_h,protein_2h_uM,protein_4h_uM,protein_8h_uM,protein_24h_uM,protein_48h_uM,protein_72h_uM,mean_window_uM,max_abs_drift_window_uM,abs_slope_window_uM_per_h,runtime_s,reactions,species,summary_json
+0.5,5.997342056065933,5.6863452275621995,5.521310502632366,5.499719947087506,5.504161516820236,5.507118817802301,5.50573043122902,0.0015630086407751875,0.00012275173772963516,64.04310417175293,3762,3399,/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/deliverable_PURE_1nt1aa_independent_20260610/results/continuous/gamma_0p5_continuous_72h_summary.json

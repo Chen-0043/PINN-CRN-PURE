@@ -1,0 +1,50 @@
+{
+  "timestamp_start": "2026-08-11 21:56:06",
+  "components": [
+    "ATP",
+    "CTP",
+    "GTP",
+    "UTP"
+  ],
+  "scales": [
+    0.0,
+    0.01,
+    0.03,
+    0.25,
+    0.5,
+    1.0,
+    2.0,
+    3.0,
+    4.0
+  ],
+  "gamma_h": 0.5,
+  "t_end_h": 6.0,
+  "n_points": 121,
+  "snapshot_time_points_h": [
+    0.02,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.3,
+    0.5,
+    0.75,
+    1.0,
+    1.25,
+    1.5,
+    1.75,
+    2.0,
+    2.25,
+    2.5,
+    2.75,
+    3.0,
+    4.0,
+    5.0,
+    6.0
+  ],
+  "semantics": {
+    "NTP": "family-total + feed + background closure synchronized",
+    "aaRS": "total enzyme pool synchronized across enzyme-containing species, and aggregate AA translation bottleneck/feed are co-scaled to match the reduced translation chain",
+    "QSSA_floors": "phi_tl_init/elong/term floors set to 0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "scope": "full-species trajectory from reduced teacher SBML",
+  "teacher_species": 3399,
+  "time_end_s": 21600.0,
+  "points": 25,
+  "compile_s": 112.19999291600016,
+  "simulate_s": 39.43002999999999,
+  "finite_fraction": 1.0,
+  "negative_fraction_lt_minus_1e_18": 0.0,
+  "output": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/model_evaluation_20260730/article_gapfill_20260730/full_elementary_pinn/teacher_full_species_trajectory_batch_6h_25pts.npz"
+}

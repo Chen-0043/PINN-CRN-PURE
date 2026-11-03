@@ -1,0 +1,15 @@
+{
+  "species": 5772,
+  "reactions": 7061,
+  "hard_constraints": [
+    "nonnegative concentrations by softplus",
+    "all reaction fluxes from fixed mass-action A and k",
+    "state derivatives from fixed stoichiometric matrix S",
+    "continuous exchange enters only as q_exchange"
+  ],
+  "physics_loss_smoke_value": 145873009349.12326,
+  "all_parameter_gradients_finite": true,
+  "physics_loss": 145873009349.12326,
+  "max_abs_scaled_residual": 20588086.425289124,
+  "negative_state_fraction": 0.0
+}

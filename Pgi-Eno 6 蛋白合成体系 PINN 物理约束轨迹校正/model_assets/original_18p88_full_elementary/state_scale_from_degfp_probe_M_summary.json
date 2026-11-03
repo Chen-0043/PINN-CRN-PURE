@@ -1,0 +1,18 @@
+{
+  "purpose": "PINN numerical state scaling only",
+  "used_as_teacher_concentration_target": false,
+  "source_probe": "/Users/chenercin/Desktop/work/PURE/translation code 2 copy2_new/PINN 模拟/model_evaluation_20260730/article_gapfill_20260730/full_elementary_pinn/full_elementary_long_probe_600s_61pts.npz",
+  "source_and_target_elementary_builder": "Jurado et al. sequence-driven PURE CRN builder",
+  "states": 49143,
+  "floor_M": 1e-09,
+  "mapping_method_counts": {
+    "exact_homologous_state": 13186,
+    "sequence_index_invariant_state_class": 35819,
+    "mechanism_family_maximum": 138
+  },
+  "scale_min_M": 1e-09,
+  "scale_median_M": 1e-09,
+  "scale_max_M": 0.009999999979988626,
+  "output": "outputs/original_18p88_full_elementary/state_scale_from_degfp_probe_M.npy",
+  "audit": "outputs/original_18p88_full_elementary/state_scale_from_degfp_probe_M_audit.csv"
+}

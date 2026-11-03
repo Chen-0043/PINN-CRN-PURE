@@ -1,0 +1,17 @@
+{
+  "dna_total_M": 2.8e-09,
+  "dna_allocation_rule": "single_each_2p8nM",
+  "genes": [
+    {
+      "name": "Pgk",
+      "aa_length": 387,
+      "tx_scale": 3000.0,
+      "tl_scale": 2800.0,
+      "dna_weight": 1.0,
+      "v3_round1_corr_from_tx2p3": 1.8927584540700784,
+      "v3_round2_actdecay2_corr": 3.423835439969963,
+      "tx_nt_steps": 1164,
+      "dna_M": 2.8e-09
+    }
+  ]
+}
